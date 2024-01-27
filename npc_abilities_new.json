@@ -7561,7 +7561,7 @@
             "AbilityCastAnimation": "ACT_DOTA_CAST_ABILITY_1"
         },
         "enigma_demonic_conversion": {
-            "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_POINT_TARGET | DOTA_ABILITY_BEHAVIOR_DONT_RESUME_ATTACK",
+            "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_DONT_RESUME_ATTACK",
             "AbilitySound": "Hero_Enigma.Demonic_Conversion",
             "AbilityCastRange": "400",
             "AbilityCastPoint": "0.3 0.3 0.3 0.3",
@@ -7756,7 +7756,7 @@
             }
         },
         "tinker_keen_teleport": {
-            "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_CHANNELLED | DOTA_ABILITY_BEHAVIOR_NOASSIST | DOTA_ABILITY_BEHAVIOR_DONT_RESUME_ATTACK | DOTA_ABILITY_BEHAVIOR_DONT_CANCEL_CHANNEL | DOTA_ABILITY_BEHAVIOR_ROOT_DISABLES",
+            "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_CHANNELLED | DOTA_ABILITY_BEHAVIOR_DONT_RESUME_ATTACK | DOTA_ABILITY_BEHAVIOR_DONT_CANCEL_CHANNEL | DOTA_ABILITY_BEHAVIOR_ROOT_DISABLES",
             "AbilityUnitTargetTeam": "DOTA_UNIT_TARGET_TEAM_FRIENDLY",
             "AbilityUnitTargetType": "DOTA_UNIT_TARGET_BUILDING",
             "AbilityUnitTargetFlags": "DOTA_UNIT_TARGET_FLAG_INVULNERABLE",
@@ -20188,7 +20188,7 @@
             }
         },
         "lone_druid_savage_roar_bear": {
-            "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_HIDDEN | ABILITY_NOT_LEARNABLE",
+            "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_HIDDEN",
             "SpellImmunityType": "SPELL_IMMUNITY_ENEMIES_NO",
             "SpellDispellableType": "SPELL_DISPELLABLE_YES",
             "MaxLevel": "1",
@@ -20246,7 +20246,7 @@
             }
         },
         "lone_druid_true_form_battle_cry": {
-            "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_TYPE_ULTIMATE | DOTA_ABILITY_BEHAVIOR_HIDDEN | DOTA_ABILITY_BEHAVIOR_NOT_LEARNABLE | DOTA_ABILITY_BEHAVIOR_SHOW_IN_GUIDES",
+            "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_HIDDEN | DOTA_ABILITY_BEHAVIOR_NOT_LEARNABLE | DOTA_ABILITY_BEHAVIOR_SHOW_IN_GUIDES",
             "SpellDispellableType": "SPELL_DISPELLABLE_YES",
             "SpellImmunityType": "SPELL_IMMUNITY_ALLIES_YES",
             "MaxLevel": "3",
@@ -21315,7 +21315,7 @@
             "BaseClass": "special_bonus_base"
         },
         "ogre_magi_dumb_luck": {
-            "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_SHOW_IN_GUIDES",
+            "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_SHOW_IN_GUIDES | DOTA_ABILITY_BEHAVIOR_SKIP_FOR_KEYBINDS",
             "AbilityUnitDamageType": "DAMAGE_TYPE_NONE",
             "MaxLevel": "1",
             "AbilityValues": {
@@ -26355,7 +26355,7 @@
             "AbilityCooldown": "0.0 0.0 0.0"
         },
         "elder_titan_move_spirit": {
-            "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_IMMEDIATE | DOTA_ABILITY_BEHAVIOR_POINT_TARGET | DOTA_ABILITY_BEHAVIOR_NOT_LEARNABLE | DOTA_ABILITY_BEHAVIOR_DONT_RESUME_ATTACK | DOTA_ABILITY_BEHAVIOR_HIDDEN | DOTA_ABILITY_BEHAVIOR_IGNORE_BACKSWING | DOTA_ABILITY_BEHAVIOR_IGNORE_CHANNEL",
+            "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_IMMEDIATE | DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_NOT_LEARNABLE | DOTA_ABILITY_BEHAVIOR_DONT_RESUME_ATTACK | DOTA_ABILITY_BEHAVIOR_HIDDEN | DOTA_ABILITY_BEHAVIOR_IGNORE_BACKSWING | DOTA_ABILITY_BEHAVIOR_IGNORE_CHANNEL",
             "MaxLevel": "1",
             "AbilityCastPoint": "0.0 0.0 0.0 0.0",
             "AbilityCastAnimation": "ACT_INVALID",
@@ -26790,7 +26790,8 @@
             "HasScepterUpgrade": "1",
             "AbilityCastRange": "1400",
             "AbilityCastPoint": "0.2",
-            "AbilityCastAnimation": "ACT_INVALID",
+            "AbilityCastAnimation": "ACT_DOTA_CAST_ABILITY_6",
+            "AbilityCastGestureSlot": "DEFAULT",
             "AbilityCooldown": "0.5",
             "AbilityCharges": "3",
             "AbilityManaCost": "0",
@@ -28688,7 +28689,7 @@
             "AbilityCastAnimation": "ACT_DOTA_CAST_ABILITY_3"
         },
         "arc_warden_tempest_double": {
-            "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_POINT_TARGET",
+            "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_POINT",
             "AbilityType": "DOTA_ABILITY_TYPE_ULTIMATE",
             "FightRecapLevel": "2",
             "AbilitySound": "Hero_ArcWarden.TempestDouble",
@@ -28949,7 +28950,7 @@
             }
         },
         "abyssal_underlord_portal_warp": {
-            "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_UNIT_TARGET | DOTA_ABILITY_BEHAVIOR_CHANNELLED | DOTA_ABILITY_BEHAVIOR_NOASSIST | DOTA_ABILITY_BEHAVIOR_DONT_RESUME_ATTACK | DOTA_ABILITY_BEHAVIOR_DONT_CANCEL_CHANNEL | DOTA_ABILITY_BEHAVIOR_HIDDEN | DOTA_ABILITY_BEHAVIOR_IGNORE_SILENCE | DOTA_ABILITY_BEHAVIOR_ROOT_DISABLES | DOTA_ABILITY_BEHAVIOR_NOT_LEARNABLE",
+            "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_UNIT_TARGET | DOTA_ABILITY_BEHAVIOR_CHANNELLED | DOTA_ABILITY_BEHAVIOR_DONT_RESUME_ATTACK | DOTA_ABILITY_BEHAVIOR_DONT_CANCEL_CHANNEL | DOTA_ABILITY_BEHAVIOR_HIDDEN | DOTA_ABILITY_BEHAVIOR_IGNORE_SILENCE | DOTA_ABILITY_BEHAVIOR_ROOT_DISABLES | DOTA_ABILITY_BEHAVIOR_NOT_LEARNABLE",
             "IsCastableWhileHidden": "1",
             "AbilityUnitTargetTeam": "DOTA_UNIT_TARGET_TEAM_ENEMY",
             "AbilityUnitTargetFlags": "DOTA_UNIT_TARGET_FLAG_INVULNERABLE",
