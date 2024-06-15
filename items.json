@@ -682,6 +682,7 @@
             "ItemContributesToNetWorthWhenDropped": "0",
             "IsTempestDoubleClonable": "0",
             "SpeciallyBannedFromNeutralSlot": "1",
+            "ItemAllowCombineFromGround": "0",
             "AbilityValues": {
                 "health_restore": "2500",
                 "mana_restore": "1500"
@@ -884,6 +885,7 @@
             "ShouldBeInitiallySuggested": "0",
             "ItemPurchasable": "0",
             "ItemShareability": "ITEM_FULLY_SHAREABLE",
+            "ItemAllowCombineFromGround": "0",
             "SpeciallyBannedFromNeutralSlot": "1",
             "AbilityValues": {
                 "replenish_amount": "900"
@@ -2300,7 +2302,7 @@
             }
         },
         "item_recipe_holy_locket": {
-            "ItemCost": "900",
+            "ItemCost": "800",
             "ItemShopTags": "",
             "UIPickupSound": "Item.PickUpRingShop",
             "UIDropSound": "Item.DropRingShop",
@@ -2317,7 +2319,7 @@
             "AbilityUnitTargetType": "DOTA_UNIT_TARGET_HERO",
             "AbilityCastRange": "500",
             "AbilityCastPoint": "0.0",
-            "ItemCost": "2350",
+            "ItemCost": "2250",
             "ItemQuality": "rare",
             "ItemAliases": "hl;holy locket",
             "ShouldBeSuggested": "1",
@@ -2705,7 +2707,7 @@
                 "bonus_intellect": "35",
                 "cyclone_duration": "2.5",
                 "tooltip_drop_damage": "50",
-                "tornado_speed": "360"
+                "tornado_speed": "300"
             }
         },
         "item_recipe_aether_lens": {
@@ -3455,8 +3457,8 @@
             "ShouldBeSuggested": "1",
             "AbilityValues": {
                 "bonus_aoe": "75",
-                "bonus_health": "500",
-                "bonus_mana": "500",
+                "bonus_health": "450",
+                "bonus_mana": "450",
                 "bonus_mp_regen": "3",
                 "spell_lifesteal": "30",
                 "buff_duration": "6",
@@ -3606,9 +3608,9 @@
                 "bonus_damage": "75",
                 "bonus_armor": "10",
                 "bonus_regen": "6",
-                "mute_duration": "5.0",
+                "mute_duration": "4.0",
                 "projectile_speed": "1800",
-                "slow_pct": "80",
+                "slow_pct": "10",
                 "slow_interval_duration": "0.5"
             }
         },
@@ -3823,13 +3825,13 @@
                 "block_damage_active": "70",
                 "block_chance_active": "100",
                 "tooltip_reapply_time": "35",
-                "strength_pct": "50"
+                "max_hp_pct": "2.5"
             }
         },
         "item_recipe_blade_mail": {
             "Model": "models/props_gameplay/recipe.vmdl",
             "FightRecapLevel": "1",
-            "ItemCost": "550",
+            "ItemCost": "750",
             "ItemShopTags": "",
             "ItemRecipe": "1",
             "ItemResult": "item_blade_mail",
@@ -3841,7 +3843,7 @@
             "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_IMMEDIATE | DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_IGNORE_CHANNEL",
             "AbilityCooldown": "25.0",
             "AbilityManaCost": "25",
-            "ItemCost": "2100",
+            "ItemCost": "2300",
             "ItemShopTags": "damage;armor;int;hard_to_tag",
             "ItemQuality": "epic",
             "ItemAliases": "bm;blade mail;blademail",
@@ -3925,10 +3927,10 @@
             "ShouldBeSuggested": "1",
             "AbilityValues": {
                 "bonus_spell_resist": "20",
-                "bonus_strength": "14",
+                "bonus_strength": "10",
                 "bonus_health": "250",
                 "stack_threshold": "300",
-                "stack_duration": "6",
+                "stack_duration": "5",
                 "stack_resist": "4",
                 "mana_restore_pct": "20",
                 "max_stacks": "6"
@@ -4261,7 +4263,7 @@
                 "unholy_bonus_damage": "35",
                 "unholy_bonus_strength": "25",
                 "unholy_bonus_armor": "4",
-                "unholy_bonus_slow_resistance": "35",
+                "unholy_bonus_slow_resistance": "0",
                 "unholy_health_drain_per_second": "45",
                 "toggle_cooldown": "0.036"
             }
@@ -5003,8 +5005,8 @@
             "ShouldBeSuggested": "1",
             "AbilityValues": {
                 "bonus_cooldown": "25",
-                "bonus_health": "550",
-                "bonus_mana": "550",
+                "bonus_health": "500",
+                "bonus_mana": "500",
                 "bonus_health_regen": "0",
                 "bonus_mana_regen": "6"
             }
@@ -5384,7 +5386,7 @@
             }
         },
         "item_veil_of_discord": {
-            "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_AOE | DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_DONT_CANCEL_MOVEMENT | DOTA_ABILITY_BEHAVIOR_IMMEDIATE",
+            "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_AOE | DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_DONT_CANCEL_MOVEMENT | DOTA_ABILITY_BEHAVIOR_IMMEDIATE | DOTA_ABILITY_BEHAVIOR_IGNORE_CHANNEL",
             "SpellDispellableType": "SPELL_DISPELLABLE_YES",
             "AbilityCooldown": "16",
             "AbilityCastRange": "900",
@@ -6755,7 +6757,7 @@
             "Model": "models/props_gameplay/neutral_box.vmdl",
             "AbilityValues": {
                 "bonus_damage": "16",
-                "bonus_strength": "16",
+                "bonus_strength": "14",
                 "range": {
                     "value": "400",
                     "affected_by_aoe_increase": "1"
@@ -6961,7 +6963,7 @@
                 "bonus_damage": "16",
                 "bonus_lifesteal": "16",
                 "bonus_spell_lifesteal": "8",
-                "bonus_amp": "14",
+                "bonus_amp": "12",
                 "creep_lifesteal_reduction_pct": "40"
             }
         },
@@ -6989,7 +6991,7 @@
                 "armor_reduction": "3",
                 "slow_melee": "20",
                 "slow_range": "10",
-                "duration": "4"
+                "duration": "5"
             }
         },
         "item_the_leveller": {
@@ -7016,7 +7018,7 @@
             "AbilityValues": {
                 "bonus_intelligence": "6",
                 "bonus_armor": "2",
-                "mana_restore": "75",
+                "mana_restore": "65",
                 "radius": {
                     "value": "1200",
                     "affected_by_aoe_increase": "1"
@@ -7373,7 +7375,7 @@
             "ItemIsNeutralDrop": "1",
             "ItemPurchasable": "0",
             "ItemSellable": "0",
-            "AbilityCooldown": "3.0",
+            "AbilityCooldown": "3.5",
             "Model": "models/props_gameplay/neutral_box.vmdl",
             "AbilityValues": {
                 "range": {
@@ -7381,7 +7383,7 @@
                     "affected_by_aoe_increase": "1"
                 },
                 "damage": "200",
-                "interval": "3",
+                "interval": "3.5",
                 "slow": "40",
                 "slow_duration": "0.4",
                 "bonus_mana_regen": "4",
@@ -7443,9 +7445,9 @@
             "AbilityValues": {
                 "status_resistance": "40",
                 "slow_resistance": "40",
-                "bonus_health": "250",
+                "bonus_health": "225",
                 "duration": "5",
-                "hp_regen": "20"
+                "hp_regen": "18"
             }
         },
         "item_sample_picker": {
@@ -7623,7 +7625,7 @@
                 "bonus_mana": "200",
                 "bonus_strength": "0",
                 "slow_duration": "2",
-                "backstab_damage": "15",
+                "backstab_damage": "20",
                 "backstab_angle": "90",
                 "slow_pct_melee": "16",
                 "slow_pct_ranged": "8"
@@ -7774,7 +7776,7 @@
             "Model": "models/props_gameplay/neutral_box.vmdl",
             "ItemSellable": "0",
             "AbilityValues": {
-                "bonus_armor": "7",
+                "bonus_armor": "6",
                 "all_stats": "7",
                 "counter_cooldown": "5"
             }
@@ -8131,7 +8133,7 @@
             "Model": "models/props_gameplay/neutral_box.vmdl",
             "AbilityValues": {
                 "vision_penalty": "15",
-                "bonus_spell_damage": "10",
+                "bonus_spell_damage": "8",
                 "bonus_mana": "150"
             }
         },
@@ -8247,7 +8249,7 @@
                     "value": "900",
                     "affected_by_aoe_increase": "1"
                 },
-                "hp_regen": "5"
+                "hp_regen": "7"
             }
         },
         "item_gossamer_cape": {
@@ -8271,7 +8273,7 @@
             "Model": "models/props_gameplay/neutral_box.vmdl",
             "AbilityCooldown": "30",
             "AbilityValues": {
-                "health_regen": "12",
+                "health_regen": "10",
                 "mana_regen": "6",
                 "penalty": "75",
                 "movespeed_pct": "5",
@@ -8303,7 +8305,7 @@
                 "projectile_speed": "1000",
                 "projectile_damage": "125",
                 "target_count": "2",
-                "bonus_armor": "12"
+                "bonus_armor": "10"
             }
         },
         "item_doubloon": {
