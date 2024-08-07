@@ -171,6 +171,7 @@
             "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_PASSIVE",
             "AbilityUnitDamageType": "DAMAGE_TYPE_MAGICAL",
             "AbilityCastAnimation": "ACT_DOTA_CAST_ABILITY_2",
+            "IsBreakable": "1",
             "AbilityValues": {
                 "explosion": {
                     "value": "600 700 800"
@@ -192,6 +193,7 @@
             "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_PASSIVE",
             "AbilityUnitDamageType": "DAMAGE_TYPE_PHYSICAL",
             "AbilityCastAnimation": "ACT_DOTA_CAST_ABILITY_1",
+            "IsBreakable": "1",
             "AbilityValues": {
                 "burn_amount": {
                     "value": "30 40 50"
@@ -206,6 +208,7 @@
             "AbilityUnitTargetTeam": "DOTA_UNIT_TARGET_TEAM_ENEMY",
             "AbilityUnitTargetType": "DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC",
             "AbilityUnitDamageType": "DAMAGE_TYPE_MAGICAL",
+            "IsBreakable": "1",
             "AbilityCastRange": "600",
             "AbilityCastPoint": "0.5 0.5 0.5",
             "AbilityCooldown": "7",
@@ -241,6 +244,7 @@
             "AbilityType": "DOTA_ABILITY_TYPE_BASIC",
             "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_PASSIVE",
             "AbilityCastAnimation": "ACT_DOTA_CAST_ABILITY_1",
+            "IsBreakable": "1",
             "AbilityValues": {
                 "radius": {
                     "value": "1200",
@@ -422,6 +426,7 @@
             "SpellDispellableType": "SPELL_DISPELLABLE_YES_STRONG",
             "SpellImmunityType": "SPELL_IMMUNITY_ENEMIES_YES",
             "AbilityCastAnimation": "ACT_DOTA_CAST_ABILITY_2",
+            "IsBreakable": "1",
             "AbilityValues": {
                 "bash_chance": {
                     "value": "15"
@@ -494,6 +499,7 @@
             "MaxLevel": "1",
             "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_PASSIVE",
             "AbilityCastAnimation": "ACT_DOTA_CAST_ABILITY_1",
+            "IsBreakable": "1",
             "AbilityValues": {
                 "bonus_movement_speed": {
                     "value": "12 13 14 16"
@@ -538,7 +544,7 @@
                     "value": "300 350 400 500",
                     "affected_by_aoe_increase": "1"
                 },
-                "damage_reduction": "50",
+                "damage_reduction": "60",
                 "duration": "4.0"
             },
             "AbilityCastAnimation": "ACT_DOTA_CAST_ABILITY_2"
@@ -562,6 +568,7 @@
         "hill_troll_rally": {
             "MaxLevel": "1",
             "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_PASSIVE",
+            "IsBreakable": "1",
             "AbilityValues": {
                 "radius": {
                     "value": "1200",
@@ -576,6 +583,7 @@
             "MaxLevel": "1",
             "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_PASSIVE",
             "AbilityCooldown": "10 9 8 6",
+            "IsBreakable": "1",
             "AbilityValues": {
                 "duration": {
                     "value": "3"
@@ -633,6 +641,7 @@
             "AbilityUnitDamageType": "DAMAGE_TYPE_MAGICAL",
             "SpellDispellableType": "SPELL_DISPELLABLE_YES",
             "AbilityCastAnimation": "ACT_DOTA_CAST_ABILITY_1",
+            "IsBreakable": "1",
             "AbilityValues": {
                 "damage_per_second": {
                     "value": "0 20 40 80"
@@ -654,6 +663,7 @@
             "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_PASSIVE",
             "SpellDispellableType": "SPELL_DISPELLABLE_YES",
             "AbilityCastAnimation": "ACT_DOTA_CAST_ABILITY_1",
+            "IsBreakable": "1",
             "AbilityValues": {
                 "movespeed_slow": {
                     "value": "-25 -28 -31 -37"
@@ -674,6 +684,7 @@
         "mud_golem_rock_destroy": {
             "MaxLevel": "1",
             "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_PASSIVE",
+            "IsBreakable": "1",
             "AbilityValues": {
                 "radius": "250",
                 "duration": "2",
@@ -727,6 +738,7 @@
         "giant_wolf_critical_strike": {
             "MaxLevel": "1",
             "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_PASSIVE",
+            "IsBreakable": "1",
             "AbilityValues": {
                 "crit_chance": {
                     "value": "20"
@@ -740,6 +752,7 @@
             "MaxLevel": "1",
             "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_PASSIVE",
             "AbilityCastAnimation": "ACT_DOTA_CAST_ABILITY_1",
+            "IsBreakable": "1",
             "AbilityValues": {
                 "crit_chance": {
                     "value": "20"
@@ -752,6 +765,7 @@
         "alpha_wolf_command_aura": {
             "MaxLevel": "1",
             "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_PASSIVE",
+            "IsBreakable": "1",
             "AbilityValues": {
                 "bonus_damage_pct": "30",
                 "radius": {
@@ -764,6 +778,7 @@
         "frostbitten_golem_time_warp_aura": {
             "MaxLevel": "1",
             "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_PASSIVE",
+            "IsBreakable": "1",
             "AbilityValues": {
                 "bonus_cdr": "10 11 12 14",
                 "radius": {
@@ -777,6 +792,7 @@
             "MaxLevel": "1",
             "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_PASSIVE",
             "AbilityCastAnimation": "ACT_DOTA_CAST_ABILITY_2",
+            "IsBreakable": "1",
             "AbilityValues": {
                 "bonus_attack_speed": {
                     "value": "15 18 21 27"
@@ -829,8 +845,9 @@
         "ancient_rock_golem_weakening_aura": {
             "MaxLevel": "1",
             "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_PASSIVE",
+            "IsBreakable": "1",
             "AbilityValues": {
-                "armor_reduction": "2 3 4 5",
+                "armor_reduction": "3 4 5 6",
                 "radius": {
                     "value": "1200",
                     "affected_by_aoe_increase": "1"
@@ -841,6 +858,7 @@
         "black_drake_magic_amplification_aura": {
             "MaxLevel": "1",
             "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_PASSIVE",
+            "IsBreakable": "1",
             "AbilityValues": {
                 "spell_amp": "5 6 7 9",
                 "radius": {
@@ -1005,6 +1023,7 @@
         "kobold_disarm": {
             "MaxLevel": "1",
             "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_PASSIVE",
+            "IsBreakable": "1",
             "AbilityCooldown": "9.0",
             "AbilityValues": {
                 "duration": {
@@ -1016,6 +1035,7 @@
             "MaxLevel": "1",
             "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_PASSIVE",
             "AbilityCastAnimation": "ACT_DOTA_CAST_ABILITY_2",
+            "IsBreakable": "1",
             "AbilityValues": {
                 "bonus_armor": {
                     "value": "3"
@@ -1029,6 +1049,7 @@
         "flagbearer_creep_aura_effect": {
             "MaxLevel": "1",
             "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_PASSIVE",
+            "IsBreakable": "1",
             "AbilityValues": {
                 "bonus_health_regen": "3",
                 "radius": "700",
@@ -1042,7 +1063,7 @@
             "AbilityCastAnimation": "ACT_DOTA_CAST_ABILITY_1",
             "AbilityValues": {
                 "bonus_hp": {
-                    "value": "15 16 17 19"
+                    "value": "16 17 18 19"
                 },
                 "radius": {
                     "value": "1200",
@@ -1166,6 +1187,7 @@
             "MaxLevel": "1",
             "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_PASSIVE",
             "AbilityCastAnimation": "ACT_DOTA_CAST_ABILITY_2",
+            "IsBreakable": "1",
             "AbilityValues": {
                 "health_regen": {
                     "value": "3.0 5.0 7.0 11.0"
@@ -1211,9 +1233,10 @@
         "furbolg_enrage_attack_speed": {
             "MaxLevel": "1",
             "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_PASSIVE",
+            "IsBreakable": "1",
             "AbilityValues": {
                 "bonus_aspd": {
-                    "value": "100"
+                    "value": "120"
                 },
                 "duration": {
                     "value": "5"
@@ -1227,9 +1250,10 @@
         "furbolg_enrage_damage": {
             "MaxLevel": "1",
             "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_PASSIVE",
+            "IsBreakable": "1",
             "AbilityValues": {
                 "bonus_dmg_pct": {
-                    "value": "50"
+                    "value": "60"
                 },
                 "duration": {
                     "value": "5"
@@ -1307,6 +1331,7 @@
             "AbilityType": "DOTA_ABILITY_TYPE_BASIC",
             "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_PASSIVE",
             "AbilityCastAnimation": "ACT_DOTA_CAST_ABILITY_2",
+            "IsBreakable": "1",
             "AbilityValues": {
                 "speed_bonus": {
                     "value": "25"
@@ -1324,6 +1349,7 @@
             "MaxLevel": "1",
             "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_PASSIVE",
             "AbilityCastAnimation": "ACT_DOTA_CAST_ABILITY_3",
+            "IsBreakable": "1",
             "AbilityValues": {
                 "bonus_armor": {
                     "value": "3"
@@ -1360,6 +1386,7 @@
             "MaxLevel": "1",
             "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_PASSIVE",
             "AbilityCastAnimation": "ACT_DOTA_CAST_ABILITY_1",
+            "IsBreakable": "1",
             "AbilityValues": {
                 "bonus_magical_armor": {
                     "value": "10 12 14 16"
@@ -1376,6 +1403,7 @@
         "black_dragon_splash_attack": {
             "MaxLevel": "1",
             "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_PASSIVE",
+            "IsBreakable": "1",
             "AbilityValues": {
                 "range": {
                     "value": "250",
@@ -1388,6 +1416,7 @@
         "blue_dragonspawn_sorcerer_evasion": {
             "MaxLevel": "1",
             "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_PASSIVE",
+            "IsBreakable": "1",
             "AbilityValues": {
                 "evasion_chance_pct": {
                     "value": "15"
@@ -1397,6 +1426,7 @@
         "blue_dragonspawn_overseer_evasion": {
             "MaxLevel": "1",
             "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_PASSIVE",
+            "IsBreakable": "1",
             "AbilityValues": {
                 "evasion_chance_pct": {
                     "value": "15"
@@ -1407,6 +1437,7 @@
             "MaxLevel": "1",
             "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_PASSIVE",
             "AbilityCastAnimation": "ACT_DOTA_CAST_ABILITY_1",
+            "IsBreakable": "1",
             "AbilityValues": {
                 "lifesteal": {
                     "value": "10"
@@ -1438,6 +1469,7 @@
         "blue_dragonspawn_overseer_devotion_aura": {
             "MaxLevel": "1",
             "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_PASSIVE",
+            "IsBreakable": "1",
             "AbilityValues": {
                 "bonus_armor": {
                     "value": "3"
@@ -1492,6 +1524,7 @@
             "MaxLevel": "1",
             "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_PASSIVE",
             "AbilityCastAnimation": "ACT_DOTA_CAST_ABILITY_2",
+            "IsBreakable": "1",
             "AbilityValues": {
                 "mana_regen": {
                     "value": "1.75"
@@ -1508,6 +1541,7 @@
         "forest_troll_high_priest_heal_amp_aura": {
             "MaxLevel": "1",
             "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_PASSIVE",
+            "IsBreakable": "1",
             "AbilityValues": {
                 "heal_amp": {
                     "value": "15"
@@ -5814,6 +5848,15 @@
                 }
             }
         },
+        "special_bonus_attack_base_damage_35": {
+            "AbilityType": "DOTA_ABILITY_TYPE_ATTRIBUTES",
+            "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_PASSIVE",
+            "AbilityValues": {
+                "value": {
+                    "value": "35"
+                }
+            }
+        },
         "special_bonus_attack_base_damage_40": {
             "AbilityType": "DOTA_ABILITY_TYPE_ATTRIBUTES",
             "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_PASSIVE",
@@ -6090,6 +6133,42 @@
             "AbilityValues": {
                 "value": {
                     "value": "350"
+                }
+            }
+        },
+        "special_bonus_spell_aoe_25": {
+            "AbilityType": "DOTA_ABILITY_TYPE_ATTRIBUTES",
+            "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_PASSIVE",
+            "AbilityValues": {
+                "value": {
+                    "value": "25"
+                }
+            }
+        },
+        "special_bonus_spell_aoe_50": {
+            "AbilityType": "DOTA_ABILITY_TYPE_ATTRIBUTES",
+            "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_PASSIVE",
+            "AbilityValues": {
+                "value": {
+                    "value": "50"
+                }
+            }
+        },
+        "special_bonus_spell_aoe_75": {
+            "AbilityType": "DOTA_ABILITY_TYPE_ATTRIBUTES",
+            "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_PASSIVE",
+            "AbilityValues": {
+                "value": {
+                    "value": "75"
+                }
+            }
+        },
+        "special_bonus_spell_aoe_100": {
+            "AbilityType": "DOTA_ABILITY_TYPE_ATTRIBUTES",
+            "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_PASSIVE",
+            "AbilityValues": {
+                "value": {
+                    "value": "100"
                 }
             }
         },

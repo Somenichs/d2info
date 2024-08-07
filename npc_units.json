@@ -6168,8 +6168,8 @@
             "ArmorPhysical": "2",
             "MagicalResistance": "30",
             "AttackCapabilities": "DOTA_UNIT_CAP_RANGED_ATTACK",
-            "AttackDamageMin": "16",
-            "AttackDamageMax": "24",
+            "AttackDamageMin": "14",
+            "AttackDamageMax": "20",
             "AttackDamageType": "DAMAGE_TYPE_ArmorPhysical",
             "AttackRate": "1.5",
             "AttackAnimationPoint": "0.2",
@@ -6200,7 +6200,7 @@
             "ArmorPhysical": "3",
             "MagicalResistance": "40",
             "AttackDamageMin": "24",
-            "AttackDamageMax": "32",
+            "AttackDamageMax": "30",
             "HealthBarOffset": "135",
             "MovementSpeed": "310",
             "StatusHealth": "200",
@@ -6212,7 +6212,7 @@
             "ArmorPhysical": "4",
             "MagicalResistance": "50",
             "AttackDamageMin": "34",
-            "AttackDamageMax": "42",
+            "AttackDamageMax": "40",
             "HealthBarOffset": "140",
             "MovementSpeed": "340",
             "StatusHealth": "220",
@@ -6223,8 +6223,8 @@
             "ModelScale": ".9",
             "ArmorPhysical": "5",
             "MagicalResistance": "60",
-            "AttackDamageMin": "43",
-            "AttackDamageMax": "51",
+            "AttackDamageMin": "44",
+            "AttackDamageMax": "50",
             "HealthBarOffset": "145",
             "MovementSpeed": "370",
             "StatusHealth": "240",
@@ -6274,8 +6274,8 @@
             "StatusManaRegen": "0",
             "TeamName": "DOTA_TEAM_GOODGUYS",
             "UnitRelationshipClass": "DOTA_NPC_UNIT_RELATIONSHIP_TYPE_DEFAULT",
-            "VisionDaytimeRange": "500",
-            "VisionNighttimeRange": "500",
+            "VisionDaytimeRange": "0",
+            "VisionNighttimeRange": "0",
             "precache": {
                 "particle": "particles/econ/events/anniversary_10th/anniversary_10th_hat_ambient_npc_dota_hero_furion_treant.vpcf"
             },
@@ -6324,8 +6324,8 @@
             "StatusManaRegen": "0",
             "TeamName": "DOTA_TEAM_GOODGUYS",
             "UnitRelationshipClass": "DOTA_NPC_UNIT_RELATIONSHIP_TYPE_DEFAULT",
-            "VisionDaytimeRange": "500",
-            "VisionNighttimeRange": "500",
+            "VisionDaytimeRange": "0",
+            "VisionNighttimeRange": "0",
             "precache": {
                 "particle": "particles/econ/events/anniversary_10th/anniversary_10th_hat_ambient_npc_dota_hero_furion_treant.vpcf"
             },
@@ -7082,7 +7082,7 @@
             "BountyGoldMax": "100",
             "MovementCapabilities": "DOTA_UNIT_CAP_MOVE_GROUND",
             "MovementSpeed": "320",
-            "StatusHealth": "1400",
+            "StatusHealth": "1500",
             "StatusHealthRegen": "25",
             "StatusMana": "0",
             "StatusManaRegen": "0",
@@ -7790,8 +7790,8 @@
             "BountyGoldMax": "25",
             "MovementCapabilities": "DOTA_UNIT_CAP_MOVE_NONE",
             "MovementSpeed": "0",
-            "StatusHealth": "100",
-            "StatusHealthRegen": "0.5",
+            "StatusHealth": "8",
+            "StatusHealthRegen": "0.0",
             "VisionDaytimeRange": "400",
             "VisionNighttimeRange": "400",
             "TeamName": "DOTA_TEAM_NEUTRALS",
@@ -8218,9 +8218,54 @@
             "MagicalResistance": "70",
             "StatusHealth": "475"
         },
-        "npc_dota_lycan_wolf_lane": {
+        "npc_dota_lycan_wolf5": {
+            "include_keys_from": "npc_dota_lycan_wolf1",
+            "Level": "5",
+            "ModelScale": "1.1",
+            "AttackDamageMin": "46",
+            "AttackDamageMax": "48",
+            "AttackRate": "0.9",
+            "BountyGoldMin": "46",
+            "BountyGoldMax": "46",
+            "MovementSpeed": "460",
+            "MagicalResistance": "70",
+            "StatusHealth": "525"
+        },
+        "npc_dota_lycan_wolf6": {
+            "include_keys_from": "npc_dota_lycan_wolf1",
+            "Level": "6",
+            "ModelScale": "1.2",
+            "AttackDamageMin": "52",
+            "AttackDamageMax": "54",
+            "AttackRate": "0.9",
+            "BountyGoldMin": "51",
+            "BountyGoldMax": "51",
+            "MovementSpeed": "460",
+            "MagicalResistance": "70",
+            "StatusHealth": "575"
+        },
+        "npc_dota_lycan_wolf_lane1": {
             "include_keys_from": "npc_dota_lycan_wolf4",
             "Ability1": "lycan_summon_wolves_critical_strike",
+            "BountyXP": "10",
+            "BountyGoldMin": "15",
+            "BountyGoldMax": "15",
+            "MovementSpeed": "325"
+        },
+        "npc_dota_lycan_wolf_lane2": {
+            "include_keys_from": "npc_dota_lycan_wolf5",
+            "Ability1": "lycan_summon_wolves_critical_strike",
+            "Ability3": "lycan_summon_wolves_hamstring",
+            "BountyXP": "10",
+            "BountyGoldMin": "15",
+            "BountyGoldMax": "15",
+            "MovementSpeed": "325"
+        },
+        "npc_dota_lycan_wolf_lane3": {
+            "include_keys_from": "npc_dota_lycan_wolf6",
+            "Ability1": "lycan_summon_wolves_critical_strike",
+            "Ability3": "lycan_summon_wolves_hamstring",
+            "Ability4": "generic_hidden",
             "BountyXP": "10",
             "BountyGoldMin": "15",
             "BountyGoldMax": "15",
@@ -8231,12 +8276,12 @@
             "BaseClass": "npc_dota_lone_druid_bear",
             "SoundSet": "LoneDruid_SpiritBear",
             "Level": "1",
-            "ModelScale": ".65",
             "ConsideredHero": "1",
             "UnitLabel": "spirit_bear",
             "precache": {
                 "particle": "particles/econ/events/anniversary_10th/anniversary_10th_hat_ambient_npc_dota_hero_lone_druid_bear.vpcf"
             },
+            "ModelScale": ".72",
             "party_hat_effect": "particles/econ/events/anniversary_10th/anniversary_10th_hat_ambient_npc_dota_hero_lone_druid_bear.vpcf",
             "Ability1": "lone_druid_spirit_bear_return",
             "Ability2": "lone_druid_spirit_bear_demolish",
@@ -8247,7 +8292,7 @@
             "AttackCapabilities": "DOTA_UNIT_CAP_MELEE_ATTACK",
             "AttackDamageMin": "28",
             "AttackDamageMax": "28",
-            "AttackRate": "1.85",
+            "AttackRate": "1.75",
             "AttackAnimationPoint": "0.43",
             "AttackAcquisitionRange": "500",
             "AttackRange": "150",
@@ -8262,8 +8307,8 @@
             "MovementCapabilities": "DOTA_UNIT_CAP_MOVE_GROUND",
             "MovementSpeed": "300",
             "MovementTurnRate": "0.6",
-            "StatusHealth": "800",
-            "StatusHealthRegen": "4",
+            "StatusHealth": "1100",
+            "StatusHealthRegen": "5",
             "StatusMana": "300",
             "StatusManaRegen": "0.5",
             "VisionDaytimeRange": "1400",
@@ -8276,17 +8321,6 @@
         "npc_dota_lone_druid_bear2": {
             "include_keys_from": "npc_dota_lone_druid_bear1",
             "ModelScale": ".72",
-            "AttackRate": "1.75",
-            "MovementSpeed": "300",
-            "MovementTurnRate": "0.6",
-            "StatusHealth": "1100",
-            "StatusHealthRegen": "5",
-            "StatusMana": "300",
-            "StatusManaRegen": "0.5"
-        },
-        "npc_dota_lone_druid_bear3": {
-            "include_keys_from": "npc_dota_lone_druid_bear1",
-            "ModelScale": ".72",
             "AttackRate": "1.65",
             "MovementSpeed": "330",
             "MovementTurnRate": "0.6",
@@ -8295,7 +8329,7 @@
             "StatusMana": "300",
             "StatusManaRegen": "0.5"
         },
-        "npc_dota_lone_druid_bear4": {
+        "npc_dota_lone_druid_bear3": {
             "include_keys_from": "npc_dota_lone_druid_bear1",
             "ModelScale": ".78",
             "AttackRate": "1.55",
@@ -8306,7 +8340,7 @@
             "StatusMana": "300",
             "StatusManaRegen": "0.5"
         },
-        "npc_dota_lone_druid_bear5": {
+        "npc_dota_lone_druid_bear4": {
             "include_keys_from": "npc_dota_lone_druid_bear1",
             "ModelScale": ".85",
             "AttackRate": "1.45",
@@ -11603,6 +11637,92 @@
             "UnitRelationshipClass": "DOTA_NPC_UNIT_RELATIONSHIP_TYPE_WARD",
             "VisionDaytimeRange": "1200",
             "VisionNighttimeRange": "1200"
+        },
+        "npc_dota_shmup_basic": {
+            "BaseClass": "npc_dota_creep_neutral",
+            "Model": "models/items/visage/visage_vulture_wraith_ability/visage_vulture_wraith_ability.vmdl",
+            "ModelScale": "1.0",
+            "Level": "2",
+            "IsSummoned": "1",
+            "IsAncient": "1",
+            "AutoAttacksByDefault": "0",
+            "ConsideredHero": "0",
+            "Ability1": "",
+            "Ability2": "",
+            "Ability3": "",
+            "Ability4": "",
+            "Ability5": "",
+            "Ability6": "",
+            "Ability7": "",
+            "Ability8": "",
+            "ArmorPhysical": "0",
+            "MagicalResistance": "35",
+            "AttackCapabilities": "DOTA_UNIT_CAP_RANGED_ATTACK",
+            "AttackDamageMin": "25",
+            "AttackDamageMax": "25",
+            "AttackDamageType": "DAMAGE_TYPE_ArmorPhysical",
+            "AttackRate": "0.5",
+            "AttackAnimationPoint": "0.33",
+            "AttackAcquisitionRange": "400",
+            "AttackRange": "180",
+            "ProjectileModel": "particles/units/heroes/hero_visage/visage_familiar_base_attack.vpcf",
+            "ProjectileSpeed": "900",
+            "BountyXP": "41",
+            "BountyGoldMin": "100",
+            "BountyGoldMax": "100",
+            "BoundsHullName": "DOTA_HULL_SIZE_REGULAR",
+            "HealthBarOffset": "130",
+            "MovementCapabilities": "DOTA_UNIT_CAP_MOVE_GROUND",
+            "MovementSpeed": "420",
+            "MovementTurnRate": "0.9",
+            "StatusHealth": "500",
+            "StatusHealthRegen": "0.0",
+            "StatusMana": "0",
+            "StatusManaRegen": "0.0",
+            "TeamName": "DOTA_TEAM_BADGUYS",
+            "UnitRelationshipClass": "DOTA_NPC_UNIT_RELATIONSHIP_TYPE_WARD",
+            "VisionDaytimeRange": "400",
+            "VisionNighttimeRange": "400"
+        },
+        "npc_dota_shmup_bird": {
+            "include_keys_from": "npc_dota_shmup_basic",
+            "Model": "models/events/crownfall/shmup_shooting/the_plague_burner_mount_shmup.vmdl",
+            "ModelScale": "1.0"
+        },
+        "npc_dota_shmup_familiar": {
+            "include_keys_from": "npc_dota_shmup_basic",
+            "Model": "models/items/visage/frostivus2018_visage_frostbitten_wing_familiars/frostivus2018_visage_frostbitten_wing_familiars.vmdl",
+            "ModelScale": "1.0"
+        },
+        "npc_dota_shmup_wisp": {
+            "include_keys_from": "npc_dota_shmup_basic",
+            "Model": "models/heroes/dark_willow/dark_willow_wisp.vmdl",
+            "ModelScale": "1.0"
+        },
+        "npc_dota_shmup_pterodactyl": {
+            "include_keys_from": "npc_dota_shmup_basic",
+            "Model": "models/items/beastmaster/hawk/ti9_cache_beast_master_dinosaurs_telepathy_hawk/ti9_cache_beast_master_dinosaurs_telepathy_hawk.vmdl",
+            "ModelScale": "1.0"
+        },
+        "npc_dota_shmup_fei_lian": {
+            "include_keys_from": "npc_dota_shmup_basic",
+            "Model": "models/items/courier/fei_lian_blue/fei_lian_blue_flying.vmdl",
+            "ModelScale": "1.0"
+        },
+        "npc_dota_shmup_dragon": {
+            "include_keys_from": "npc_dota_shmup_basic",
+            "Model": "models/creeps/neutral_creeps/n_creep_black_dragon/n_creep_black_dragon.vmdl",
+            "ModelScale": "1.0"
+        },
+        "npc_dota_shmup_harpy": {
+            "include_keys_from": "npc_dota_shmup_basic",
+            "Model": "models/creeps/neutral_creeps/n_creep_harpy_a/n_creep_harpy_a.vmdl",
+            "ModelScale": "1.0"
+        },
+        "npc_dota_shmup_splinter_blast": {
+            "include_keys_from": "npc_dota_shmup_basic",
+            "Model": "models/events/crownfall/shmup_shooting/shmup_splinter_blast.vmdl",
+            "ModelScale": "1.0"
         }
     }
 }
