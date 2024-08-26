@@ -1166,7 +1166,6 @@
                 "sentry_cost": "100",
                 "lifetime_observer": "360",
                 "lifetime_sentry": "420",
-                "creation_delay": "0",
                 "observer_vision_range_tooltip": "1600",
                 "observer_duration_minutes_tooltip": "6",
                 "sentry_duration_minutes_tooltip": "8",
@@ -3247,6 +3246,7 @@
         },
         "item_refresher": {
             "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_IGNORE_CHANNEL",
+            "AbilitySharedCooldown": "refresher",
             "AbilityCastPoint": "0.0",
             "AbilityCooldown": "180.0",
             "AbilityManaCost": "350",
@@ -3685,6 +3685,7 @@
             "FightRecapLevel": "2",
             "Model": "models/props_gameplay/refresher_shard.vmdl",
             "Effect": "particles/generic_gameplay/dropped_refresher_shard.vpcf",
+            "AbilitySharedCooldown": "refresher",
             "AbilityCooldown": "180.0",
             "AbilityManaCost": "200",
             "ItemCost": "1000",
