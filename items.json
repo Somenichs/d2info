@@ -582,7 +582,7 @@
             "ItemCost": "175",
             "ItemShopTags": "regen_mana",
             "ItemQuality": "component",
-            "ItemAliases": "sage\\'s mask",
+            "ItemAliases": "sage's mask",
             "SuggestPregame": "1",
             "AbilityValues": {
                 "bonus_mana_regen": "0.7"
@@ -1684,8 +1684,7 @@
             "IsObsolete": "1",
             "ItemRecipe": "1",
             "ItemResult": "item_grandmasters_glaive",
-            "ItemRequirements": null,
-            "": null
+            "ItemRequirements": ""
         },
         "item_recipe_lunar_crest": {
             "Model": "models/props_gameplay/recipe.vmdl",
@@ -1993,8 +1992,7 @@
             "ItemRecipe": "1",
             "ItemResult": "item_poor_mans_shield",
             "ItemPurchasable": "0",
-            "ItemRequirements": null,
-            "": null
+            "ItemRequirements": ""
         },
         "item_poor_mans_shield": {
             "Model": "models/props_gameplay/neutral_box.vmdl",
@@ -2002,7 +2000,7 @@
             "ItemCost": "0",
             "ItemShopTags": "agi;block",
             "ItemQuality": "common",
-            "ItemAliases": "pms;poor man\\'s shield",
+            "ItemAliases": "pms;poor man's shield",
             "ItemPurchasable": "0",
             "ItemIsNeutralDrop": "1",
             "DisplayOverheadAlertOnReceived": "0",
@@ -2167,7 +2165,7 @@
             "ItemCost": "2200",
             "ItemShopTags": "damage;armor;regen_mana",
             "ItemQuality": "rare",
-            "ItemAliases": "vladmir\\'s offering;vlads",
+            "ItemAliases": "vladmir's offering;vlads",
             "ItemDeclarations": "DECLARE_PURCHASES_TO_TEAMMATES | DECLARE_PURCHASES_TO_SPECTATORS",
             "SuggestLategame": "1",
             "ItemDisassembleRule": "DOTA_ITEM_DISASSEMBLE_ALWAYS",
@@ -2659,7 +2657,7 @@
             "ItemCost": "2625",
             "ItemShopTags": "int;regen_mana;move_speed;hard_to_tag",
             "ItemQuality": "rare",
-            "ItemAliases": "cyclone euls;eul\\'s scepter of divinity",
+            "ItemAliases": "cyclone euls;eul's scepter of divinity",
             "ItemDeclarations": "DECLARE_PURCHASES_TO_TEAMMATES | DECLARE_PURCHASES_IN_SPEECH | DECLARE_PURCHASES_TO_SPECTATORS",
             "SuggestLategame": "1",
             "AbilityValues": {
@@ -3167,7 +3165,7 @@
             "ItemCost": "4200",
             "ItemShopTags": "int;str;agi;mana_pool;health_pool;hard_to_tag",
             "ItemQuality": "rare",
-            "ItemAliases": "ags;ultimate;aghanim\\'s scepter;ags",
+            "ItemAliases": "ags;ultimate;aghanim's scepter;ags",
             "ItemDeclarations": "DECLARE_PURCHASES_TO_TEAMMATES | DECLARE_PURCHASES_IN_SPEECH | DECLARE_PURCHASES_TO_SPECTATORS",
             "SuggestLategame": "1",
             "AbilityValues": {
@@ -3191,7 +3189,7 @@
             "ItemCost": "5800",
             "ItemShopTags": "int;str;agi;mana_pool;health_pool;hard_to_tag",
             "ItemQuality": "rare",
-            "ItemAliases": "ags;ultimate;aghanim\\'s scepter;ags"
+            "ItemAliases": "ags;ultimate;aghanim's scepter;ags"
         },
         "item_ultimate_scepter_roshan": {
             "Model": "models/props_gameplay/aghanim_scepter.vmdl",
@@ -3211,7 +3209,7 @@
             "ItemCost": "1400",
             "ItemShopTags": "int;str;agi;mana_pool;health_pool;hard_to_tag",
             "ItemQuality": "rare",
-            "ItemAliases": "ags;shard;aghanim\\'s shard;aghs",
+            "ItemAliases": "ags;shard;aghanim's shard;aghs",
             "ItemPermanent": "0",
             "ItemStockTime": "1",
             "ItemStockInitial": "0",
@@ -3391,7 +3389,7 @@
             "ItemCost": "5175",
             "ItemShopTags": "int;armor;hard_to_tag",
             "ItemQuality": "epic",
-            "ItemAliases": "shiva\\'s guard;shivas",
+            "ItemAliases": "shiva's guard;shivas",
             "ItemDeclarations": "DECLARE_PURCHASES_TO_TEAMMATES | DECLARE_PURCHASES_IN_SPEECH | DECLARE_PURCHASES_TO_SPECTATORS",
             "SuggestLategame": "1",
             "AbilityValues": {
@@ -3474,7 +3472,7 @@
             "ItemCost": "4800",
             "ItemShopTags": "regen_health;regen_mana;str;agi;int;hard_to_tag",
             "ItemQuality": "epic",
-            "ItemAliases": "ls;linken\\'s sphere",
+            "ItemAliases": "ls;linken's sphere",
             "ItemDeclarations": "DECLARE_PURCHASES_TO_TEAMMATES | DECLARE_PURCHASES_IN_SPEECH | DECLARE_PURCHASES_TO_SPECTATORS",
             "ActiveDescriptionLine": "2",
             "SuggestLategame": "1",
@@ -3876,8 +3874,7 @@
             "ItemRecipe": "1",
             "ItemResult": "item_hood_of_defiance",
             "ItemPurchasable": "0",
-            "ItemRequirements": null,
-            "": null
+            "ItemRequirements": ""
         },
         "item_hood_of_defiance": {
             "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_IMMEDIATE | DOTA_ABILITY_BEHAVIOR_NO_TARGET",
@@ -5636,7 +5633,7 @@
             "ItemCost": "3500",
             "ItemShopTags": "str;damage;evasion",
             "ItemQuality": "artifact",
-            "ItemAliases": "heaven\\'s halberd",
+            "ItemAliases": "heaven's halberd",
             "ItemDisassembleRule": "DOTA_ITEM_DISASSEMBLE_ALWAYS",
             "ItemDeclarations": "DECLARE_PURCHASES_TO_TEAMMATES | DECLARE_PURCHASES_IN_SPEECH | DECLARE_PURCHASES_TO_SPECTATORS",
             "SuggestLategame": "1",
@@ -5656,8 +5653,7 @@
             "IsObsolete": "1",
             "ItemRecipe": "1",
             "ItemResult": "item_ring_of_aquila",
-            "ItemRequirements": null,
-            "": null
+            "ItemRequirements": ""
         },
         "item_ring_of_aquila": {
             "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_IMMEDIATE | DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_TOGGLE",
@@ -6850,8 +6846,7 @@
             "Model": "models/props_gameplay/neutral_box.vmdl",
             "ItemRecipe": "1",
             "ItemResult": "item_fallen_sky",
-            "ItemRequirements": null,
-            "": null
+            "ItemRequirements": ""
         },
         "item_fallen_sky": {
             "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_DIRECTIONAL | DOTA_ABILITY_BEHAVIOR_ROOT_DISABLES",
