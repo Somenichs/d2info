@@ -2038,22 +2038,18 @@
         },
         "item_bracer": {
             "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_PASSIVE",
-            "MaxUpgradeLevel": "2",
-            "ItemBaseLevel": "1",
-            "ItemLevelByGameTime": "25",
             "ItemCost": "505",
             "ItemShopTags": "damage;int;agi;str",
             "ItemQuality": "common",
             "ItemAliases": "bracer",
             "SuggestEarlygame": "1",
             "AbilityValues": {
-                "bonus_strength": "5 10",
-                "bonus_agility": "2 4",
-                "bonus_intellect": "2 4",
+                "bonus_strength": "5",
+                "bonus_agility": "2",
+                "bonus_intellect": "2",
                 "bonus_damage": "0",
-                "bonus_health_regen": "0.75 1.5",
-                "bonus_health": "50 100",
-                "clock_time": "25"
+                "bonus_health_regen": "0.75",
+                "bonus_health": "50"
             }
         },
         "item_recipe_wraith_band": {
@@ -2067,21 +2063,17 @@
         },
         "item_wraith_band": {
             "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_PASSIVE",
-            "MaxUpgradeLevel": "2",
-            "ItemBaseLevel": "1",
-            "ItemLevelByGameTime": "25",
             "ItemCost": "505",
             "ItemShopTags": "damage;int;agi;str",
             "ItemQuality": "common",
             "ItemAliases": "wraith band",
             "SuggestEarlygame": "1",
             "AbilityValues": {
-                "bonus_agility": "5 10",
-                "bonus_strength": "2 4",
-                "bonus_intellect": "2 4",
-                "bonus_attack_speed": "5 10",
-                "bonus_armor": "1.75 3.5",
-                "clock_time": "25"
+                "bonus_agility": "5",
+                "bonus_strength": "2",
+                "bonus_intellect": "2",
+                "bonus_attack_speed": "5",
+                "bonus_armor": "1.75"
             }
         },
         "item_recipe_null_talisman": {
@@ -2095,21 +2087,17 @@
         },
         "item_null_talisman": {
             "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_PASSIVE",
-            "MaxUpgradeLevel": "2",
-            "ItemBaseLevel": "1",
-            "ItemLevelByGameTime": "25",
             "ItemCost": "505",
             "ItemShopTags": "damage;int;agi;str",
             "ItemQuality": "common",
             "ItemAliases": "null talisman",
             "SuggestEarlygame": "1",
             "AbilityValues": {
-                "bonus_intellect": "5 10",
-                "bonus_strength": "2 4",
-                "bonus_agility": "2 4",
-                "bonus_max_mana_percentage": "3 6",
-                "bonus_mana_regen": "1.0 2.0",
-                "clock_time": "25"
+                "bonus_intellect": "5",
+                "bonus_strength": "2",
+                "bonus_agility": "2",
+                "bonus_max_mana_percentage": "3",
+                "bonus_mana_regen": "1.0"
             }
         },
         "item_recipe_mekansm": {
@@ -2285,7 +2273,7 @@
             "UIDropSound": "Item.DropRingShop",
             "WorldDropSound": "Item.DropRingWorld",
             "AbilityValues": {
-                "mana_regen": "0.5",
+                "mana_regen": "0.25",
                 "aura_mana_regen": "1.0",
                 "aura_radius": {
                     "value": "1200",
@@ -2377,13 +2365,13 @@
                     "affected_by_aoe_increase": "1"
                 },
                 "barrier_block": "425",
-                "barrier_duration": "10.0",
+                "barrier_duration": "8.0",
                 "barrier_radius": {
                     "value": "1200",
                     "affected_by_aoe_increase": "1"
                 },
                 "bonus_all_stats": "0",
-                "barrier_block_creep": "450"
+                "barrier_block_creep": "425"
             }
         },
         "item_recipe_urn_of_shadows": {
@@ -3244,7 +3232,6 @@
         },
         "item_refresher": {
             "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_IGNORE_CHANNEL",
-            "AbilitySharedCooldown": "refresher",
             "AbilityCastPoint": "0.0",
             "AbilityCooldown": "180.0",
             "AbilityManaCost": "350",
@@ -3683,7 +3670,6 @@
             "FightRecapLevel": "2",
             "Model": "models/props_gameplay/refresher_shard.vmdl",
             "Effect": "particles/generic_gameplay/dropped_refresher_shard.vpcf",
-            "AbilitySharedCooldown": "refresher",
             "AbilityCooldown": "180.0",
             "AbilityManaCost": "200",
             "ItemCost": "1000",
@@ -3745,7 +3731,7 @@
                 "soul_heal_amount": "40",
                 "soul_damage_amount": "25",
                 "duration": "8.0",
-                "hp_regen_reduction_enemy": "50",
+                "hp_regen_reduction_enemy": "60",
                 "enemy_hp_drain": "4"
             }
         },
@@ -3805,7 +3791,7 @@
                 "block_damage_melee": "75",
                 "block_damage_ranged": "50",
                 "block_chance": "60",
-                "duration": "8",
+                "duration": "7",
                 "bonus_aoe_radius": {
                     "value": "1200",
                     "affected_by_aoe_increase": "1"
@@ -4646,7 +4632,7 @@
         },
         "item_recipe_gungir": {
             "Model": "models/props_gameplay/recipe.vmdl",
-            "ItemCost": "250",
+            "ItemCost": "550",
             "ItemShopTags": "",
             "ItemRecipe": "1",
             "ItemResult": "item_gungir",
@@ -4665,23 +4651,23 @@
             "AbilityCastRange": "1100",
             "AbilityCastPoint": "0.0",
             "AbilityManaCost": "200",
-            "ItemCost": "5450",
+            "ItemCost": "5750",
             "ItemShopTags": "damage;attack_speed;unique",
             "ItemQuality": "artifact",
             "ItemAliases": "gleipnir;gliepnir;glaypnir",
             "ItemDeclarations": "DECLARE_PURCHASES_TO_TEAMMATES | DECLARE_PURCHASES_IN_SPEECH | DECLARE_PURCHASES_TO_SPECTATORS",
             "SuggestLategame": "1",
             "AbilityValues": {
-                "bonus_damage": "30",
-                "bonus_attack_speed": "30",
+                "bonus_damage": "25",
+                "bonus_attack_speed": "25",
                 "chain_chance": "25",
-                "chain_damage": "160",
+                "chain_damage": "140",
                 "chain_strikes": "4",
                 "chain_radius": "650",
                 "chain_delay": "0.25",
                 "chain_cooldown": "0.2",
                 "bonus_intellect": "24",
-                "bonus_hp": "300",
+                "bonus_hp": "275",
                 "duration": "2.0",
                 "radius": {
                     "value": "350",
@@ -4859,7 +4845,8 @@
                 "enemy_effect_duration": "5.0",
                 "ally_effect_duration": "5.0",
                 "movement_speed_buff_rate": "5",
-                "phase_movement_speed": "100"
+                "phase_movement_speed": "100",
+                "slow_resist": "40"
             }
         },
         "item_recipe_ethereal_blade": {
@@ -4936,7 +4923,7 @@
             }
         },
         "item_recipe_arcane_boots": {
-            "ItemCost": "375",
+            "ItemCost": "475",
             "ItemShopTags": "",
             "ItemRecipe": "1",
             "ItemResult": "item_arcane_boots",
@@ -4948,7 +4935,7 @@
             "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_IMMEDIATE | DOTA_ABILITY_BEHAVIOR_NO_TARGET",
             "AbilityCooldown": "55.0",
             "AbilityManaCost": "0",
-            "ItemCost": "1300",
+            "ItemCost": "1400",
             "ItemShopTags": "move_speed;boost_mana;mana_pool",
             "ItemQuality": "rare",
             "ItemAliases": "mana;mb;arcane boots",
@@ -4958,13 +4945,13 @@
             "SpeciallyBannedFromNeutralSlot": "1",
             "AbilityValues": {
                 "bonus_movement": "45",
-                "mana_regen": "0.5",
+                "mana_regen": "0.25",
                 "aura_mana_regen": "1",
                 "aura_radius": {
                     "value": "1200",
                     "affected_by_aoe_increase": "1"
                 },
-                "replenish_amount": "175",
+                "replenish_amount": "150",
                 "replenish_radius": {
                     "value": "1200",
                     "affected_by_aoe_increase": "1"
@@ -5251,12 +5238,12 @@
                 "bonus_all_stats": "4",
                 "self_movement_speed": "25",
                 "bonus_mana": "300",
-                "bonus_health": "200",
+                "bonus_health": "175",
                 "target_movement_speed": "15",
-                "target_attack_speed": "70",
+                "target_attack_speed": "60",
                 "target_armor": "5",
-                "duration": "8",
-                "absorb_amount": "400"
+                "duration": "7",
+                "absorb_amount": "350"
             }
         },
         "item_recipe_pavise": {
@@ -5278,7 +5265,7 @@
             "SpellDispellableType": "SPELL_DISPELLABLE_YES",
             "AbilityCastRange": "1000",
             "AbilityCooldown": "16.0",
-            "AbilityManaCost": "75",
+            "AbilityManaCost": "100",
             "AbilitySharedCooldown": "pavise",
             "ItemCost": "1400",
             "ItemShopTags": "armor;regen_mana;hard_to_tag",
@@ -5289,8 +5276,8 @@
                 "bonus_armor": "2",
                 "bonus_mana": "250",
                 "bonus_health": "175",
-                "duration": "8",
-                "absorb_amount": "300"
+                "duration": "7",
+                "absorb_amount": "250"
             }
         },
         "item_smoke_of_deceit": {
@@ -5467,7 +5454,7 @@
             "FightRecapLevel": "1",
             "AbilityCooldown": "45",
             "AbilityManaCost": "0",
-            "ItemCost": "4950",
+            "ItemCost": "5050",
             "ItemShopTags": "int;armor;regen_health;hard_to_tag",
             "ItemQuality": "rare",
             "ItemAliases": "guardian greaves",
@@ -7591,7 +7578,7 @@
                     "value": "400",
                     "affected_by_aoe_increase": "1"
                 },
-                "duration": "14"
+                "duration": "8"
             }
         },
         "item_lance_of_pursuit": {
