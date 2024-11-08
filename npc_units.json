@@ -108,6 +108,21 @@
             "MovementTurnRate": "1.0",
             "OverrideWearableClass": "dota_item_wearable"
         },
+        "npc_dota_building_generic": {
+            "BaseClass": "npc_dota_rotatable_building",
+            "Model": "models/development/invisiblebox.vmdl",
+            "SoundSet": "0",
+            "ModelScale": "1.0",
+            "AttackCapabilities": "DOTA_UNIT_CAP_NO_ATTACK",
+            "BoundsHullName": "DOTA_HULL_SIZE_REGULAR",
+            "MovementCapabilities": "DOTA_UNIT_CAP_MOVE_NONE",
+            "MovementSpeed": "0",
+            "MovementTurnRate": "1.0",
+            "VisionDaytimeRange": "0",
+            "VisionNighttimeRange": "0",
+            "DisableDamageDisplay": "1",
+            "PathfindingSearchDepthScale": "0.0"
+        },
         "npc_dota_creep_badguys_ranged": {
             "BaseClass": "npc_dota_creep_lane",
             "Model": "models/creeps/lane_creeps/creep_bad_ranged/lane_dire_ranged.vmdl",

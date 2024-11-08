@@ -3169,7 +3169,8 @@
             "ItemResult": "item_ultimate_scepter_2",
             "ItemRequirements": {
                 "01": "item_ultimate_scepter"
-            }
+            },
+            "SuggestLategame": "1"
         },
         "item_ultimate_scepter_2": {
             "Model": "models/props_gameplay/aghanim_scepter.vmdl",
@@ -5744,7 +5745,7 @@
             "ItemShopTags": "",
             "ItemQuality": "rare",
             "ItemAliases": "glimmer cape",
-            "SuggestEarlygame": "1",
+            "SuggestLategame": "1",
             "AbilityValues": {
                 "initial_fade_delay": "0.5",
                 "secondary_fade_delay": "0.5",
