@@ -34406,7 +34406,6 @@
             "AbilitySound": "Hero_Kez.EchoSlash.Katana.Start",
             "LinkedAbility": "kez_falcon_rush",
             "AbilityCastPoint": "0.2",
-            "AbilityCastRange": "800",
             "AbilityCooldown": "20 18 16 14",
             "AbilityManaCost": "85 100 115 130",
             "AbilityValues": {
@@ -34431,8 +34430,7 @@
                     "affected_by_aoe_increase": "1"
                 },
                 "katana_distance": {
-                    "value": "800",
-                    "affected_by_aoe_increase": "1"
+                    "value": "800"
                 },
                 "travel_distance": "250",
                 "tag_slow": "100",
@@ -34454,13 +34452,13 @@
             "AbilityCastAnimation": "ACT_DOTA_CAST_ABILITY_2",
             "AbilityManaCost": "50",
             "AbilityValues": {
-                "AbilityCooldown": "15 12 9 6",
+                "AbilityCooldown": "16 13 10 7",
                 "AbilityCastRange": "700 800 900 1000",
                 "land_distance": "75",
                 "projectile_speed": "3000",
                 "grapple_speed": "1800",
                 "max_distance_break": "2000",
-                "bonus_flat_lifesteal": "40 80 120 160",
+                "bonus_flat_lifesteal": "30 60 90 120",
                 "lifesteal_pct": "100",
                 "creep_lifesteal_reduction_pct": "40",
                 "katana_ms_slow_pct": "80"
@@ -34570,7 +34568,7 @@
                     "special_bonus_unique_kez_falcon_rush_duration": "+2.0"
                 },
                 "rush_range": {
-                    "value": "650",
+                    "value": "575",
                     "affected_by_aoe_increase": "1"
                 },
                 "buff_evasion_pct": {
@@ -34590,6 +34588,11 @@
                 }
             }
         },
+        "kez_falcon_rush_ad": {
+            "_base": "kez_falcon_rush",
+            "BaseClass": "kez_falcon_rush",
+            "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_IMMEDIATE | DOTA_ABILITY_BEHAVIOR_IGNORE_BACKSWING | DOTA_ABILITY_BEHAVIOR_SHOW_IN_GUIDES"
+        },
         "kez_talon_toss": {
             "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_HIDDEN | DOTA_ABILITY_BEHAVIOR_UNIT_TARGET | DOTA_ABILITY_BEHAVIOR_AOE | DOTA_ABILITY_BEHAVIOR_IGNORE_BACKSWING | DOTA_ABILITY_BEHAVIOR_SHOW_IN_GUIDES",
             "AbilityUnitDamageType": "DAMAGE_TYPE_MAGICAL",
@@ -34603,7 +34606,7 @@
             "AbilityCastPoint": "0.2",
             "AbilityCastRange": "1200",
             "AbilityManaCost": "75",
-            "AbilityCooldown": "15 12 9 6",
+            "AbilityCooldown": "16 13 10 7",
             "AbilityValues": {
                 "radius": {
                     "value": "275",
@@ -34616,6 +34619,11 @@
                 "speed": "2000",
                 "silence_duration": "1.75 2.0 2.25 2.5"
             }
+        },
+        "kez_talon_toss_ad": {
+            "_base": "kez_talon_toss",
+            "BaseClass": "kez_talon_toss",
+            "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_UNIT_TARGET | DOTA_ABILITY_BEHAVIOR_AOE | DOTA_ABILITY_BEHAVIOR_IGNORE_BACKSWING | DOTA_ABILITY_BEHAVIOR_SHOW_IN_GUIDES"
         },
         "kez_shodo_sai": {
             "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_HIDDEN | DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_IMMEDIATE | DOTA_ABILITY_BEHAVIOR_IGNORE_BACKSWING | DOTA_ABILITY_BEHAVIOR_DONT_CANCEL_MOVEMENT | DOTA_ABILITY_BEHAVIOR_SHOW_IN_GUIDES",
@@ -34658,9 +34666,14 @@
                 "parry_stun_duration": "0.5"
             }
         },
+        "kez_shodo_sai_ad": {
+            "_base": "kez_shodo_sai",
+            "BaseClass": "kez_shodo_sai",
+            "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_IMMEDIATE | DOTA_ABILITY_BEHAVIOR_IGNORE_BACKSWING | DOTA_ABILITY_BEHAVIOR_DONT_CANCEL_MOVEMENT | DOTA_ABILITY_BEHAVIOR_SHOW_IN_GUIDES"
+        },
         "kez_shodo_sai_parry_cancel": {
             "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_IMMEDIATE | DOTA_ABILITY_BEHAVIOR_IGNORE_BACKSWING | DOTA_ABILITY_BEHAVIOR_NOT_LEARNABLE | DOTA_ABILITY_BEHAVIOR_HIDDEN | DOTA_ABILITY_BEHAVIOR_DONT_RESUME_MOVEMENT",
-            "AbilityCooldown": "1.0",
+            "AbilityCooldown": "0.0",
             "AbilityCastPoint": "0.0",
             "AbilityCastRange": "0",
             "MaxLevel": "1",
@@ -34696,10 +34709,18 @@
                 "bonus_ms": "15 25 35",
                 "basic_dispel": "1",
                 "fade_delay": "0.0",
-                "apply_parry_bonus": "1"
+                "apply_parry_bonus": {
+                    "value": "0",
+                    "special_bonus_unique_kez_ravens_veil_mark_parry_bonus": "+1"
+                }
             },
             "AbilityCastAnimation": "ACT_DOTA_CAST_ABILITY_4",
             "AbilityCastGestureSlot": "DEFAULT"
+        },
+        "kez_ravens_veil_ad": {
+            "_base": "kez_ravens_veil",
+            "BaseClass": "kez_ravens_veil",
+            "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_IGNORE_BACKSWING | DOTA_ABILITY_BEHAVIOR_SHOW_IN_GUIDES"
         }
     }
 }

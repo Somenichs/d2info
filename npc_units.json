@@ -92,7 +92,9 @@
             "precache": {
                 "particle": "particles/econ/events/anniversary_10th/anniversary_10th_hat_ambient_npc_dota_companion.vpcf"
             },
-            "party_hat_effect": "particles/econ/events/anniversary_10th/anniversary_10th_hat_ambient_npc_dota_companion.vpcf"
+            "party_hat_effects": {
+                "party_hat_effect_0": "particles/econ/events/anniversary_10th/anniversary_10th_hat_ambient_npc_dota_companion.vpcf"
+            }
         },
         "npc_dota_loadout_generic": {
             "BaseClass": "npc_dota_base",
@@ -3992,7 +3994,9 @@
             "precache": {
                 "particle": "particles/econ/events/anniversary_10th/anniversary_10th_hat_ambient_npc_dota_hero_elder_titan.vpcf"
             },
-            "party_hat_effect": "particles/econ/events/anniversary_10th/anniversary_10th_hat_ambient_npc_dota_hero_elder_titan.vpcf"
+            "party_hat_effects": {
+                "party_hat_effect_0": "particles/econ/events/anniversary_10th/anniversary_10th_hat_ambient_npc_dota_hero_elder_titan.vpcf"
+            }
         },
         "npc_dota_neutral_kobold": {
             "Model": "models/creeps/neutral_creeps/n_creep_kobold/kobold_c/n_creep_kobold_c.vmdl",
@@ -6071,7 +6075,9 @@
             "precache": {
                 "particle": "particles/econ/events/anniversary_10th/anniversary_10th_hat_ambient_npc_dota_hero_shadow_shaman.vpcf"
             },
-            "party_hat_effect": "particles/econ/events/anniversary_10th/anniversary_10th_hat_ambient_npc_dota_hero_shadow_shaman.vpcf"
+            "party_hat_effects": {
+                "party_hat_effect_0": "particles/econ/events/anniversary_10th/anniversary_10th_hat_ambient_npc_dota_hero_shadow_shaman.vpcf"
+            }
         },
         "npc_dota_shadow_shaman_ward_2": {
             "include_keys_from": "npc_dota_shadow_shaman_ward_1",
@@ -6129,7 +6135,9 @@
             "precache": {
                 "particle": "particles/econ/events/anniversary_10th/anniversary_10th_hat_ambient_npc_dota_hero_venomancer_plague_ward.vpcf"
             },
-            "party_hat_effect": "particles/econ/events/anniversary_10th/anniversary_10th_hat_ambient_npc_dota_hero_venomancer_plague_ward.vpcf"
+            "party_hat_effects": {
+                "party_hat_effect_0": "particles/econ/events/anniversary_10th/anniversary_10th_hat_ambient_npc_dota_hero_venomancer_plague_ward.vpcf"
+            }
         },
         "npc_dota_venomancer_plague_ward_2": {
             "include_keys_from": "npc_dota_venomancer_plague_ward_1",
@@ -6171,7 +6179,9 @@
             "precache": {
                 "particle": "particles/econ/events/anniversary_10th/anniversary_10th_hat_ambient_npc_dota_hero_enigma_eidolon.vpcf"
             },
-            "party_hat_effect": "particles/econ/events/anniversary_10th/anniversary_10th_hat_ambient_npc_dota_hero_enigma_eidolon.vpcf",
+            "party_hat_effects": {
+                "party_hat_effect_0": "particles/econ/events/anniversary_10th/anniversary_10th_hat_ambient_npc_dota_hero_enigma_eidolon.vpcf"
+            },
             "Ability1": "",
             "Ability2": "",
             "Ability3": "",
@@ -6294,7 +6304,9 @@
             "precache": {
                 "particle": "particles/econ/events/anniversary_10th/anniversary_10th_hat_ambient_npc_dota_hero_furion_treant.vpcf"
             },
-            "party_hat_effect": "particles/econ/events/anniversary_10th/anniversary_10th_hat_ambient_npc_dota_hero_furion_treant.vpcf"
+            "party_hat_effects": {
+                "party_hat_effect_0": "particles/econ/events/anniversary_10th/anniversary_10th_hat_ambient_npc_dota_hero_furion_treant.vpcf"
+            }
         },
         "npc_dota_furion_treant_large": {
             "BaseClass": "npc_dota_creep",
@@ -6344,7 +6356,9 @@
             "precache": {
                 "particle": "particles/econ/events/anniversary_10th/anniversary_10th_hat_ambient_npc_dota_hero_furion_treant.vpcf"
             },
-            "party_hat_effect": "particles/econ/events/anniversary_10th/anniversary_10th_hat_ambient_npc_dota_hero_furion_treant.vpcf"
+            "party_hat_effects": {
+                "party_hat_effect_0": "particles/econ/events/anniversary_10th/anniversary_10th_hat_ambient_npc_dota_hero_furion_treant.vpcf"
+            }
         },
         "npc_dota_furion_hedgerow": {
             "Model": "models/development/invisiblebox.vmdl",
@@ -6430,7 +6444,9 @@
             "precache": {
                 "particle": "particles/econ/events/anniversary_10th/anniversary_10th_hat_ambient_npc_dota_hero_invoker_forge_spirit.vpcf"
             },
-            "party_hat_effect": "particles/econ/events/anniversary_10th/anniversary_10th_hat_ambient_npc_dota_hero_invoker_forge_spirit.vpcf"
+            "party_hat_effects": {
+                "party_hat_effect_0": "particles/econ/events/anniversary_10th/anniversary_10th_hat_ambient_npc_dota_hero_invoker_forge_spirit.vpcf"
+            }
         },
         "npc_dota_broodmother_spiderling": {
             "BaseClass": "npc_dota_broodmother_spiderling",
@@ -6483,7 +6499,9 @@
             "precache": {
                 "particle": "particles/econ/events/anniversary_10th/anniversary_10th_hat_ambient_npc_dota_hero_broodmother_spiderling.vpcf"
             },
-            "party_hat_effect": "particles/econ/events/anniversary_10th/anniversary_10th_hat_ambient_npc_dota_hero_broodmother_spiderling.vpcf"
+            "party_hat_effects": {
+                "party_hat_effect_0": "particles/econ/events/anniversary_10th/anniversary_10th_hat_ambient_npc_dota_hero_broodmother_spiderling.vpcf"
+            }
         },
         "npc_dota_broodmother_spiderite": {
             "BaseClass": "npc_dota_broodmother_spiderling",
@@ -6623,7 +6641,9 @@
             "precache": {
                 "particle": "particles/econ/events/anniversary_10th/anniversary_10th_hat_ambient_npc_dota_hero_skeleton_king.vpcf"
             },
-            "party_hat_effect": "particles/econ/events/anniversary_10th/anniversary_10th_hat_ambient_npc_dota_hero_skeleton_king.vpcf"
+            "party_hat_effects": {
+                "party_hat_effect_0": "particles/econ/events/anniversary_10th/anniversary_10th_hat_ambient_npc_dota_hero_skeleton_king.vpcf"
+            }
         },
         "npc_dota_clinkz_skeleton_archer": {
             "BaseClass": "npc_dota_clinkz_skeleton_archer",
@@ -6635,7 +6655,9 @@
             "precache": {
                 "particle": "particles/econ/events/anniversary_10th/anniversary_10th_hat_ambient_npc_dota_hero_clinkz_skeleton_archer.vpcf"
             },
-            "party_hat_effect": "particles/econ/events/anniversary_10th/anniversary_10th_hat_ambient_npc_dota_hero_clinkz_skeleton_archer.vpcf",
+            "party_hat_effects": {
+                "party_hat_effect_0": "particles/econ/events/anniversary_10th/anniversary_10th_hat_ambient_npc_dota_hero_clinkz_skeleton_archer.vpcf"
+            },
             "Ability1": "clinkz_searing_arrows",
             "Ability2": "clinkz_tar_bomb",
             "Ability3": "clinkz_burning_barrage",
@@ -6756,7 +6778,7 @@
             "Ability5": "roshan_devotion",
             "Ability6": "roshan_bash",
             "Ability7": "roshan_spell_block",
-            "Ability8": "",
+            "Ability8": "seasonal_party_hat",
             "ArmorPhysical": "30",
             "MagicalResistance": "55",
             "AttackCapabilities": "DOTA_UNIT_CAP_MELEE_ATTACK",
@@ -6786,7 +6808,13 @@
             "UnitRelationshipClass": "DOTA_NPC_UNIT_RELATIONSHIP_TYPE_DEFAULT",
             "VisionDaytimeRange": "1400",
             "VisionNighttimeRange": "1400",
-            "HasInventory": "1"
+            "HasInventory": "1",
+            "precache": {
+                "particle": "particles/econ/events/frostivus_2024/frostivus_2024_hat_ambient_npc_dota_roshan.vpcf"
+            },
+            "party_hat_effects": {
+                "party_hat_effect_0": "particles/econ/events/frostivus_2024/frostivus_2024_hat_ambient_npc_dota_roshan.vpcf"
+            }
         },
         "npc_dota_miniboss": {
             "BaseClass": "npc_dota_miniboss",
@@ -6798,13 +6826,13 @@
             "CanBeDominated": "0",
             "RenderablePortrait": {
                 "Particles": {
-                    "particles/neutral_fx/miniboss_10th_anniversary_loadout.vpcf": "loadout"
+                    "particles/neutral_fx/miniboss_shield.vpcf": "loadout"
                 }
             },
             "Ability1": "miniboss_unyielding_shield",
             "Ability2": "miniboss_reflect",
             "Ability3": "miniboss_radiance",
-            "Ability4": "",
+            "Ability4": "seasonal_party_hat",
             "Ability5": "",
             "Ability6": "",
             "Ability7": "",
@@ -6980,7 +7008,9 @@
             "precache": {
                 "particle": "particles/econ/events/anniversary_10th/anniversary_10th_hat_ambient_npc_dota_hero_warlock_golem.vpcf"
             },
-            "party_hat_effect": "particles/econ/events/anniversary_10th/anniversary_10th_hat_ambient_npc_dota_hero_warlock_golem.vpcf",
+            "party_hat_effects": {
+                "party_hat_effect_0": "particles/econ/events/anniversary_10th/anniversary_10th_hat_ambient_npc_dota_hero_warlock_golem.vpcf"
+            },
             "Ability1": "warlock_imp_explode_major",
             "Ability2": "",
             "Ability3": "",
@@ -7025,7 +7055,9 @@
             "precache": {
                 "particle": "particles/econ/events/anniversary_10th/anniversary_10th_hat_ambient_npc_dota_hero_warlock_golem.vpcf"
             },
-            "party_hat_effect": "particles/econ/events/anniversary_10th/anniversary_10th_hat_ambient_npc_dota_hero_warlock_golem.vpcf",
+            "party_hat_effects": {
+                "party_hat_effect_0": "particles/econ/events/anniversary_10th/anniversary_10th_hat_ambient_npc_dota_hero_warlock_golem.vpcf"
+            },
             "Ability1": "warlock_imp_explode",
             "Ability2": "",
             "Ability3": "",
@@ -7075,7 +7107,9 @@
             "precache": {
                 "particle": "particles/econ/events/anniversary_10th/anniversary_10th_hat_ambient_npc_dota_hero_warlock_golem.vpcf"
             },
-            "party_hat_effect": "particles/econ/events/anniversary_10th/anniversary_10th_hat_ambient_npc_dota_hero_warlock_golem.vpcf",
+            "party_hat_effects": {
+                "party_hat_effect_0": "particles/econ/events/anniversary_10th/anniversary_10th_hat_ambient_npc_dota_hero_warlock_golem.vpcf"
+            },
             "Ability1": "warlock_golem_flaming_fists",
             "Ability2": "warlock_golem_permanent_immolation",
             "Ability3": "",
@@ -7140,7 +7174,9 @@
             "precache": {
                 "particle": "particles/econ/events/anniversary_10th/anniversary_10th_hat_ambient_npc_dota_hero_axe.vpcf"
             },
-            "party_hat_effect": "particles/econ/events/anniversary_10th/anniversary_10th_hat_ambient_npc_dota_hero_axe.vpcf"
+            "party_hat_effects": {
+                "party_hat_effect_0": "particles/econ/events/anniversary_10th/anniversary_10th_hat_ambient_npc_dota_hero_axe.vpcf"
+            }
         },
         "npc_dota_beastmaster_boar": {
             "Model": "models/heroes/beastmaster/beastmaster_beast.vmdl",
@@ -7180,7 +7216,9 @@
             "precache": {
                 "particle": "particles/econ/events/anniversary_10th/anniversary_10th_hat_ambient_npc_dota_hero_axe.vpcf"
             },
-            "party_hat_effect": "particles/econ/events/anniversary_10th/anniversary_10th_hat_ambient_npc_dota_hero_axe.vpcf"
+            "party_hat_effects": {
+                "party_hat_effect_0": "particles/econ/events/anniversary_10th/anniversary_10th_hat_ambient_npc_dota_hero_axe.vpcf"
+            }
         },
         "npc_dota_brewmaster_earth_1": {
             "Model": "models/heroes/brewmaster/brewmaster_earthspirit.vmdl",
@@ -7197,7 +7235,9 @@
             "precache": {
                 "particle": "particles/econ/events/anniversary_10th/anniversary_10th_hat_ambient_npc_dota_hero_brewmaster.vpcf"
             },
-            "party_hat_effect": "particles/econ/events/anniversary_10th/anniversary_10th_hat_ambient_npc_dota_hero_brewmaster.vpcf",
+            "party_hat_effects": {
+                "party_hat_effect_0": "particles/econ/events/anniversary_10th/anniversary_10th_hat_ambient_npc_dota_hero_brewmaster.vpcf"
+            },
             "Ability1": "brewmaster_earth_hurl_boulder",
             "Ability2": "brewmaster_earth_spell_immunity",
             "Ability3": "brewmaster_earth_pulverize",
@@ -7265,7 +7305,9 @@
             "precache": {
                 "particle": "particles/econ/events/anniversary_10th/anniversary_10th_hat_ambient_npc_dota_hero_brewmaster.vpcf"
             },
-            "party_hat_effect": "particles/econ/events/anniversary_10th/anniversary_10th_hat_ambient_npc_dota_hero_brewmaster.vpcf",
+            "party_hat_effects": {
+                "party_hat_effect_0": "particles/econ/events/anniversary_10th/anniversary_10th_hat_ambient_npc_dota_hero_brewmaster.vpcf"
+            },
             "Ability1": "brewmaster_storm_dispel_magic",
             "Ability2": "brewmaster_storm_cyclone",
             "Ability3": "brewmaster_storm_wind_walk",
@@ -7336,7 +7378,9 @@
             "precache": {
                 "particle": "particles/econ/events/anniversary_10th/anniversary_10th_hat_ambient_npc_dota_hero_brewmaster.vpcf"
             },
-            "party_hat_effect": "particles/econ/events/anniversary_10th/anniversary_10th_hat_ambient_npc_dota_hero_brewmaster.vpcf",
+            "party_hat_effects": {
+                "party_hat_effect_0": "particles/econ/events/anniversary_10th/anniversary_10th_hat_ambient_npc_dota_hero_brewmaster.vpcf"
+            },
             "Ability1": "brewmaster_fire_permanent_immolation",
             "Ability2": "brewmaster_fire_phase",
             "Ability3": "generic_hidden",
@@ -7402,7 +7446,9 @@
             "precache": {
                 "particle": "particles/econ/events/anniversary_10th/anniversary_10th_hat_ambient_npc_dota_hero_brewmaster.vpcf"
             },
-            "party_hat_effect": "particles/econ/events/anniversary_10th/anniversary_10th_hat_ambient_npc_dota_hero_brewmaster.vpcf",
+            "party_hat_effects": {
+                "party_hat_effect_0": "particles/econ/events/anniversary_10th/anniversary_10th_hat_ambient_npc_dota_hero_brewmaster.vpcf"
+            },
             "Ability1": "brewmaster_void_astral_pull",
             "Ability2": "generic_hidden",
             "Ability3": "generic_hidden",
@@ -7468,7 +7514,9 @@
             "precache": {
                 "particle": "particles/econ/events/anniversary_10th/anniversary_10th_hat_ambient_npc_dota_hero_undying_tombstone.vpcf"
             },
-            "party_hat_effect": "particles/econ/events/anniversary_10th/anniversary_10th_hat_ambient_npc_dota_hero_undying_tombstone.vpcf",
+            "party_hat_effects": {
+                "party_hat_effect_0": "particles/econ/events/anniversary_10th/anniversary_10th_hat_ambient_npc_dota_hero_undying_tombstone.vpcf"
+            },
             "Ability1": "neutral_spell_immunity",
             "Ability2": "",
             "Ability3": "",
@@ -7622,7 +7670,9 @@
             "precache": {
                 "particle": "particles/econ/events/anniversary_10th/anniversary_10th_hat_ambient_npc_dota_hero_undying_zombie.vpcf"
             },
-            "party_hat_effect": "particles/econ/events/anniversary_10th/anniversary_10th_hat_ambient_npc_dota_hero_undying_zombie.vpcf",
+            "party_hat_effects": {
+                "party_hat_effect_0": "particles/econ/events/anniversary_10th/anniversary_10th_hat_ambient_npc_dota_hero_undying_zombie.vpcf"
+            },
             "Ability1": "undying_tombstone_zombie_deathstrike",
             "Ability2": "neutral_spell_immunity",
             "Ability3": "",
@@ -7671,7 +7721,9 @@
             "precache": {
                 "particle": "particles/econ/events/anniversary_10th/anniversary_10th_hat_ambient_npc_dota_hero_undying_zombie.vpcf"
             },
-            "party_hat_effect": "particles/econ/events/anniversary_10th/anniversary_10th_hat_ambient_npc_dota_hero_undying_zombie.vpcf",
+            "party_hat_effects": {
+                "party_hat_effect_0": "particles/econ/events/anniversary_10th/anniversary_10th_hat_ambient_npc_dota_hero_undying_zombie.vpcf"
+            },
             "Ability1": "undying_tombstone_zombie_deathstrike",
             "Ability2": "neutral_spell_immunity",
             "Ability3": "",
@@ -8161,7 +8213,9 @@
             "precache": {
                 "particle": "particles/econ/events/anniversary_10th/anniversary_10th_hat_ambient_npc_dota_hero_lycan_wolf.vpcf"
             },
-            "party_hat_effect": "particles/econ/events/anniversary_10th/anniversary_10th_hat_ambient_npc_dota_hero_lycan_wolf.vpcf",
+            "party_hat_effects": {
+                "party_hat_effect_0": "particles/econ/events/anniversary_10th/anniversary_10th_hat_ambient_npc_dota_hero_lycan_wolf.vpcf"
+            },
             "Ability1": "",
             "Ability2": "",
             "Ability3": "",
@@ -8297,7 +8351,9 @@
                 "particle": "particles/econ/events/anniversary_10th/anniversary_10th_hat_ambient_npc_dota_hero_lone_druid_bear.vpcf"
             },
             "ModelScale": ".72",
-            "party_hat_effect": "particles/econ/events/anniversary_10th/anniversary_10th_hat_ambient_npc_dota_hero_lone_druid_bear.vpcf",
+            "party_hat_effects": {
+                "party_hat_effect_0": "particles/econ/events/anniversary_10th/anniversary_10th_hat_ambient_npc_dota_hero_lone_druid_bear.vpcf"
+            },
             "Ability1": "lone_druid_spirit_bear_return",
             "Ability2": "lone_druid_spirit_bear_demolish",
             "Ability3": "lone_druid_savage_roar_bear",
@@ -8381,7 +8437,9 @@
             "precache": {
                 "particle": "particles/econ/events/anniversary_10th/anniversary_10th_hat_ambient_npc_dota_hero_visage_familiar.vpcf"
             },
-            "party_hat_effect": "particles/econ/events/anniversary_10th/anniversary_10th_hat_ambient_npc_dota_hero_visage_familiar.vpcf",
+            "party_hat_effects": {
+                "party_hat_effect_0": "particles/econ/events/anniversary_10th/anniversary_10th_hat_ambient_npc_dota_hero_visage_familiar.vpcf"
+            },
             "Ability1": "visage_summon_familiars_stone_form",
             "Ability2": "",
             "Ability3": "",
@@ -9683,7 +9741,9 @@
             "precache": {
                 "particle": "particles/econ/events/anniversary_10th/anniversary_10th_hat_ambient_npc_dota_hero_phoenix_sun.vpcf"
             },
-            "party_hat_effect": "particles/econ/events/anniversary_10th/anniversary_10th_hat_ambient_npc_dota_hero_phoenix_sun.vpcf",
+            "party_hat_effects": {
+                "party_hat_effect_0": "particles/econ/events/anniversary_10th/anniversary_10th_hat_ambient_npc_dota_hero_phoenix_sun.vpcf"
+            },
             "Ability1": "",
             "Ability2": "",
             "Ability3": "",
@@ -9847,7 +9907,9 @@
             "precache": {
                 "particle": "particles/econ/events/anniversary_10th/anniversary_10th_hat_ambient_npc_dota_hero_techies_land_mine.vpcf"
             },
-            "party_hat_effect": "particles/econ/events/anniversary_10th/anniversary_10th_hat_ambient_npc_dota_hero_techies_land_mine.vpcf",
+            "party_hat_effects": {
+                "party_hat_effect_0": "particles/econ/events/anniversary_10th/anniversary_10th_hat_ambient_npc_dota_hero_techies_land_mine.vpcf"
+            },
             "Ability1": "",
             "Ability2": "",
             "Ability3": "",
@@ -9997,7 +10059,9 @@
             "precache": {
                 "particle": "particles/econ/events/anniversary_10th/anniversary_10th_hat_ambient_npc_dota_hero_techies_land_mine.vpcf"
             },
-            "party_hat_effect": "particles/econ/events/anniversary_10th/anniversary_10th_hat_ambient_npc_dota_hero_techies_land_mine.vpcf",
+            "party_hat_effects": {
+                "party_hat_effect_0": "particles/econ/events/anniversary_10th/anniversary_10th_hat_ambient_npc_dota_hero_techies_land_mine.vpcf"
+            },
             "Ability1": "",
             "Ability2": "",
             "Ability3": "",
@@ -10461,7 +10525,9 @@
             "precache": {
                 "particle": "particles/econ/events/anniversary_10th/anniversary_10th_hat_ambient_npc_dota_hero_grimstroke_ink_creature.vpcf"
             },
-            "party_hat_effect": "particles/econ/events/anniversary_10th/anniversary_10th_hat_ambient_npc_dota_hero_grimstroke_ink_creature.vpcf",
+            "party_hat_effects": {
+                "party_hat_effect_0": "particles/econ/events/anniversary_10th/anniversary_10th_hat_ambient_npc_dota_hero_grimstroke_ink_creature.vpcf"
+            },
             "Ability1": "",
             "Ability2": "",
             "Ability3": "",
@@ -11624,7 +11690,9 @@
             "precache": {
                 "particle": "particles/econ/events/anniversary_10th/anniversary_10th_hat_ambient_npc_dota_hero_undying_tombstone.vpcf"
             },
-            "party_hat_effect": "particles/econ/events/anniversary_10th/anniversary_10th_hat_ambient_npc_dota_hero_undying_tombstone.vpcf",
+            "party_hat_effects": {
+                "party_hat_effect_0": "particles/econ/events/anniversary_10th/anniversary_10th_hat_ambient_npc_dota_hero_undying_tombstone.vpcf"
+            },
             "Ability1": "neutral_spell_immunity",
             "Ability2": "",
             "Ability3": "",
