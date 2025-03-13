@@ -4596,7 +4596,7 @@
             "AttributeBaseAgility": "22",
             "AttributeAgilityGain": "2.600000",
             "AttributeBaseIntelligence": "23",
-            "AttributeIntelligenceGain": "3.900000",
+            "AttributeIntelligenceGain": "3.7",
             "StatusHealthRegen": "0.5",
             "MovementSpeed": "285",
             "MovementTurnRate": "0.800000",
@@ -5607,7 +5607,7 @@
             "AttributeBaseStrength": "18",
             "AttributeStrengthGain": "2.6",
             "AttributeBaseAgility": "17",
-            "AttributeAgilityGain": "1.7",
+            "AttributeAgilityGain": "1.9",
             "AttributeBaseIntelligence": "18",
             "AttributeIntelligenceGain": "3.2",
             "StatusManaRegen": "0.25",
@@ -5855,8 +5855,8 @@
             },
             "ArmorPhysical": "2",
             "AttackCapabilities": "DOTA_UNIT_CAP_RANGED_ATTACK",
-            "AttackDamageMin": "33",
-            "AttackDamageMax": "41",
+            "AttackDamageMin": "29",
+            "AttackDamageMax": "37",
             "AttackRate": "1.700000",
             "AttackAnimationPoint": "0.3500",
             "AttackAcquisitionRange": "800",
@@ -9681,8 +9681,8 @@
             },
             "ArmorPhysical": "-1",
             "AttackCapabilities": "DOTA_UNIT_CAP_MELEE_ATTACK",
-            "AttackDamageMin": "28",
-            "AttackDamageMax": "32",
+            "AttackDamageMin": "25",
+            "AttackDamageMax": "29",
             "AttackRate": "1.700000",
             "BaseAttackSpeed": "100",
             "AttackAnimationPoint": "0.300000",
@@ -13628,7 +13628,7 @@
             "AttributePrimary": "DOTA_ATTRIBUTE_STRENGTH",
             "AttributeBaseStrength": "25",
             "AttributeStrengthGain": "2.400000",
-            "AttributeBaseAgility": "19",
+            "AttributeBaseAgility": "15",
             "AttributeAgilityGain": "1.900000",
             "AttributeBaseIntelligence": "15",
             "AttributeIntelligenceGain": "1.8000",
@@ -13826,7 +13826,7 @@
                     }
                 }
             },
-            "ArmorPhysical": "2",
+            "ArmorPhysical": "1",
             "AttackCapabilities": "DOTA_UNIT_CAP_MELEE_ATTACK",
             "AttackDamageMin": "33",
             "AttackDamageMax": "39",
@@ -15155,8 +15155,8 @@
             },
             "ArmorPhysical": "-1",
             "AttackCapabilities": "DOTA_UNIT_CAP_MELEE_ATTACK",
-            "AttackDamageMin": "29",
-            "AttackDamageMax": "35",
+            "AttackDamageMin": "27",
+            "AttackDamageMax": "33",
             "BaseAttackSpeed": "125",
             "AttackRate": "1.700000",
             "AttackAnimationPoint": "0.400000",
@@ -16907,7 +16907,7 @@
             "AttributeBaseStrength": "20",
             "AttributeStrengthGain": "1.900000",
             "AttributeBaseAgility": "20",
-            "AttributeAgilityGain": "2.200000",
+            "AttributeAgilityGain": "2",
             "AttributeBaseIntelligence": "23",
             "AttributeIntelligenceGain": "3.100000",
             "MovementSpeed": "285",
@@ -20396,17 +20396,17 @@
                     "SlotText": "#LoadoutSlot_Armor",
                     "TextureWidth": "512",
                     "TextureHeight": "512",
-                    "MaxPolygonsLOD0": "4000",
-                    "MaxPolygonsLOD1": "1600"
+                    "MaxPolygonsLOD0": "6000",
+                    "MaxPolygonsLOD1": "2400"
                 },
                 "2": {
                     "SlotIndex": "2",
                     "SlotName": "arms",
                     "SlotText": "#LoadoutSlot_Arms",
-                    "TextureWidth": "256",
+                    "TextureWidth": "512",
                     "TextureHeight": "256",
-                    "MaxPolygonsLOD0": "1500",
-                    "MaxPolygonsLOD1": "600"
+                    "MaxPolygonsLOD0": "3500",
+                    "MaxPolygonsLOD1": "1400"
                 },
                 "3": {
                     "SlotIndex": "3",
@@ -20429,9 +20429,9 @@
                     "no_import": "1",
                     "LoadoutPreviewMode": "transformation",
                     "TextureWidth": "1024",
-                    "TextureHeight": "512",
-                    "MaxPolygonsLOD0": "6000",
-                    "MaxPolygonsLOD1": "3700",
+                    "TextureHeight": "1024",
+                    "MaxPolygonsLOD0": "10000",
+                    "MaxPolygonsLOD1": "4000",
                     "MaxBonesLOD0": "62",
                     "MaxBonesLOD1": "62",
                     "DisplayInLoadout": "1"
@@ -23953,7 +23953,7 @@
             "AttributeAgilityGain": "1.5",
             "AttributeBaseIntelligence": "18",
             "AttributeIntelligenceGain": "2.0",
-            "StatusManaRegen": "0.25",
+            "StatusManaRegen": "0",
             "StatusHealthRegen": "1",
             "MovementSpeed": "325",
             "MovementTurnRate": "0.600000",
@@ -24544,7 +24544,7 @@
             "AttackRange": "150",
             "AttributePrimary": "DOTA_ATTRIBUTE_AGILITY",
             "AttributeBaseStrength": "22",
-            "AttributeStrengthGain": "2.6",
+            "AttributeStrengthGain": "2.3",
             "AttributeBaseAgility": "22",
             "AttributeAgilityGain": "3.2",
             "AttributeBaseIntelligence": "20",
@@ -24967,7 +24967,7 @@
                     "SlotText": "#LoadoutSlot_Weapon",
                     "TextureWidth": "512",
                     "TextureHeight": "512",
-                    "MaxPolygonsLOD0": "2000",
+                    "MaxPolygonsLOD0": "3000",
                     "MaxPolygonsLOD1": "1200"
                 },
                 "1": {
@@ -24976,17 +24976,17 @@
                     "SlotText": "#LoadoutSlot_Back",
                     "TextureWidth": "512",
                     "TextureHeight": "512",
-                    "MaxPolygonsLOD0": "3500",
-                    "MaxPolygonsLOD1": "1400"
+                    "MaxPolygonsLOD0": "4000",
+                    "MaxPolygonsLOD1": "1600"
                 },
                 "2": {
                     "SlotIndex": "2",
                     "SlotName": "armor",
                     "SlotText": "#LoadoutSlot_Armor",
                     "TextureWidth": "512",
-                    "TextureHeight": "256",
-                    "MaxPolygonsLOD0": "2500",
-                    "MaxPolygonsLOD1": "1000"
+                    "TextureHeight": "512",
+                    "MaxPolygonsLOD0": "6000",
+                    "MaxPolygonsLOD1": "2400"
                 },
                 "3": {
                     "SlotIndex": "3",
@@ -25005,8 +25005,8 @@
                     "LoadoutPreviewMode": "transformation",
                     "TextureWidth": "1024",
                     "TextureHeight": "1024",
-                    "MaxPolygonsLOD0": "6000",
-                    "MaxPolygonsLOD1": "3000"
+                    "MaxPolygonsLOD0": "10000",
+                    "MaxPolygonsLOD1": "4000"
                 },
                 "5": {
                     "SlotIndex": "5",
@@ -26657,7 +26657,7 @@
                     "GradientID": "1"
                 }
             },
-            "AbilityDraftIgnoreCount": "7",
+            "AbilityDraftIgnoreCount": "8",
             "ArmorPhysical": "2",
             "AttackCapabilities": "DOTA_UNIT_CAP_MELEE_ATTACK",
             "AttackDamageMin": "28",
@@ -29028,6 +29028,7 @@
             "Ability18": "special_bonus_unique_kez_mark_damage",
             "Ability19": "special_bonus_unique_kez_echo_slash_strike_count",
             "AbilityTalentStart": "12",
+            "AbilityDraftIgnoreCount": "11",
             "AbilityDraftAbilities": {
                 "Ability1": "kez_echo_slash,kez_falcon_rush_ad",
                 "Ability2": "kez_grappling_claw,kez_talon_toss_ad",
@@ -29043,7 +29044,12 @@
                 "kez_shadowhawk": {
                     "Icon": "kez_shadowhawk",
                     "Color": "Blue",
-                    "GradientID": "3"
+                    "GradientID": "3",
+                    "Abilities": {
+                        "Ability1": {
+                            "AbilityName": "kez_shadowhawk_passive"
+                        }
+                    }
                 }
             },
             "ArmorPhysical": "1",
@@ -29056,10 +29062,10 @@
             "AttackRange": "225",
             "AttributePrimary": "DOTA_ATTRIBUTE_AGILITY",
             "AttributeBaseStrength": "19",
-            "AttributeStrengthGain": "2.6",
+            "AttributeStrengthGain": "2.8",
             "AttributeBaseAgility": "27",
             "AttributeAgilityGain": "3.5",
-            "AttributeBaseIntelligence": "18",
+            "AttributeBaseIntelligence": "20",
             "AttributeIntelligenceGain": "1.7",
             "StatusHealthRegen": "1.0",
             "MovementSpeed": "315",
