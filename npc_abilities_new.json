@@ -115,17 +115,13 @@
                     "value": "0"
                 },
                 "mana_drain_percent": {
-                    "RequiresFacet": "antimage_magebanes_mirror",
-                    "value": "0",
                     "special_bonus_facet_antimage_magebanes_mirror": "=150 =190 =230 =270"
                 },
                 "damage_from_mana_drain_percent": {
-                    "RequiresFacet": "antimage_magebanes_mirror",
-                    "value": "100"
+                    "special_bonus_facet_antimage_magebanes_mirror": "100"
                 },
                 "max_damage_from_mana_drain": {
-                    "RequiresFacet": "antimage_magebanes_mirror",
-                    "value": "400"
+                    "special_bonus_facet_antimage_magebanes_mirror": "400"
                 },
                 "AbilityCooldown": {
                     "value": "15 11 7 3"
@@ -160,17 +156,13 @@
                     "value": "0"
                 },
                 "mana_drain_percent": {
-                    "RequiresFacet": "antimage_magebanes_mirror",
-                    "value": "0",
                     "special_bonus_facet_antimage_magebanes_mirror": "=270"
                 },
                 "damage_from_mana_drain_percent": {
-                    "RequiresFacet": "antimage_magebanes_mirror",
-                    "value": "100"
+                    "special_bonus_facet_antimage_magebanes_mirror": "100"
                 },
                 "max_damage_from_mana_drain": {
-                    "RequiresFacet": "antimage_magebanes_mirror",
-                    "value": "400"
+                    "special_bonus_facet_antimage_magebanes_mirror": "400"
                 }
             },
             "AbilityCastAnimation": "ACT_DOTA_CAST_ABILITY_3",
@@ -232,14 +224,12 @@
                     "special_bonus_facet_antimage_mana_thirst": "+15"
                 },
                 "bonus_attack_damage": {
-                    "value": "20 45 70",
-                    "RequiresFacet": "antimage_mana_thirst",
+                    "special_bonus_facet_antimage_mana_thirst": "20 45 70",
                     "CalculateSpellDamageTooltip": "0",
                     "DamageTypeTooltip": "DAMAGE_TYPE_PHYSICAL"
                 },
                 "linger_duration": {
-                    "value": "4.0",
-                    "RequiresFacet": "antimage_mana_thirst"
+                    "special_bonus_facet_antimage_mana_thirst": "4.0"
                 }
             }
         },
@@ -1133,29 +1123,21 @@
                 },
                 "frostbite_delay": {
                     "value": "-1",
-                    "special_bonus_scepter": "+3.5",
-                    "RequiresScepter": "1"
+                    "special_bonus_scepter": "+3.5"
                 },
                 "shard_bonus_explosion": {
-                    "shard_bonus_explosion": "0",
-                    "special_bonus_scepter": "+20",
-                    "RequiresShard": "1"
+                    "special_bonus_scepter": "+20"
                 },
                 "shard_self_movement_speed_slow_pct": {
-                    "value": "0",
-                    "special_bonus_scepter": "-75",
-                    "RequiresScepter": "1"
+                    "special_bonus_scepter": "-75"
                 },
                 "can_move": {
-                    "value": "0",
                     "special_bonus_scepter": "+1"
                 },
                 "self_cast_range_bonus": {
-                    "value": "0",
                     "special_bonus_facet_crystal_maiden_frozen_expanse": "75 100 125"
                 },
                 "aoe_bonus": {
-                    "value": "0",
                     "special_bonus_facet_crystal_maiden_frozen_expanse": "6 8 10"
                 }
             }
@@ -1256,46 +1238,30 @@
                     "CalculateSpellDamageTooltip": "0"
                 },
                 "shard_regen_reduction_pct_per_stack": {
-                    "value": "0",
-                    "special_bonus_scepter": "+10",
-                    "RequiresScepter": "1"
+                    "special_bonus_scepter": "+10"
                 },
                 "shard_bonus_damage_per_stack": {
-                    "value": "0",
-                    "special_bonus_scepter": "+18",
-                    "RequiresScepter": "1"
+                    "special_bonus_scepter": "+18"
                 },
                 "shard_stack_duration": {
-                    "value": "0",
-                    "special_bonus_scepter": "+7.0",
-                    "RequiresScepter": "1"
+                    "special_bonus_scepter": "+7.0"
                 },
                 "shard_burst_radius": {
-                    "value": "0",
                     "special_bonus_scepter": "+650",
-                    "RequiresScepter": "1",
                     "affected_by_aoe_increase": "1"
                 },
                 "shard_burst_damage_per_stack": {
-                    "value": "0",
                     "special_bonus_scepter": "+60",
-                    "DamageTypeTooltip": "DAMAGE_TYPE_MAGICAL",
-                    "RequiresScepter": "1"
+                    "DamageTypeTooltip": "DAMAGE_TYPE_MAGICAL"
                 },
                 "shard_burst_move_slow_pct": {
-                    "value": "0",
-                    "special_bonus_scepter": "+40",
-                    "RequiresScepter": "1"
+                    "special_bonus_scepter": "+40"
                 },
                 "shard_burst_slow_duration": {
-                    "value": "0",
-                    "special_bonus_scepter": "+2.0",
-                    "RequiresScepter": "1"
+                    "special_bonus_scepter": "+2.0"
                 },
                 "shard_max_stacks": {
-                    "value": "0",
-                    "special_bonus_scepter": "+9",
-                    "RequiresScepter": "1"
+                    "special_bonus_scepter": "+9"
                 }
             },
             "AbilityCastAnimation": "ACT_DOTA_CAST_ABILITY_1"
@@ -1541,22 +1507,16 @@
                 },
                 "AbilityCooldown": {
                     "value": "18 17 16 15",
-                    "special_bonus_shard": "-2",
-                    "RequiresShard": "1"
+                    "special_bonus_shard": "-2"
                 },
                 "shard_aftershock_stun_duration_pct": {
-                    "value": "0",
-                    "special_bonus_shard": "=50",
-                    "RequiresShard": "1"
+                    "special_bonus_shard": "=50"
                 },
                 "free_pathing_linger_duration": {
-                    "value": "0.0",
-                    "special_bonus_shard": "=1.0",
-                    "RequiresShard": "1"
+                    "special_bonus_shard": "=1.0"
                 },
                 "free_pathing_application_radius": "150",
                 "fissure_movement_speed": {
-                    "value": "0",
                     "special_bonus_facet_earthshaker_fissuresplit": "+100"
                 },
                 "fissure_max_distance_moved": "300"
@@ -1583,8 +1543,7 @@
                     "special_bonus_unique_earthshaker_totem_damage": "+50"
                 },
                 "distance_scepter": {
-                    "value": "950",
-                    "RequiresScepter": "1"
+                    "special_bonus_scepter": "950"
                 },
                 "AbilityCooldown": {
                     "value": "5.0",
@@ -1596,22 +1555,18 @@
                 "scepter_acceleration_horizontal": "3000",
                 "scepter_leap_duration": "0.8",
                 "scepter_cleave_pct": {
-                    "value": "40",
-                    "RequiresScepter": "1"
+                    "special_bonus_scepter": "40"
                 },
                 "scepter_cleave_starting_width": {
-                    "value": "150",
-                    "RequiresScepter": "1",
+                    "special_bonus_scepter": "150",
                     "affected_by_aoe_increase": "1"
                 },
                 "scepter_cleave_ending_width": {
-                    "value": "360",
-                    "RequiresScepter": "1",
+                    "special_bonus_scepter": "360",
                     "affected_by_aoe_increase": "1"
                 },
                 "scepter_cleave_distance": {
-                    "value": "650",
-                    "RequiresScepter": "1",
+                    "special_bonus_scepter": "650",
                     "affected_by_aoe_increase": "1"
                 },
                 "bonus_attack_range": "100"
@@ -1890,7 +1845,6 @@
                     "special_bonus_unique_juggernaut_omnislash_duration": "+1"
                 },
                 "omni_slash_radius": {
-                    "affected_by_aoe_increase": "1",
                     "value": "425"
                 },
                 "AbilityCastRange": {
@@ -2041,20 +1995,16 @@
                     "affected_by_aoe_increase": "1"
                 },
                 "scepter_radius": {
-                    "value": "500",
-                    "RequiresScepter": "1",
+                    "special_bonus_scepter": "500",
                     "affected_by_aoe_increase": "1"
                 },
                 "scepter_starstorm_target_pct": {
-                    "value": "80",
-                    "RequiresScepter": "1"
+                    "special_bonus_scepter": "80"
                 },
                 "extra_arrows": {
-                    "value": "0",
                     "special_bonus_unique_mirana_2": "+2"
                 },
                 "extra_arrows_angle": {
-                    "value": "0",
                     "special_bonus_unique_mirana_2": "+25"
                 }
             },
@@ -2419,20 +2369,16 @@
                 "necromastery_soul_release": "0.7",
                 "attack_range_bonus": "0",
                 "shard_souls_per_kill": {
-                    "value": "2",
-                    "RequiresShard": "1"
+                    "special_bonus_shard": "2"
                 },
                 "shard_crit_pct": {
-                    "value": "190",
-                    "RequiresShard": "1"
+                    "special_bonus_shard": "190"
                 },
                 "shard_fear_duration": {
-                    "value": "0.4",
-                    "RequiresShard": "1"
+                    "special_bonus_shard": "0.4"
                 },
                 "soul_release_tooltip": "30.0",
                 "max_soul_increase_on_hero_kill": {
-                    "value": "0",
                     "special_bonus_facet_nevermore_lasting_presence": "1"
                 }
             }
@@ -2531,12 +2477,10 @@
                 "requiem_line_speed": "700 700 700",
                 "soul_death_release": "0.5",
                 "requiem_heal_pct_scepter": {
-                    "value": "100",
-                    "RequiresScepter": "1"
+                    "special_bonus_scepter": "100"
                 },
                 "requiem_damage_pct_scepter": {
-                    "value": "60",
-                    "RequiresScepter": "1",
+                    "special_bonus_scepter": "60",
                     "CalculateSpellDamageTooltip": "0"
                 }
             }
@@ -2761,36 +2705,28 @@
                     "special_bonus_unique_morphling_8": "+12"
                 },
                 "scepter_stat_steal": {
-                    "value": "20",
-                    "RequiresScepter": "1"
+                    "special_bonus_scepter": "20"
                 },
                 "scepter_spell_amplify": {
-                    "value": "25",
-                    "RequiresScepter": "1"
+                    "special_bonus_scepter": "25"
                 },
                 "scepter_attack_speed": {
-                    "value": "70",
-                    "RequiresScepter": "1"
+                    "special_bonus_scepter": "70"
                 },
                 "scepter_status_resist": {
-                    "value": "40",
-                    "RequiresScepter": "1"
+                    "special_bonus_scepter": "40"
                 },
                 "scepter_additional_stats": {
-                    "value": "20",
-                    "RequiresScepter": "1"
+                    "special_bonus_scepter": "20"
                 },
                 "scepter_cooldown_reduction": {
-                    "value": "0",
-                    "RequiresScepter": "1"
+                    "special_bonus_scepter": "0"
                 },
                 "scepter_illusion_outgoing": {
-                    "value": "100",
-                    "RequiresScepter": "1"
+                    "special_bonus_scepter": "100"
                 },
                 "scepter_illusion_incoming": {
-                    "value": "300",
-                    "RequiresScepter": "1"
+                    "special_bonus_scepter": "300"
                 }
             }
         },
@@ -2916,20 +2852,16 @@
                 "tooltip_illusion_total_damage_in_pct": "400 400 400 400",
                 "fake_lance_distance": "675",
                 "scepter_bounce_radius": {
-                    "value": "750",
-                    "RequiresScepter": "1",
+                    "special_bonus_scepter": "750",
                     "affected_by_aoe_increase": "1"
                 },
                 "scepter_bonus_illusion_damage": {
-                    "value": "30",
-                    "RequiresScepter": "1"
+                    "special_bonus_scepter": "30"
                 },
                 "scepter_total_hits": {
-                    "value": "1",
-                    "RequiresScepter": "1"
+                    "special_bonus_scepter": "1"
                 },
                 "illusion_lance_damage_pct": {
-                    "value": "0",
                     "special_bonus_facet_phantom_lancer_lancelot": "+25"
                 }
             },
@@ -3006,25 +2938,19 @@
                 },
                 "illusion_from_illusion_duration": "4",
                 "shard_bonus_illusions": {
-                    "value": "0",
-                    "RequiresShard": "1"
+                    "special_bonus_shard": "0"
                 },
                 "invis_duration": {
-                    "value": "8",
-                    "RequiresScepter": "1"
+                    "special_bonus_shard": "8"
                 },
                 "invis_movespeed": {
-                    "value": "15",
-                    "RequiresScepter": "1"
+                    "special_bonus_shard": "15"
                 },
                 "uncontrollable_illusions": {
-                    "value": "0",
                     "special_bonus_facet_phantom_lancer_divergence": "+1"
                 },
                 "new_target_radius": {
-                    "value": "0",
-                    "special_bonus_facet_phantom_lancer_divergence": "+700",
-                    "RequiresFacet": "2"
+                    "special_bonus_facet_phantom_lancer_divergence": "+700"
                 }
             }
         },
@@ -3244,26 +3170,18 @@
                     "special_bonus_facet_puck_jostling_rift": "=1"
                 },
                 "knock_distance": {
-                    "value": "0",
                     "affected_by_aoe_increase": "1",
-                    "special_bonus_facet_puck_jostling_rift": "+75 +100 +125 +150",
-                    "RequiresFacet": "puck_jostling_rift"
+                    "special_bonus_facet_puck_jostling_rift": "+75 +100 +125 +150"
                 },
                 "knock_duration": {
-                    "value": "0",
-                    "special_bonus_facet_puck_jostling_rift": "0.3",
-                    "RequiresFacet": "puck_jostling_rift"
+                    "special_bonus_facet_puck_jostling_rift": "0.3"
                 },
                 "pull_distance": {
-                    "value": "0",
                     "affected_by_aoe_increase": "1",
-                    "special_bonus_facet_puck_jostling_rift": "+75 +100 +125 +150",
-                    "RequiresFacet": "puck_jostling_rift"
+                    "special_bonus_facet_puck_jostling_rift": "+75 +100 +125 +150"
                 },
                 "pull_duration": {
-                    "value": "0",
-                    "special_bonus_facet_puck_jostling_rift": "0.3",
-                    "RequiresFacet": "puck_jostling_rift"
+                    "special_bonus_facet_puck_jostling_rift": "0.3"
                 }
             },
             "AbilityCastAnimation": "ACT_DOTA_CAST_ABILITY_2"
@@ -3278,12 +3196,10 @@
             "AbilityValues": {
                 "duration": "1 1.75 2.5 3.25",
                 "shard_attack_range_bonus": {
-                    "RequiresShard": "1",
-                    "value": "0"
+                    "special_bonus_shard": "0"
                 },
                 "shard_bonus_damage": {
-                    "RequiresShard": "1",
-                    "value": "35"
+                    "special_bonus_shard": "35"
                 },
                 "AbilityCooldown": {
                     "value": "8 7.5 7 6.5"
@@ -3479,33 +3395,26 @@
                     "special_bonus_scepter": "+90"
                 },
                 "scepter_rot_regen_reduction_pct": {
-                    "value": "20",
-                    "RequiresScepter": "1"
+                    "special_bonus_scepter": "20"
                 },
                 "attack_damage_per_stack": {
-                    "value": "0",
                     "special_bonus_facet_pudge_rotten_core": "0.8 1.6 2.4 3.2"
                 },
                 "max_total_stacks": {
-                    "value": "0",
                     "special_bonus_facet_pudge_rotten_core": "=25"
                 },
                 "stacks_decrement_per_rot_off_tick": {
-                    "value": "0",
                     "special_bonus_facet_pudge_rotten_core": "=5"
                 },
                 "attack_damage_per_second_tooltip": {
-                    "value": "0",
                     "special_bonus_facet_pudge_rotten_core": "4 8 12 16"
                 },
                 "max_bonus_damage_tooltip": {
-                    "value": "0",
                     "special_bonus_facet_pudge_rotten_core": "20 40 60 80",
                     "CalculateSpellDamageTooltip": "0",
                     "DamageTypeTooltip": "DAMAGE_TYPE_PHYSICAL"
                 },
                 "time_for_max_stacks_tooltip": {
-                    "value": "0",
                     "special_bonus_facet_pudge_rotten_core": "=5.0"
                 },
                 "time_for_decay_tooltip": {
@@ -3564,23 +3473,18 @@
                     "value": "30 25 20"
                 },
                 "shard_regen_pct": {
-                    "value": "5",
-                    "RequiresShard": "1"
+                    "special_bonus_shard": "5"
                 },
                 "order_lock_duration": {
-                    "value": "2.75",
-                    "RequiresShard": "1"
+                    "special_bonus_shard": "2.75"
                 },
                 "shard_cast_range": {
-                    "value": "300",
-                    "RequiresShard": "1"
+                    "special_bonus_shard": "300"
                 },
                 "gluttony_strength_bonus": {
-                    "value": "0",
                     "special_bonus_facet_pudge_fresh_meat": "2 4 6"
                 },
                 "glutton_strength_stack_duration": {
-                    "value": "0",
                     "special_bonus_facet_pudge_fresh_meat": "12"
                 }
             }
@@ -3899,8 +3803,7 @@
                     "special_bonus_unique_sand_king_8": "+150"
                 },
                 "burrow_speed_scepter": {
-                    "value": "3000",
-                    "RequiresScepter": "1"
+                    "special_bonus_scepter": "3000"
                 },
                 "scepter_channel_time": "2",
                 "scepter_max_power": "2"
@@ -4029,26 +3932,21 @@
                     "value": "-50 -55 -60"
                 },
                 "shard_radius": {
-                    "value": "425",
+                    "special_bonus_shard": "425",
                     "special_bonus_unique_sand_king_5": "+100",
-                    "RequiresShard": "1",
                     "affected_by_aoe_increase": "1"
                 },
                 "shard_interval": {
-                    "value": "3.5",
-                    "RequiresShard": "1"
+                    "special_bonus_shard": "3.5"
                 },
                 "linger_duration": "3.0",
                 "scepter_explosion_radius_pct": {
-                    "value": "0",
                     "special_bonus_scepter": "+15"
                 },
                 "scepter_explosion_min_dist": {
-                    "value": "0",
                     "special_bonus_scepter": "+120"
                 },
                 "scepter_explosions_per_pulse": {
-                    "value": "0",
                     "special_bonus_scepter": "+3"
                 },
                 "spine_tick_rate": {
@@ -4058,7 +3956,6 @@
                     "special_bonus_scepter": "=50"
                 },
                 "shard_explosions_per_pulse": {
-                    "value": "0",
                     "special_bonus_scepter": "+1"
                 }
             }
@@ -4255,12 +4152,10 @@
                     "special_bonus_unique_storm_spirit": "+0.2"
                 },
                 "radius_scepter": {
-                    "value": "475",
-                    "RequiresScepter": "1",
+                    "special_bonus_scepter": "475",
                     "affected_by_aoe_increase": "1"
                 },
                 "enemy_overload_duration": {
-                    "value": "0",
                     "special_bonus_facet_storm_spirit_shock_collar": "=5"
                 }
             },
@@ -4293,29 +4188,23 @@
                     "value": "25 50 75 100"
                 },
                 "shard_activation_radius": {
-                    "value": "750",
-                    "affected_by_aoe_increase": "1",
-                    "RequiresShard": "1"
+                    "special_bonus_shard": "750",
+                    "affected_by_aoe_increase": "1"
                 },
                 "shard_activation_charges": {
-                    "value": "3",
-                    "RequiresShard": "1"
+                    "special_bonus_shard": "3"
                 },
                 "shard_activation_duration": {
-                    "value": "12",
-                    "RequiresShard": "1"
+                    "special_bonus_shard": "12"
                 },
                 "shard_manacost": {
-                    "value": "150",
-                    "RequiresShard": "1"
+                    "special_bonus_shard": "150"
                 },
                 "shard_cooldown": {
-                    "value": "30",
-                    "RequiresShard": "1"
+                    "special_bonus_shard": "30"
                 },
                 "shard_attack_speed_bonus": {
-                    "value": "40",
-                    "RequiresShard": "1"
+                    "special_bonus_shard": "40"
                 },
                 "overload_cast_range": {
                     "value": "0"
@@ -4449,8 +4338,7 @@
                     "affected_by_aoe_increase": "1"
                 },
                 "cast_range_bonus_scepter": {
-                    "value": "350",
-                    "RequiresScepter": "1"
+                    "special_bonus_scepter": "350"
                 },
                 "scepter_bonus_damage": "180"
             },
@@ -4511,27 +4399,20 @@
                     "special_bonus_unique_sven_5": "+5"
                 },
                 "shard_passive_armor": {
-                    "value": "6",
-                    "RequiresShard": "1"
+                    "special_bonus_shard": "6"
                 },
                 "shard_passive_movespeed": {
-                    "value": "0",
-                    "RequiresShard": "1"
+                    "special_bonus_shard": "0"
                 },
                 "shard_radius": {
-                    "value": "1200",
-                    "RequiresShard": "1",
+                    "special_bonus_shard": "1200",
                     "affected_by_aoe_increase": "1"
                 },
                 "base_barrier_amount": {
-                    "value": "0",
-                    "special_bonus_facet_sven_heavy_plate": "=70 =140 =210 =280",
-                    "RequiresFacet": "sven_heavy_plate"
+                    "special_bonus_facet_sven_heavy_plate": "=70 =140 =210 =280"
                 },
                 "barrier_per_strength": {
-                    "value": "0",
-                    "special_bonus_facet_sven_heavy_plate": "=0",
-                    "RequiresFacet": "sven_heavy_plate"
+                    "special_bonus_facet_sven_heavy_plate": "=0"
                 }
             }
         },
@@ -4685,11 +4566,11 @@
                 },
                 "land_movement_slow": {
                     "value": "0",
-                    "special_bonus_facet_tiny_crash_landing": "15 20 25 30"
+                    "special_bonus_facet_tiny_crash_landing": "20 25 30 35"
                 },
                 "land_attack_slow": {
                     "value": "0",
-                    "special_bonus_facet_tiny_crash_landing": "10 20 30 40"
+                    "special_bonus_facet_tiny_crash_landing": "15 25 35 45"
                 },
                 "bonus_land_damage_pct": {
                     "value": "0",
@@ -4829,7 +4710,7 @@
             "AbilityValues": {
                 "bonus_armor": "5 10 15",
                 "bonus_damage": {
-                    "value": "60 120 180",
+                    "value": "55 110 165",
                     "CalculateSpellDamageTooltip": "0"
                 },
                 "attack_speed_reduction": {
@@ -4840,7 +4721,7 @@
                     "value": "50 175 300",
                     "DamageTypeTooltip": "DAMAGE_TYPE_MAGICAL"
                 },
-                "move_speed": "10 20 30"
+                "move_speed": "15"
             }
         },
         "special_bonus_unique_tiny": {
@@ -4961,16 +4842,13 @@
                     "affected_by_aoe_increase": "1"
                 },
                 "scepter_illusion_damage_out_pct": {
-                    "value": "100",
-                    "RequiresScepter": "1"
+                    "special_bonus_scepter": "100"
                 },
                 "scepter_illusion_damage_in_pct": {
-                    "value": "100",
-                    "RequiresScepter": "1"
+                    "special_bonus_scepter": "100"
                 },
                 "scepter_illusion_ms_bonus_pct": {
-                    "value": "0",
-                    "RequiresScepter": "1"
+                    "special_bonus_scepter": "0"
                 }
             }
         },
@@ -5259,19 +5137,15 @@
                     "affected_by_aoe_increase": "1"
                 },
                 "scepter_movespeed_bonus_pct": {
-                    "RequiresScepter": "1",
-                    "value": "0"
+                    "special_bonus_scepter": "0"
                 },
                 "physical_damage_pct": {
-                    "value": "0",
                     "special_bonus_scepter": "-45"
                 },
                 "cannot_be_dispelled": {
-                    "value": "0",
                     "special_bonus_unique_windranger_windrun_undispellable": "+1"
                 },
                 "ally_movespeed_bonus_pct": {
-                    "value": "0",
                     "special_bonus_facet_windrunner_tailwind": "=15"
                 },
                 "duration": "3 4 5 6"
@@ -5322,12 +5196,11 @@
                     "special_bonus_facet_windrunner_whirlwind": "=1"
                 },
                 "duration_increase_per_kill": {
-                    "value": "0",
-                    "special_bonus_unique_windranger_2": "+2",
-                    "RequiresFacet": "windrunner_whirlwind"
+                    "special_bonus_facet_windrunner_whirlwind": {
+                        "special_bonus_unique_windranger_2": "+2"
+                    }
                 },
                 "cooldown_reduction_per_kill": {
-                    "value": "0",
                     "special_bonus_unique_windranger_2": "+18"
                 },
                 "bonus_range": {
@@ -5570,16 +5443,16 @@
                     "special_bonus_facet_zuus_livewire": "=0"
                 },
                 "damage_health_pct_max_close": {
-                    "value": "0",
-                    "special_bonus_facet_zuus_livewire": "=5 =6 =7 =8",
-                    "special_bonus_unique_zeus_static_field_dmg": "+1",
-                    "RequiresFacet": "zuus_livewire"
+                    "special_bonus_facet_zuus_livewire": {
+                        "value": "=5 =6 =7 =8",
+                        "special_bonus_unique_zeus_static_field_dmg": "+1"
+                    }
                 },
                 "damage_health_pct_min_close": {
-                    "value": "0",
-                    "special_bonus_facet_zuus_livewire": "=2.5 =3.0 =3.5 =4.0",
-                    "special_bonus_unique_zeus_static_field_dmg": "+1",
-                    "RequiresFacet": "zuus_livewire"
+                    "special_bonus_facet_zuus_livewire": {
+                        "value": "=2.5 =3.0 =3.5 =4.0",
+                        "special_bonus_unique_zeus_static_field_dmg": "+1"
+                    }
                 },
                 "distance_threshold_min": {
                     "value": "0",
@@ -5779,20 +5652,16 @@
             "AbilityManaCost": "275",
             "AbilityValues": {
                 "torrent_interval": {
-                    "value": "0.25",
-                    "RequiresScepter": "1"
+                    "special_bonus_scepter": "0.25"
                 },
                 "torrent_duration": {
-                    "value": "4.0",
-                    "RequiresScepter": "1"
+                    "special_bonus_scepter": "4.0"
                 },
                 "torrent_min_distance": {
-                    "value": "115",
-                    "RequiresScepter": "1"
+                    "special_bonus_scepter": "115"
                 },
                 "torrent_max_distance": {
-                    "value": "1100",
-                    "RequiresScepter": "1",
+                    "special_bonus_scepter": "1100",
                     "affected_by_aoe_increase": "1"
                 }
             }
@@ -5820,7 +5689,7 @@
                     "affected_by_aoe_increase": "1"
                 },
                 "damage_bonus": {
-                    "value": "30 60 90 120",
+                    "value": "35 70 105 140",
                     "special_bonus_unique_kunkka_2": "+70"
                 },
                 "cleave_damage": {
@@ -6093,7 +5962,7 @@
             "AbilityCastRange": "700",
             "AbilityCastPoint": "0.45 0.45 0.45 0.45",
             "AbilityCooldown": "13 11 9 7",
-            "AbilityManaCost": "100 115 130 145",
+            "AbilityManaCost": "100 110 120 130",
             "AbilityValues": {
                 "light_strike_array_aoe": {
                     "value": "250",
@@ -6220,9 +6089,7 @@
                     "value": "0"
                 },
                 "supercharge_duration": {
-                    "value": "0",
-                    "special_bonus_facet_lina_supercharge": "+5",
-                    "RequiresFacet": "lina_supercharge"
+                    "special_bonus_facet_lina_supercharge": "+5"
                 },
                 "supercharge_stacks": {
                     "value": "0 0 0",
@@ -6741,16 +6608,12 @@
                 },
                 "movespeed_bonus_when_empty_pct": "15",
                 "shard_bonus_targets": {
-                    "value": "2",
-                    "RequiresShard": "1"
+                    "special_bonus_shard": "2"
                 },
                 "damage_pct": {
-                    "value": "0",
-                    "special_bonus_facet_lion_essence_eater": "+100",
-                    "RequiresFacet": "lion_essence_eater"
+                    "special_bonus_facet_lion_essence_eater": "+100"
                 },
                 "magic_resist": {
-                    "value": "0",
                     "special_bonus_shard": "+60"
                 },
                 "ally_pct": "50"
@@ -6789,61 +6652,41 @@
                     "CalculateSpellDamageTooltip": "0"
                 },
                 "cooldown_scepter": {
-                    "value": "80.0 50.0 20.0",
-                    "RequiresScepter": "1"
+                    "special_bonus_scepter": "80.0 50.0 20.0"
                 },
                 "splash_radius_scepter": {
-                    "value": "325",
-                    "RequiresScepter": "1",
+                    "special_bonus_scepter": "325",
                     "affected_by_aoe_increase": "1"
                 },
                 "punch_duration": {
-                    "value": "0",
-                    "special_bonus_facet_lion_fist_of_death": "+20",
-                    "RequiresFacet": "lion_fist_of_death"
+                    "special_bonus_facet_lion_fist_of_death": "+20"
                 },
                 "punch_attack_range": {
-                    "value": "0",
-                    "special_bonus_facet_lion_fist_of_death": "=250",
-                    "RequiresFacet": "lion_fist_of_death"
+                    "special_bonus_facet_lion_fist_of_death": "=250"
                 },
                 "punch_bonus_damage_base": {
-                    "value": "0",
-                    "special_bonus_facet_lion_fist_of_death": "+40",
-                    "RequiresFacet": "lion_fist_of_death"
+                    "special_bonus_facet_lion_fist_of_death": "+40"
                 },
                 "punch_bonus_damage_per_stack": {
-                    "value": "0",
-                    "special_bonus_facet_lion_fist_of_death": "+30",
-                    "RequiresFacet": "lion_fist_of_death"
+                    "special_bonus_facet_lion_fist_of_death": "+30"
                 },
                 "punch_grace_period": {
-                    "value": "0",
-                    "special_bonus_facet_lion_fist_of_death": "+3",
-                    "RequiresFacet": "lion_fist_of_death"
+                    "special_bonus_facet_lion_fist_of_death": "+3"
                 },
                 "cleave_starting_width": {
-                    "value": "0",
                     "special_bonus_facet_lion_fist_of_death": "+150",
-                    "affected_by_aoe_increase": "1",
-                    "RequiresFacet": "lion_fist_of_death"
+                    "affected_by_aoe_increase": "1"
                 },
                 "cleave_ending_width": {
-                    "value": "0",
                     "special_bonus_facet_lion_fist_of_death": "+360",
-                    "affected_by_aoe_increase": "1",
-                    "RequiresFacet": "lion_fist_of_death"
+                    "affected_by_aoe_increase": "1"
                 },
                 "cleave_distance": {
-                    "value": "0",
                     "special_bonus_facet_lion_fist_of_death": "+650",
-                    "affected_by_aoe_increase": "1",
-                    "RequiresFacet": "lion_fist_of_death"
+                    "affected_by_aoe_increase": "1"
                 },
                 "cleave_damage": {
-                    "value": "0",
                     "special_bonus_facet_lion_fist_of_death": "+50",
-                    "RequiresFacet": "lion_fist_of_death",
                     "CalculateSpellDamageTooltip": "0",
                     "DamageTypeTooltip": "DAMAGE_TYPE_NONE"
                 }
@@ -7233,8 +7076,7 @@
                     "special_bonus_scepter": "+11"
                 },
                 "puddle_status_resistance": {
-                    "value": "40",
-                    "RequiresScepter": "1"
+                    "special_bonus_scepter": "40"
                 },
                 "river_damage": {
                     "value": "8 16 24 32",
@@ -7261,9 +7103,7 @@
                     "special_bonus_unique_slardar_7": "+2"
                 },
                 "speed_burst_percent": {
-                    "value": "0",
-                    "special_bonus_facet_slardar_leg_day": "+8",
-                    "RequiresFacet": "slardar_leg_day"
+                    "special_bonus_facet_slardar_leg_day": "+8"
                 },
                 "speed_burst_duration": {
                     "value": "0",
@@ -7333,12 +7173,10 @@
                     "special_bonus_unique_slardar": "+125"
                 },
                 "shard_amp_duration": {
-                    "value": "5.0",
-                    "RequiresShard": "1"
+                    "special_bonus_shard": "5.0"
                 },
                 "shard_bonus_radius": {
-                    "value": "0",
-                    "RequiresShard": "1"
+                    "special_bonus_shard": "0"
                 }
             },
             "AbilityCastAnimation": "ACT_DOTA_CAST_ABILITY_2"
@@ -7481,21 +7319,17 @@
                     "special_bonus_unique_tidehunter": "+4"
                 },
                 "speed_scepter": {
-                    "value": "1500",
-                    "RequiresScepter": "1"
+                    "special_bonus_scepter": "1500"
                 },
                 "aoe_scepter": {
-                    "value": "260",
-                    "affected_by_aoe_increase": "1",
-                    "RequiresScepter": "1"
+                    "special_bonus_scepter": "260",
+                    "affected_by_aoe_increase": "1"
                 },
                 "cooldown_scepter": {
-                    "value": "7",
-                    "RequiresScepter": "1"
+                    "special_bonus_scepter": "7"
                 },
                 "cast_range_scepter": {
-                    "value": "2200",
-                    "RequiresScepter": "1"
+                    "special_bonus_scepter": "2200"
                 }
             },
             "AbilityCastAnimation": "ACT_DOTA_CAST_ABILITY_1"
@@ -7625,7 +7459,7 @@
             "AbilityCastPoint": "0.3",
             "AbilityCastAnimation": "ACT_DOTA_CAST_ABILITY_5",
             "AbilityCastGestureSlot": "DEFAULT",
-            "AbilityCooldown": "25",
+            "AbilityCooldown": "35",
             "AbilityDamage": "100",
             "AbilityManaCost": "110",
             "AbilityValues": {
@@ -7643,9 +7477,9 @@
             "AbilityValues": {
                 "model_scale_base": "-25",
                 "model_scale_per_level": "3",
-                "attack_range_base": "-50",
+                "attack_range_base": "-60",
                 "attack_range_per_level": "5",
-                "anchor_smash_radius_base": "-50",
+                "anchor_smash_radius_base": "-60",
                 "anchor_smash_radius_per_level": "5",
                 "health_bar_offset_base": "160",
                 "health_bar_offset_per_level": "5",
@@ -7748,10 +7582,8 @@
                 "speed": "1200",
                 "bounce_delay": "0.1",
                 "bounce_bonus_damage": {
-                    "value": "0",
                     "CalculateSpellDamageTooltip": "1",
-                    "special_bonus_facet_witch_doctor_headhunter": "+30",
-                    "RequiresFacet": "witch_doctor_headhunter"
+                    "special_bonus_facet_witch_doctor_headhunter": "+30"
                 },
                 "creep_damage_pct": "150"
             },
@@ -7868,13 +7700,11 @@
                     "special_bonus_unique_witch_doctor_1": "+75"
                 },
                 "bounce_radius": {
-                    "value": "650 650 650",
-                    "RequiresScepter": "1",
+                    "special_bonus_scepter": "650 650 650",
                     "affected_by_aoe_increase": "1"
                 },
                 "scepter_lifesteal": {
-                    "value": "10",
-                    "RequiresScepter": "1"
+                    "special_bonus_scepter": "10"
                 },
                 "bonus_accuracy": "50",
                 "initial_target_count": {
@@ -7882,7 +7712,6 @@
                     "special_bonus_facet_witch_doctor_cleft_death": "+1"
                 },
                 "secondary_attack_damage_pct": {
-                    "value": "0",
                     "special_bonus_facet_witch_doctor_cleft_death": "=65"
                 }
             }
@@ -8129,19 +7958,15 @@
                     "special_bonus_unique_riki_2": "+50"
                 },
                 "scepter_duration": {
-                    "value": "2",
-                    "RequiresScepter": "1"
+                    "special_bonus_scepter": "2"
                 },
                 "scepter_attacks": {
-                    "value": "5",
-                    "RequiresScepter": "1"
+                    "special_bonus_scepter": "5"
                 },
                 "scepter_cast_range": {
-                    "value": "700",
-                    "RequiresScepter": "1"
+                    "special_bonus_scepter": "700"
                 },
                 "dispel": {
-                    "value": "0",
                     "special_bonus_unique_riki_5": "+1"
                 },
                 "creep_agility_multiplier": {
@@ -8149,7 +7974,6 @@
                     "special_bonus_facet_riki_exterminator": "=4.5"
                 },
                 "cooldown_reduction_per_creep_kill": {
-                    "value": "0",
                     "special_bonus_facet_riki_exterminator": "=0.75"
                 }
             }
@@ -8343,21 +8167,17 @@
                 "pull_rotate_speed": "0.25",
                 "animation_rate": "0.2",
                 "scepter_pct_damage": {
-                    "value": "4",
-                    "RequiresScepter": "1"
+                    "special_bonus_scepter": "4"
                 },
                 "scepter_radius": {
-                    "value": "1200",
-                    "RequiresScepter": "1",
+                    "special_bonus_scepter": "1200",
                     "affected_by_aoe_increase": "1"
                 },
                 "scepter_drag_speed": {
-                    "value": "175",
-                    "RequiresScepter": "1"
+                    "special_bonus_scepter": "175"
                 },
                 "scepter_pull_rotate_speed": {
-                    "value": "0.1",
-                    "RequiresScepter": "1"
+                    "special_bonus_scepter": "0.1"
                 }
             }
         },
@@ -8452,11 +8272,11 @@
             "AbilityCastPoint": "0.2",
             "AbilityCastAnimation": "ACT_DOTA_CAST_ABILITY_4",
             "AbilityCooldown": "20",
-            "AbilityManaCost": "80 95 110 125",
+            "AbilityManaCost": "90 105 120 135",
             "AbilityValues": {
                 "damage_absorb": {
                     "value": "80 160 240 320",
-                    "special_bonus_unique_tinker_7": "+75"
+                    "special_bonus_unique_tinker_7": "+60"
                 },
                 "status_resistance": {
                     "value": "15 20 25 30",
@@ -8576,17 +8396,14 @@
                 },
                 "splash_pct": "100",
                 "scepter_bonus_cast_range": {
-                    "value": "0",
-                    "RequiresScepter": "1"
+                    "special_bonus_scepter": "0"
                 },
                 "scepter_reduction_pct": {
-                    "value": "15",
-                    "RequiresScepter": "1"
+                    "special_bonus_scepter": "13"
                 },
                 "scepter_bounce_radius": {
-                    "value": "700",
-                    "affected_by_aoe_increase": "1",
-                    "RequiresScepter": "1"
+                    "special_bonus_scepter": "700",
+                    "affected_by_aoe_increase": "1"
                 }
             },
             "AbilityCastAnimation": "ACT_DOTA_CAST_ABILITY_1"
@@ -8956,30 +8773,22 @@
                 },
                 "projectile_speed": "2500 2500 2500",
                 "scepter_stun_duration": {
-                    "value": "0.8 1.0 1.2",
-                    "RequiresScepter": "1"
+                    "special_bonus_scepter": "0.8 1.0 1.2"
                 },
                 "scepter_crit": {
-                    "value": "0",
-                    "RequiresScepter": "1"
+                    "special_bonus_scepter": "0"
                 },
                 "scepter_cast_point": {
-                    "value": "0.5",
-                    "RequiresScepter": "1"
+                    "special_bonus_scepter": "0.5"
                 },
                 "scatter_range": {
-                    "value": "0",
                     "special_bonus_shard": "0"
                 },
                 "scatter_width": {
-                    "value": "0",
-                    "special_bonus_shard": "0",
-                    "RequiresShard": "1"
+                    "special_bonus_shard": "0"
                 },
                 "scatter_damage_pct": {
-                    "value": "0",
-                    "special_bonus_shard": "0",
-                    "RequiresShard": "1"
+                    "special_bonus_shard": "0"
                 },
                 "cooldown_reduction_on_kill": "0 5 10"
             }
@@ -9269,8 +9078,7 @@
                     "affected_by_aoe_increase": "1"
                 },
                 "shard_movement_speed_pct": {
-                    "value": "0",
-                    "RequiresShard": "1"
+                    "special_bonus_shard": "0"
                 },
                 "AbilityCooldown": {
                     "value": "15 14 13 12"
@@ -9349,27 +9157,21 @@
                 "golem_gold_bounty": "100 150 200",
                 "stun_delay": "0.5",
                 "number_of_golems_scepter": {
-                    "value": "2",
-                    "RequiresScepter": "1"
+                    "special_bonus_scepter": "2"
                 },
                 "golem_hp_scepter": {
-                    "value": "1500 2250 3000",
-                    "RequiresScepter": "1"
+                    "special_bonus_scepter": "1500 2250 3000"
                 },
                 "golem_dmg_scepter": {
-                    "value": "80 120 160",
-                    "RequiresScepter": "1"
+                    "special_bonus_scepter": "80 120 160"
                 },
                 "golem_gold_bounty_scepter": {
-                    "value": "100 150 200",
-                    "RequiresScepter": "1"
+                    "special_bonus_scepter": "100 150 200"
                 },
                 "bonus_magic_resistance": {
-                    "value": "0",
                     "special_bonus_unique_warlock_1": "+80"
                 },
                 "bonus_armor": {
-                    "value": "0",
                     "special_bonus_unique_warlock_2": "+20"
                 },
                 "tooltip_golem_armor": {
@@ -9378,7 +9180,6 @@
                 },
                 "bonus_slow_resistance": "60",
                 "tooltip_manahealthboost": {
-                    "value": "0",
                     "special_bonus_facet_warlock_golem": "+90"
                 }
             }
@@ -9431,7 +9232,7 @@
             "AbilityUnitDamageType": "DAMAGE_TYPE_MAGICAL",
             "MaxLevel": "4",
             "AbilityValues": {
-                "explosion_delay": ".2",
+                "explosion_delay": ".3",
                 "explosion_radius": {
                     "value": "400",
                     "affected_by_aoe_increase": "1"
@@ -10013,16 +9814,13 @@
             "AbilityValues": {
                 "min_blink_range": "200",
                 "shard_damage": {
-                    "RequiresShard": "1",
-                    "value": "125"
+                    "special_bonus_shard": "125"
                 },
                 "shard_duration": {
-                    "RequiresShard": "1",
-                    "value": "1.75"
+                    "special_bonus_shard": "1.75"
                 },
                 "shard_aoe": {
-                    "RequiresShard": "1",
-                    "value": "300",
+                    "special_bonus_shard": "300",
                     "affected_by_aoe_increase": "1"
                 }
             }
@@ -10304,14 +10102,16 @@
                     "special_bonus_unique_venomancer": "x2.5"
                 },
                 "threshold": {
-                    "value": "100 150 200 250",
-                    "special_bonus_unique_venomancer": "x2.5",
-                    "RequiresFacet": "venomancer_plague_carrier"
+                    "special_bonus_facet_venomancer_plague_carrier": {
+                        "value": "100 150 200 250",
+                        "special_bonus_unique_venomancer": "x2.5"
+                    }
                 },
                 "threshold_max_hp_pct": {
-                    "value": "1.5 2 2.5 3",
-                    "special_bonus_unique_venomancer": "x2.5",
-                    "RequiresFacet": "venomancer_plague_carrier"
+                    "special_bonus_facet_venomancer_plague_carrier": {
+                        "value": "1.5 2 2.5 3",
+                        "special_bonus_unique_venomancer": "x2.5"
+                    }
                 }
             },
             "AbilityCastAnimation": "ACT_DOTA_CAST_ABILITY_3"
@@ -10504,10 +10304,8 @@
                 },
                 "dodge_chance_pct": "100",
                 "radius": {
-                    "value": "0",
                     "special_bonus_scepter": "+400",
-                    "affected_by_aoe_increase": "1",
-                    "RequiresScepter": "1"
+                    "affected_by_aoe_increase": "1"
                 }
             },
             "AbilityCastAnimation": "ACT_DOTA_CAST_ABILITY_1"
@@ -10662,13 +10460,13 @@
                     "special_bonus_unique_faceless_void": "+80"
                 },
                 "bonus_move_speed": {
-                    "value": "60"
+                    "value": "50"
                 },
                 "bonus_cast_speed": {
-                    "value": "60"
+                    "value": "50"
                 },
                 "bonus_turn_speed": {
-                    "value": "60"
+                    "value": "50"
                 },
                 "bonus_projectile_speed": {
                     "value": "40"
@@ -10735,7 +10533,7 @@
             "AbilitySound": "Hero_SkeletonKing.Hellfire_Blast",
             "AbilityCastRange": "525",
             "AbilityCastPoint": "0.35 0.35 0.35 0.35",
-            "AbilityCooldown": "17 14 11 8",
+            "AbilityCooldown": "14 12 10 8",
             "AbilityManaCost": "95 110 125 140",
             "AbilityModifierSupportValue": "0.5",
             "AbilityValues": {
@@ -10745,7 +10543,11 @@
                     "special_bonus_unique_wraith_king_11": "+1"
                 },
                 "blast_dot_duration": {
-                    "value": "2.0"
+                    "value": "2.0",
+                    "special_bonus_facet_skeleton_king_facet_bone_guard": {
+                        "value": "+0",
+                        "special_bonus_unique_wraith_king_facet_1": "+2"
+                    }
                 },
                 "blast_slow": "-20",
                 "damage": {
@@ -10767,12 +10569,10 @@
             "AbilityManaCost": "70 80 90 100",
             "AbilityValues": {
                 "skeleton_duration": {
-                    "value": "40",
-                    "special_bonus_unique_wraith_king_facet_1": "+25%"
+                    "value": "46"
                 },
                 "AbilityCooldown": {
-                    "value": "50",
-                    "special_bonus_unique_wraith_king_facet_1": "-25%"
+                    "value": "42"
                 },
                 "max_skeleton_charges": "2 4 6 8",
                 "min_skeleton_spawn": {
@@ -10866,7 +10666,7 @@
                 "attackslow": "-75",
                 "slow_duration": "5.0",
                 "AbilityManaCost": {
-                    "value": "200",
+                    "value": "225",
                     "special_bonus_shard": "=0"
                 },
                 "clear_curse": {
@@ -10906,10 +10706,8 @@
                     "value": "10 15 20 25"
                 },
                 "scepter_aura_radius": {
-                    "value": "0",
                     "special_bonus_scepter": "+1200",
-                    "affected_by_aoe_increase": "1",
-                    "RequiresScepter": "1"
+                    "affected_by_aoe_increase": "1"
                 }
             }
         },
@@ -11078,16 +10876,13 @@
                     "special_bonus_unique_death_prophet_5": "-22"
                 },
                 "shard_bonus_charges": {
-                    "value": "1",
-                    "RequiresShard": "1"
+                    "special_bonus_shard": "1"
                 },
                 "shard_fear_duration": {
-                    "value": "1.0",
-                    "RequiresShard": "1"
+                    "special_bonus_shard": "1.0"
                 },
                 "shard_consecutive_siphon_duration": {
-                    "value": "3",
-                    "RequiresShard": "1"
+                    "special_bonus_shard": "3"
                 }
             }
         },
@@ -11131,20 +10926,16 @@
                 "average_damage": "64",
                 "ghost_spawn_rate": "0.35",
                 "scepter_movespeed_slow": {
-                    "value": "100",
-                    "RequiresScepter": "1"
+                    "special_bonus_scepter": "100"
                 },
                 "scepter_movespeed_debuff_duration": {
-                    "value": "0.3",
-                    "RequiresScepter": "1"
+                    "special_bonus_scepter": "0.3"
                 },
                 "scepter_spirit_life_duration": {
-                    "value": "20",
-                    "RequiresScepter": "1"
+                    "special_bonus_scepter": "20"
                 },
                 "scepter_spirit_bonus_damage": {
-                    "value": "50",
-                    "RequiresScepter": "1",
+                    "special_bonus_scepter": "50",
                     "CalculateSpellDamageTooltip": "0"
                 },
                 "movement_bonus": "4 8 12"
@@ -11297,7 +11088,7 @@
                     "special_bonus_unique_phantom_assassin_4": "+0.5"
                 },
                 "AbilityCastRange": {
-                    "value": "1000",
+                    "value": "650 750 850 950",
                     "special_bonus_unique_phantom_assassin_6": "+200"
                 },
                 "creep_lifesteal_penalty": "40"
@@ -11337,8 +11128,7 @@
                 "radius": "625 550 475 400",
                 "fade_duration": "0.4 0.6 0.8 1.0",
                 "scepter_cooldown": {
-                    "value": "50",
-                    "RequiresScepter": "1"
+                    "special_bonus_scepter": "50"
                 },
                 "break_on_attack": "0",
                 "manacost_reduction_during_blur_pct": {
@@ -11381,14 +11171,16 @@
                     "special_bonus_facet_phantom_assassin_methodical": "+100"
                 },
                 "attacks_to_proc": {
-                    "special_bonus_facet_phantom_assassin_methodical": "+6",
-                    "special_bonus_unique_phantom_assassin_2": "-1",
-                    "RequiresFacet": "phantom_assassin_methodical"
+                    "special_bonus_facet_phantom_assassin_methodical": {
+                        "value": "6",
+                        "special_bonus_unique_phantom_assassin_2": "-1"
+                    }
                 },
                 "attacks_to_proc_creeps": {
-                    "special_bonus_facet_phantom_assassin_methodical": "+4",
-                    "special_bonus_unique_phantom_assassin_2": "-1",
-                    "RequiresFacet": "phantom_assassin_methodical"
+                    "special_bonus_facet_phantom_assassin_methodical": {
+                        "value": "4",
+                        "special_bonus_unique_phantom_assassin_2": "-1"
+                    }
                 },
                 "duration": "6 8 10",
                 "two_tooltip": {
@@ -11579,31 +11371,24 @@
                 "tick_rate": "0.25 0.25 0.25",
                 "drain_buffer": "200",
                 "shard_damage_pct_from_ward": {
-                    "value": "75",
-                    "RequiresShard": "1"
+                    "special_bonus_shard": "75"
                 },
                 "bonus_heal_pct": {
-                    "value": "0",
                     "special_bonus_unique_pugna_1": "+20"
                 },
                 "spell_amp_drain_rate": {
-                    "value": "0",
                     "special_bonus_scepter": "+8"
                 },
                 "spell_amp_drain_max": {
-                    "value": "0",
                     "special_bonus_scepter": "+75"
                 },
                 "spell_amp_drain_rate_ward": {
-                    "value": "0",
                     "special_bonus_scepter": "+4"
                 },
                 "spell_amp_drain_duration": {
-                    "value": "0",
                     "special_bonus_scepter": "+8"
                 },
                 "max_spell_amp_drain_pct": {
-                    "value": "0",
                     "special_bonus_scepter": "+100"
                 },
                 "AbilityCooldown": {
@@ -11675,12 +11460,12 @@
             "SpellDispellableType": "SPELL_DISPELLABLE_NO",
             "AbilitySound": "Hero_TemplarAssassin.Refraction",
             "AbilityCastPoint": "0.0 0.0 0.0 0.0",
-            "AbilityCooldown": "16.0",
+            "AbilityCooldown": "14.0",
             "AbilityManaCost": "85",
             "AbilityValues": {
                 "instances": {
-                    "value": "2 3 4 5",
-                    "special_bonus_unique_templar_assassin": "+3",
+                    "value": "3 4 5 6",
+                    "special_bonus_unique_templar_assassin": "+4",
                     "CalculateSpellDamageTooltip": "0",
                     "DamageTypeTooltip": "DAMAGE_TYPE_NONE"
                 },
@@ -11807,23 +11592,17 @@
                     "value": "225 300 375"
                 },
                 "instant_trap_damage": "0",
-                "extra_damage": "200",
+                "extra_damage": "375",
                 "damage_tick_rate": "0.5",
                 "trap_max_charge_duration": "3.5",
                 "min_silence_duration": {
-                    "value": "0",
-                    "special_bonus_shard": "+1.0",
-                    "RequiresShard": "1"
+                    "special_bonus_shard": "+1.0"
                 },
                 "max_silence_duration": {
-                    "value": "0",
-                    "special_bonus_shard": "+3.0",
-                    "RequiresShard": "1"
+                    "special_bonus_shard": "+3.0"
                 },
                 "bonus_vision": {
-                    "value": "0",
                     "special_bonus_shard": "+125",
-                    "RequiresShard": "1",
                     "affected_by_aoe_increase": "1"
                 }
             }
@@ -11954,16 +11733,13 @@
                 "max_stacks": "6",
                 "bonus_range": "25",
                 "shard_armor_reduction": {
-                    "special_bonus_shard": "1",
-                    "RequiresShard": "1"
+                    "special_bonus_shard": "1"
                 },
                 "shard_building_dmg_pct": {
-                    "special_bonus_shard": "40",
-                    "RequiresShard": "1"
+                    "special_bonus_shard": "40"
                 },
                 "shard_bonus_max_stacks": {
-                    "special_bonus_shard": "2",
-                    "RequiresShard": "1"
+                    "special_bonus_shard": "2"
                 },
                 "expiration_damage_radius": {
                     "special_bonus_facet_viper_poison_burst": "=300",
@@ -12038,20 +11814,16 @@
                     "affected_by_aoe_increase": "1"
                 },
                 "effect_multiplier_distance": {
-                    "value": "500",
-                    "affected_by_aoe_increase": "1",
-                    "RequiresScepter": "1"
+                    "special_bonus_scepter": "500",
+                    "affected_by_aoe_increase": "1"
                 },
                 "effect_multiplier": {
-                    "value": "4",
-                    "RequiresScepter": "1"
+                    "special_bonus_scepter": "4"
                 },
                 "nethertoxin_bonus_pct": {
-                    "value": "0",
                     "special_bonus_facet_viper_caustic_bath": "=100"
                 },
                 "nethertoxin_bonus_pct_max_duration_tooltip": {
-                    "value": "0",
                     "special_bonus_facet_viper_caustic_bath": "=4.0"
                 }
             },
@@ -12568,9 +12340,7 @@
                 "dragon_cast_range": "450",
                 "projectile_speed": "1600",
                 "dragon_aoe": {
-                    "value": "=0",
-                    "special_bonus_facet_dragon_knight_fire_dragon": "=100",
-                    "RequiresFacet": "dragon_knight_fire_dragon",
+                    "special_bonus_facet_dragon_knight_fire_dragon": "100",
                     "affected_by_aoe_increase": "1"
                 },
                 "physical_damage_type": {
@@ -12585,52 +12355,40 @@
             "IsBreakable": "1",
             "AbilityValues": {
                 "is_green_dragon": {
-                    "value": "0",
-                    "special_bonus_facet_dragon_knight_corrosive_dragon": "+1"
+                    "special_bonus_facet_dragon_knight_corrosive_dragon": "1"
                 },
                 "corrosive_breath_damage": {
-                    "value": "5 10 15 20",
-                    "RequiresFacet": "dragon_knight_corrosive_dragon"
+                    "special_bonus_facet_dragon_knight_corrosive_dragon": "5 10 15 20"
                 },
                 "corrosive_breath_duration": {
-                    "value": "3",
-                    "RequiresFacet": "dragon_knight_corrosive_dragon"
+                    "special_bonus_facet_dragon_knight_corrosive_dragon": "3"
                 },
                 "corrosive_breath_armor_reduction": {
-                    "value": "0 1 2 3",
-                    "RequiresFacet": "dragon_knight_corrosive_dragon"
+                    "special_bonus_facet_dragon_knight_corrosive_dragon": "0 1 2 3"
                 },
                 "is_red_dragon": {
-                    "value": "0",
-                    "special_bonus_facet_dragon_knight_fire_dragon": "+1"
+                    "special_bonus_facet_dragon_knight_fire_dragon": "1"
                 },
                 "magic_damage": {
-                    "value": "6 12 18 24",
-                    "RequiresFacet": "dragon_knight_fire_dragon"
+                    "special_bonus_facet_dragon_knight_fire_dragon": "6 12 18 24"
                 },
                 "bonus_aoe": {
-                    "value": "25 50 75 100",
-                    "RequiresFacet": "dragon_knight_fire_dragon"
+                    "special_bonus_facet_dragon_knight_fire_dragon": "25 50 75 100"
                 },
                 "is_blue_dragon": {
-                    "value": "0",
-                    "special_bonus_facet_dragon_knight_frost_dragon": "+1"
+                    "special_bonus_facet_dragon_knight_frost_dragon": "1"
                 },
                 "frost_bonus_movement_speed": {
-                    "value": "-14 -21 -28 -35",
-                    "RequiresFacet": "dragon_knight_frost_dragon"
+                    "special_bonus_facet_dragon_knight_frost_dragon": "-14 -21 -28 -35"
                 },
                 "frost_bonus_attack_speed": {
-                    "value": "-14 -21 -28 -35",
-                    "RequiresFacet": "dragon_knight_frost_dragon"
+                    "special_bonus_facet_dragon_knight_frost_dragon": "-14 -21 -28 -35"
                 },
                 "frost_duration": {
-                    "value": "3.0 3.0 3.0 3.0",
-                    "RequiresFacet": "dragon_knight_frost_dragon"
+                    "special_bonus_facet_dragon_knight_frost_dragon": "3.0"
                 },
                 "frost_healing_reduction": {
-                    "value": "14 21 28 35",
-                    "RequiresFacet": "dragon_knight_frost_dragon"
+                    "special_bonus_facet_dragon_knight_frost_dragon": "14 21 28 35"
                 }
             },
             "AbilityCastAnimation": "ACT_DOTA_CAST_ABILITY_3"
@@ -12675,7 +12433,7 @@
                 "duration": {
                     "value": "60"
                 },
-                "bonus_movement_speed": "20 25 30 35",
+                "bonus_movement_speed": "20",
                 "bonus_attack_range": {
                     "value": "350 350 350 350",
                     "special_bonus_unique_dragon_knight_7": "+150"
@@ -12708,22 +12466,22 @@
                     "value": "30 40 50 60"
                 },
                 "frost_breath_effect_bonus": {
-                    "value": "0 0 0 0",
-                    "special_bonus_facet_dragon_knight_frost_dragon": "=20 =30 =40 =50",
-                    "special_bonus_unique_dragon_knight_8": "+50",
-                    "RequiresFacet": "dragon_knight_frost_dragon"
+                    "special_bonus_facet_dragon_knight_frost_dragon": {
+                        "value": "=20 =30 =40 =50",
+                        "special_bonus_unique_dragon_knight_8": "+50"
+                    }
                 },
                 "corrosive_breath_effect_bonus": {
-                    "value": "0 0 0 0",
-                    "special_bonus_facet_dragon_knight_corrosive_dragon": "=20 =30 =40 =50",
-                    "special_bonus_unique_dragon_knight_8": "+50",
-                    "RequiresFacet": "dragon_knight_corrosive_dragon"
+                    "special_bonus_facet_dragon_knight_corrosive_dragon": {
+                        "value": "=20 =30 =40 =50",
+                        "special_bonus_unique_dragon_knight_8": "+50"
+                    }
                 },
                 "fire_breath_effect_bonus": {
-                    "value": "0 0 0 0",
-                    "special_bonus_facet_dragon_knight_fire_dragon": "=20 =30 =40 =50",
-                    "special_bonus_unique_dragon_knight_8": "+50",
-                    "RequiresFacet": "dragon_knight_fire_dragon"
+                    "special_bonus_facet_dragon_knight_fire_dragon": {
+                        "value": "=20 =30 =40 =50",
+                        "special_bonus_unique_dragon_knight_8": "+50"
+                    }
                 },
                 "wyrms_wrath_bonus_tooltip": {
                     "value": "20 30 40 50",
@@ -12807,17 +12565,17 @@
                 "bonus_slow": "-2 -2.5 -3 -3.5",
                 "attack_range_bonus": {
                     "value": "0",
-                    "special_bonus_unique_dazzle_poison_touch_attack_range_bonus": "+300"
+                    "special_bonus_unique_dazzle_poison_touch_attack_range_bonus": "+200"
                 },
                 "split_radius": {
                     "value": "0",
                     "special_bonus_facet_dazzle_poison_bloom": "=450"
                 },
                 "split_damage": {
-                    "value": "0",
-                    "special_bonus_facet_dazzle_poison_bloom": "=30 =60 =90 =120",
-                    "special_bonus_unique_dazzle_3": "+60",
-                    "RequiresFacet": "dazzle_poison_bloom"
+                    "special_bonus_facet_dazzle_poison_bloom": {
+                        "value": "=30 =60 =90 =120",
+                        "special_bonus_unique_dazzle_3": "+60"
+                    }
                 },
                 "attacks_to_split": {
                     "value": "0",
@@ -12884,7 +12642,7 @@
                     "value": "85 105 125 145",
                     "special_bonus_unique_dazzle_2": "+45"
                 },
-                "scepter_heal_pct": "150",
+                "scepter_heal_pct": "100",
                 "scepter_cd_increase": "2"
             },
             "AbilityCastAnimation": "ACT_DOTA_CAST_ABILITY_3"
@@ -12949,8 +12707,7 @@
             "AbilityValues": {
                 "cooldown_reduction": "1 1.5 2",
                 "item_cooldown_reduction": {
-                    "value": "50",
-                    "RequiresScepter": "1"
+                    "special_bonus_scepter": "50"
                 },
                 "scepter_mana_cost": "250",
                 "scepter_cooldown": "180"
@@ -12968,16 +12725,19 @@
             "HasShardUpgrade": "1",
             "AbilityCooldown": "70 60 50",
             "AbilityManaCost": "100 150 200",
-            "AbilityCastRange": "600",
+            "AbilityCastRange": "450",
             "AbilityValues": {
                 "min_duration": "5",
-                "max_duration": "15",
+                "max_duration": {
+                    "value": "12",
+                    "special_bonus_unique_dazzle_nothl_projection_duration": "+5"
+                },
                 "initial_travel_speed": "1200",
                 "soul_return_time": "0.75",
                 "soul_return_min_speed": "500",
                 "leash_start": "1600",
                 "base_leash_pull": "50",
-                "leash_increase": ".5",
+                "leash_increase": "1.5",
                 "poison_touch_hex": "1.4 1.6 1.8",
                 "shallow_grave_heal": "225 300 375",
                 "shadow_wave_cdr": "30 40 50",
@@ -12985,8 +12745,7 @@
                     "special_bonus_shard": "1"
                 },
                 "healing_amp": {
-                    "special_bonus_shard": "20",
-                    "RequiresShard": "1"
+                    "special_bonus_shard": "20"
                 }
             }
         },
@@ -13382,16 +13141,13 @@
                 },
                 "duration": "1.7",
                 "shard_radius_increase": {
-                    "value": "45",
-                    "RequiresShard": "1"
+                    "special_bonus_shard": "45"
                 },
                 "shard_max_count": {
-                    "value": "3",
-                    "RequiresShard": "1"
+                    "special_bonus_shard": "3"
                 },
                 "shard_secondary_delay": {
-                    "value": "5",
-                    "RequiresShard": "1"
+                    "special_bonus_shard": "5"
                 }
             },
             "AbilityCastAnimation": "ACT_DOTA_CAST_ABILITY_1"
@@ -13687,7 +13443,7 @@
                 "treant_duration": "50",
                 "treant_health": {
                     "value": "550 550 550 550",
-                    "special_bonus_facet_furion_ironwood_treant": "=800 =1050 =1300 =1550",
+                    "special_bonus_facet_furion_ironwood_treant": "=750 =950 =1150 =1350",
                     "special_bonus_unique_furion": "x3"
                 },
                 "treant_damage_min": {
@@ -13778,12 +13534,10 @@
                     "special_bonus_unique_furion_7": "-15"
                 },
                 "scepter_min_entangle_duration": {
-                    "value": "1.5",
-                    "RequiresScepter": "1"
+                    "special_bonus_scepter": "1.5"
                 },
                 "scepter_max_entangle_duration": {
-                    "value": "3.0",
-                    "RequiresScepter": "1"
+                    "special_bonus_scepter": "3.0"
                 }
             }
         },
@@ -13867,7 +13621,7 @@
             "Innate": "1",
             "IsBreakable": "1",
             "AbilityValues": {
-                "damage_per_tree_pct": "4",
+                "damage_per_tree_pct": "3",
                 "radius": {
                     "value": "300 400 500 600",
                     "affected_by_aoe_increase": "1"
@@ -14004,7 +13758,7 @@
                 },
                 "bonus_hp_per_hero": {
                     "value": "10 10 10 10",
-                    "special_bonus_facet_life_stealer_fleshfeast": "=20 =25 =30 =35"
+                    "special_bonus_facet_life_stealer_fleshfeast": "=15 =20 =25 =30"
                 },
                 "bonus_hp_per_creep": "1",
                 "creep_deny_percent": "75",
@@ -14027,7 +13781,7 @@
             "AbilityCastRange": "300 400 500 600",
             "AbilityCastAnimation": "ACT_DOTA_CAST_ABILITY_3",
             "AbilityCooldown": "30 25 20 15",
-            "AbilityManaCost": "75",
+            "AbilityManaCost": "100",
             "AbilityValues": {
                 "duration": "7",
                 "slow_steps": {
@@ -14175,16 +13929,13 @@
             "AbilityManaCost": "50",
             "AbilityValues": {
                 "damage": {
-                    "value": "300",
-                    "RequiresScepter": "1"
+                    "special_bonus_scepter": "300"
                 },
                 "radius": {
-                    "value": "700 700 700",
-                    "RequiresScepter": "1"
+                    "special_bonus_scepter": "700 700 700"
                 },
                 "order_lock_duration": {
-                    "value": "2",
-                    "RequiresScepter": "1"
+                    "special_bonus_scepter": "2"
                 }
             }
         },
@@ -14389,20 +14140,16 @@
                     "affected_by_aoe_increase": "1"
                 },
                 "trail_duration": {
-                    "value": "7",
-                    "RequiresShard": "1"
+                    "special_bonus_shard": "7"
                 },
                 "trail_move_slow": {
-                    "value": "-50",
-                    "RequiresShard": "1"
+                    "special_bonus_shard": "-50"
                 },
                 "trail_damage": {
-                    "value": "40",
-                    "RequiresShard": "1"
+                    "special_bonus_shard": "40"
                 },
                 "trail_damage_interval": {
-                    "value": "0.5",
-                    "RequiresShard": "1"
+                    "special_bonus_shard": "0.5"
                 }
             },
             "AbilityCastAnimation": "ACT_DOTA_CAST_ABILITY_3"
@@ -14423,11 +14170,11 @@
                 "duration": "30.0",
                 "replica_damage_outgoing": {
                     "value": "-30 -20 -10",
-                    "special_bonus_unique_dark_seer_7": "+20"
+                    "special_bonus_unique_dark_seer_7": "+15"
                 },
                 "tooltip_outgoing": {
                     "value": "70 80 90",
-                    "special_bonus_unique_dark_seer_7": "+20"
+                    "special_bonus_unique_dark_seer_7": "+15"
                 },
                 "replica_damage_incoming": "100",
                 "tooltip_replica_total_damage_incoming": {
@@ -14445,8 +14192,7 @@
                     "value": "1"
                 },
                 "scepter_length_multiplier": {
-                    "value": "2",
-                    "RequiresScepter": "1"
+                    "special_bonus_scepter": "2"
                 },
                 "wall_damage": "25 40 55"
             }
@@ -14466,7 +14212,7 @@
             "IsBreakable": "1",
             "AbilityValues": {
                 "radius": {
-                    "value": "900",
+                    "value": "1200",
                     "affected_by_aoe_increase": "1"
                 },
                 "movement_speed_pct": "7"
@@ -14887,7 +14633,7 @@
                     "special_bonus_unique_omniknight_1": "+160"
                 },
                 "AbilityCooldown": {
-                    "value": "18 16 14 12",
+                    "value": "15 14 13 12",
                     "special_bonus_unique_omniknight_6": "-3"
                 },
                 "radius": {
@@ -14980,7 +14726,7 @@
                 },
                 "stack_interval": {
                     "value": "0",
-                    "special_bonus_facet_omniknight_omnipresent": "+0.3"
+                    "special_bonus_facet_omniknight_omnipresent": "+0.25"
                 },
                 "max_stacks": {
                     "value": "0",
@@ -15220,9 +14966,7 @@
                 "slow_movement_speed": "-30 -40 -50 -60",
                 "slow_duration": "3.5 4 4.5 5",
                 "attack_range_bonus": {
-                    "value": "0",
-                    "special_bonus_facet_enchantress_spellbound": "60 120 180 240",
-                    "RequiresFacet": "enchantress_spellbound"
+                    "special_bonus_facet_enchantress_spellbound": "60 120 180 240"
                 },
                 "dominate_duration": "30 60 90 120",
                 "enchant_health": {
@@ -15450,21 +15194,15 @@
                     "special_bonus_shard": "-3"
                 },
                 "movement_slow_pct": {
-                    "value": "0",
-                    "special_bonus_shard": "+40",
-                    "RequiresShard": "1"
+                    "special_bonus_shard": "+40"
                 },
                 "hero_damage_heal_pct": {
-                    "value": "0",
                     "special_bonus_shard": "+50",
-                    "DamageTypeTooltip": "DAMAGE_TYPE_NONE",
-                    "RequiresShard": "1"
+                    "DamageTypeTooltip": "DAMAGE_TYPE_NONE"
                 },
                 "creep_damage_heal_pct": {
-                    "value": "0",
                     "special_bonus_shard": "+10",
-                    "DamageTypeTooltip": "DAMAGE_TYPE_NONE",
-                    "RequiresShard": "1"
+                    "DamageTypeTooltip": "DAMAGE_TYPE_NONE"
                 }
             },
             "AbilityCastAnimation": "ACT_DOTA_CAST_ABILITY_1"
@@ -15608,13 +15346,10 @@
                     "special_bonus_scepter": "+250"
                 },
                 "splash_radius": {
-                    "value": "0",
                     "special_bonus_facet_huskar_bloodbath": "=500",
-                    "affected_by_aoe_increase": "1",
-                    "RequiresFacet": "huskar_bloodbath"
+                    "affected_by_aoe_increase": "1"
                 },
                 "life_break_heal_radius": {
-                    "value": "0",
                     "special_bonus_facet_huskar_nothl_transfusion": "=550",
                     "affected_by_aoe_increase": "1"
                 },
@@ -15787,28 +15522,22 @@
                     "special_bonus_unique_night_stalker_2": "+100"
                 },
                 "bonus_status_resist_night": {
-                    "value": "0",
-                    "special_bonus_unique_night_stalker_hunter_status_resist": "+30"
+                    "special_bonus_unique_night_stalker_hunter_status_resist": "+20"
                 },
                 "shard_hp_restore_pct": {
-                    "value": "25",
-                    "RequiresShard": "1"
+                    "special_bonus_shard": "25"
                 },
                 "shard_mana_restore_pct": {
-                    "value": "25",
-                    "RequiresShard": "1"
+                    "special_bonus_shard": "25"
                 },
                 "AbilityManaCost": {
-                    "value": "0",
                     "special_bonus_shard": "+50"
                 },
                 "shard_cooldown": {
-                    "value": "35",
-                    "RequiresShard": "1"
+                    "special_bonus_shard": "35"
                 },
                 "shard_cast_range": {
-                    "value": "125",
-                    "RequiresShard": "1"
+                    "special_bonus_shard": "125"
                 },
                 "max_level": {
                     "value": "4",
@@ -15818,7 +15547,6 @@
                     "special_bonus_facet_night_stalker_dayswap": "=5"
                 },
                 "gives_free_level": {
-                    "value": "0",
                     "special_bonus_facet_night_stalker_dayswap": "+1"
                 }
             },
@@ -15851,7 +15579,7 @@
             "Innate": "1",
             "MaxLevel": "1",
             "AbilityValues": {
-                "hp_regen_during_night_pct": "40",
+                "hp_regen_during_night_pct": "20",
                 "hp_regen_during_day_pct": "20"
             }
         },
@@ -16115,8 +15843,7 @@
                     "special_bonus_shard": "+4"
                 },
                 "shard_damage_tick_interval": {
-                    "value": "1",
-                    "RequiresShard": "1"
+                    "special_bonus_shard": "1"
                 },
                 "aura_radius": {
                     "value": "0",
@@ -16227,8 +15954,7 @@
                     "special_bonus_unique_bounty_hunter_5": "+0.6"
                 },
                 "scepter_cooldown": {
-                    "value": "6",
-                    "RequiresScepter": "1"
+                    "special_bonus_scepter": "6"
                 },
                 "passthrough_damage": {
                     "special_bonus_facet_bounty_hunter_shuriken": "1"
@@ -16290,12 +16016,10 @@
                     "special_bonus_shard": "-5"
                 },
                 "AbilityChargeRestoreTime": {
-                    "value": "15 14 13 12",
-                    "RequiresShard": "1"
+                    "special_bonus_shard": "15 14 13 12"
                 },
                 "ally_fade_time": {
-                    "value": "1.0",
-                    "RequiresShard": "1"
+                    "special_bonus_shard": "1.0"
                 },
                 "damage_reduction_pct": {
                     "value": "0",
@@ -16473,13 +16197,10 @@
                     "affected_by_aoe_increase": "1"
                 },
                 "shard_cooldown_reduction": {
-                    "value": "2",
-                    "RequiresShard": "1"
+                    "special_bonus_shard": "2"
                 },
                 "experience_gain": {
-                    "value": "0 0 0 0",
-                    "special_bonus_facet_weaver_hivemind": "=5 =8 =11 =14",
-                    "RequiresFacet": "weaver_hivemind"
+                    "special_bonus_facet_weaver_hivemind": "=5 =8 =11 =14"
                 }
             },
             "AbilityCastAnimation": "ACT_DOTA_CAST_ABILITY_1"
@@ -16514,9 +16235,7 @@
                     "special_bonus_shard": "+4.6"
                 },
                 "min_movespeed_override": {
-                    "value": "0",
-                    "special_bonus_facet_weaver_skitterstep": "+600",
-                    "RequiresFacet": "weaver_skitterstep"
+                    "special_bonus_facet_weaver_skitterstep": "+600"
                 },
                 "shukuchi_attack_mark_radius": {
                     "value": "0",
@@ -16562,9 +16281,8 @@
                     "special_bonus_unique_weaver_2": "+70"
                 },
                 "shard_beetle_search_range": {
-                    "value": "1200",
-                    "affected_by_aoe_increase": "1",
-                    "RequiresShard": "1"
+                    "special_bonus_shard": "1200",
+                    "affected_by_aoe_increase": "1"
                 }
             }
         },
@@ -16584,8 +16302,7 @@
             "AbilityManaCost": "150 75 0",
             "AbilityValues": {
                 "cooldown_scepter": {
-                    "value": "40",
-                    "RequiresScepter": "1"
+                    "special_bonus_scepter": "40"
                 }
             }
         },
@@ -16646,7 +16363,7 @@
             "AbilityCastPoint": "0.35",
             "AbilityDuration": "5.0",
             "AbilityDamage": "0",
-            "AbilityManaCost": "125 140 155 170",
+            "AbilityManaCost": "135 150 165 180",
             "AbilityModifierSupportValue": "0.25",
             "AbilityValues": {
                 "AbilityCooldown": {
@@ -16719,7 +16436,7 @@
                 },
                 "detonate_damage": {
                     "value": "=0 =0 =0 =0",
-                    "special_bonus_facet_jakiro_ice_breaker": "=75 =125 =175 =225"
+                    "special_bonus_facet_jakiro_ice_breaker": "=50 =100 =150 =200"
                 },
                 "detonate_stun_duration": {
                     "value": "=0",
@@ -16961,7 +16678,7 @@
                 },
                 "damage": {
                     "value": "5 10 15 20",
-                    "special_bonus_unique_batrider_4": "+15",
+                    "special_bonus_unique_batrider_4": "+20",
                     "CalculateSpellDamageTooltip": "1"
                 },
                 "radius": {
@@ -16975,8 +16692,7 @@
                 "max_stacks": "10 10 10 10",
                 "creep_damage_pct": "20",
                 "shard_napalm_on_attack_chance_pct": {
-                    "value": "50",
-                    "RequiresShard": "1"
+                    "special_bonus_shard": "50"
                 },
                 "application_damage": "5 10 15 20",
                 "is_passive": {
@@ -17011,7 +16727,7 @@
             "AbilityValues": {
                 "total_ticks": {
                     "value": "2",
-                    "special_bonus_unique_batrider_smoldering_resin_ticks": "+2"
+                    "special_bonus_unique_batrider_smoldering_resin_ticks": "+4"
                 },
                 "tick_rate": "1",
                 "tick_attack_damage_pct": "20"
@@ -17043,7 +16759,6 @@
             "AbilitySound": "Hero_Batrider.Flamebreak",
             "AbilityCastRange": "1300",
             "AbilityCastPoint": "0.2 0.2 0.2 0.2",
-            "AbilityCooldown": "22 19 16 13",
             "AbilityManaCost": "110 115 120 125",
             "AbilityModifierSupportValue": "1.0",
             "AbilityValues": {
@@ -17081,9 +16796,9 @@
                     "value": "0",
                     "special_bonus_unique_batrider_2": "+2"
                 },
-                "AbilityCharges": {
-                    "value": "0",
-                    "special_bonus_unique_batrider_5": "+2"
+                "AbilityCooldown": {
+                    "value": "22 19 16 13",
+                    "special_bonus_unique_batrider_5": "-6"
                 },
                 "slow": "8 16 24 32"
             },
@@ -17105,7 +16820,7 @@
                     "CalculateSpellDamageTooltip": "1"
                 },
                 "radius": {
-                    "value": "200",
+                    "value": "250",
                     "affected_by_aoe_increase": "1"
                 },
                 "duration": {
@@ -17146,9 +16861,7 @@
                     "CalculateSpellDamageTooltip": "1"
                 },
                 "grab_radius_scepter": {
-                    "value": "0",
                     "special_bonus_scepter": "+650",
-                    "RequiresScepter": "1",
                     "affected_by_aoe_increase": "1"
                 },
                 "AbilityCooldown": {
@@ -17379,15 +17092,12 @@
                     "value": "20 30 40"
                 },
                 "ancient_creeps_scepter": {
-                    "value": "1 2 3",
-                    "RequiresShard": "1"
+                    "special_bonus_shard": "1 2 3"
                 },
                 "does_purge": {
-                    "value": "0",
                     "special_bonus_unique_chen_12": "+1"
                 },
                 "full_heal_on_chen_and_creeps": {
-                    "value": "0",
                     "special_bonus_unique_chen_2": "=1"
                 }
             }
@@ -17831,16 +17541,13 @@
                     "special_bonus_unique_doom_4": "+0.2"
                 },
                 "shard_ministun_duration": {
-                    "value": "1",
-                    "RequiresShard": "1"
+                    "special_bonus_shard": "1"
                 },
                 "shard_bonus_stun_duration": {
-                    "value": "1.45",
-                    "RequiresShard": "1"
+                    "special_bonus_shard": "1.45"
                 },
                 "shard_bonus_damage": {
-                    "value": "125",
-                    "RequiresShard": "1"
+                    "special_bonus_shard": "125"
                 }
             }
         },
@@ -17957,7 +17664,7 @@
             "AbilityCastRange": "1500 1500 1500 1500",
             "AbilityCastPoint": "0.01 0.01 0.01 0.01",
             "AbilityDuration": "6 8 10 12",
-            "AbilityManaCost": "40 50 60 70",
+            "AbilityManaCost": "40 55 70 85",
             "AbilityValues": {
                 "AbilityCooldown": {
                     "value": "10 8 6 4",
@@ -18004,7 +17711,7 @@
                 "slow": "100",
                 "slow_duration": "0.7 0.8 0.9 1",
                 "attack_range_bonus": {
-                    "value": "80 120 160 200",
+                    "value": "60 90 120 150",
                     "special_bonus_unique_ancient_apparition_7": "+300"
                 },
                 "AbilityManaCost": {
@@ -18195,11 +17902,9 @@
                 "hop_duration": "0.25",
                 "hop_height": "83",
                 "shard_enrage_duration": {
-                    "value": "1.4",
-                    "RequiresShard": "1"
+                    "special_bonus_shard": "1.4"
                 },
                 "fury_swipe_stacks_on_hit": {
-                    "value": "0",
                     "special_bonus_unique_ursa_earthshock_furyswipes": "+2"
                 },
                 "AbilityCooldown": {
@@ -18528,26 +18233,19 @@
                 },
                 "fade_time": "1.0 1.0 1.0",
                 "shard_bonus_damage": {
-                    "value": "0",
-                    "RequiresShard": "1"
+                    "special_bonus_shard": "0"
                 },
                 "shard_break_duration": {
-                    "value": "0.0",
-                    "RequiresShard": "1"
+                    "special_bonus_shard": "0.0"
                 },
                 "shard_spell_immune_duration": {
-                    "value": "0.0",
-                    "RequiresShard": "1"
+                    "special_bonus_shard": "0.0"
                 },
                 "knockback_amp": {
-                    "value": "0",
-                    "special_bonus_facet_spirit_breaker_imbalanced": "+100",
-                    "RequiresFacet": "spirit_breaker_imbalanced"
+                    "special_bonus_facet_spirit_breaker_imbalanced": "+100"
                 },
                 "knockback_amp_duration": {
-                    "value": "0",
-                    "special_bonus_facet_spirit_breaker_imbalanced": "+6",
-                    "RequiresFacet": "spirit_breaker_imbalanced"
+                    "special_bonus_facet_spirit_breaker_imbalanced": "+6"
                 }
             }
         },
@@ -18681,12 +18379,10 @@
                 "acceleration": "15",
                 "enemy_vision_time": "4",
                 "shard_delay": {
-                    "value": "1.0",
-                    "RequiresShard": "1"
+                    "special_bonus_shard": "1.0"
                 },
                 "shard_radius": {
-                    "value": "700",
-                    "RequiresShard": "1",
+                    "special_bonus_shard": "700",
                     "affected_by_aoe_increase": "1"
                 }
             },
@@ -18719,21 +18415,16 @@
                 },
                 "projectile_speed": "800",
                 "bonus_damage": {
-                    "value": "0",
                     "special_bonus_unique_gyrocopter_flak_cannon_bonus_damage": "+25"
                 },
                 "bonus_night_vision": "200",
                 "sidegunner_fire_rate": {
-                    "value": "1.3",
-                    "RequiresScepter": "1"
+                    "special_bonus_scepter": "1.3"
                 },
                 "sidegunner_radius": {
-                    "value": "0",
-                    "special_bonus_scepter": "700",
-                    "RequiresScepter": "1"
+                    "special_bonus_scepter": "700"
                 },
                 "double_target": {
-                    "value": "0",
                     "special_bonus_scepter": "+1"
                 }
             },
@@ -18979,26 +18670,21 @@
                 "bonus_bonus_gold": "2",
                 "bounty_multiplier": "2",
                 "damage": {
-                    "value": "0",
                     "special_bonus_unique_alchemist_7": "+2"
                 },
                 "bonus_gold_cap": {
                     "value": "18"
                 },
                 "starting_gold_bonus": {
-                    "value": "0",
                     "special_bonus_facet_alchemist_seed_money": "=250"
                 },
                 "scepter_bonus_damage": {
-                    "value": "25",
-                    "RequiresScepter": "1"
+                    "special_bonus_scepter": "25"
                 },
                 "scepter_spell_amp": {
-                    "value": "0",
-                    "RequiresScepter": "1"
+                    "special_bonus_scepter": "0"
                 },
                 "gpm_increase_per_stack": {
-                    "value": "0",
                     "special_bonus_facet_alchemist_dividends": "+75"
                 }
             }
@@ -19884,8 +19570,7 @@
                     "special_bonus_shard": "+50%"
                 },
                 "shard_drag_speed": {
-                    "value": "175",
-                    "RequiresShard": "1"
+                    "special_bonus_shard": "175"
                 },
                 "self_mana_restore_pct": "25"
             }
@@ -19940,21 +19625,16 @@
                 "vision_distance": "400",
                 "vision_duration": "4.0",
                 "cataclysm_count": {
-                    "value": "0",
-                    "special_bonus_scepter": "+2",
-                    "RequiresScepter": "1"
+                    "special_bonus_scepter": "+2"
                 },
                 "cataclysm_cooldown": {
-                    "value": "100",
-                    "RequiresScepter": "1"
+                    "special_bonus_scepter": "100"
                 },
                 "cataclysm_min_range": {
-                    "value": "160",
-                    "RequiresScepter": "1"
+                    "special_bonus_scepter": "160"
                 },
                 "cataclysm_max_range": {
-                    "value": "200",
-                    "RequiresScepter": "1"
+                    "special_bonus_scepter": "200"
                 }
             }
         },
@@ -20450,25 +20130,20 @@
                     "special_bonus_shard": "+70"
                 },
                 "damage_radius": {
-                    "value": "0",
                     "affected_by_aoe_increase": "1",
-                    "special_bonus_shard": "+300",
-                    "RequiresShard": "1"
+                    "special_bonus_shard": "+300"
                 },
                 "AbilityCastRange": {
                     "value": "650",
                     "special_bonus_unique_outworld_devourer_astral_castrange": "+100"
                 },
                 "debuff_duration": {
-                    "value": "0",
                     "special_bonus_facet_obsidian_destroyer_overwhelming_devourer": "+5"
                 },
                 "percentage_damage": {
-                    "value": "0",
                     "special_bonus_facet_obsidian_destroyer_overwhelming_devourer": "0"
                 },
                 "percentage_heal": {
-                    "value": "0",
                     "special_bonus_facet_obsidian_destroyer_overwhelming_devourer": "+100"
                 }
             },
@@ -20626,34 +20301,31 @@
                     "special_bonus_unique_lycan_2": "+2"
                 },
                 "is_lone_wolf": {
-                    "value": "0",
                     "special_bonus_facet_lycan_spirit_wolves": "+1"
                 },
                 "back_distance": {
-                    "value": "0",
                     "special_bonus_facet_lycan_spirit_wolves": "+150"
                 },
                 "side_distance": {
-                    "value": "0",
                     "special_bonus_facet_lycan_spirit_wolves": "+75"
                 },
                 "model_scale": {
-                    "value": "0",
                     "special_bonus_facet_lycan_spirit_wolves": "-15"
                 },
                 "invis_level": {
-                    "value": "0",
                     "special_bonus_facet_lycan_spirit_wolves": "0.05"
                 },
                 "health_per_wolf": {
-                    "value": "60 115 170 225",
-                    "special_bonus_unique_lycan_7": "+250",
-                    "RequiresFacet": "lycan_spirit_wolves"
+                    "special_bonus_facet_lycan_spirit_wolves": {
+                        "value": "60 115 170 225",
+                        "special_bonus_unique_lycan_7": "+250"
+                    }
                 },
                 "damage_per_wolf": {
-                    "value": "6 12 18 24",
-                    "special_bonus_unique_lycan_3": "+6",
-                    "RequiresFacet": "lycan_spirit_wolves"
+                    "special_bonus_facet_lycan_spirit_wolves": {
+                        "value": "6 12 18 24",
+                        "special_bonus_unique_lycan_3": "+6"
+                    }
                 },
                 "death_fx_time": {
                     "special_bonus_facet_lycan_spirit_wolves": "1.0"
@@ -20980,8 +20652,7 @@
                 "extra_duration": "3",
                 "projectile_speed": {
                     "value": "1600",
-                    "special_bonus_facet_brewmaster_roll_out_the_barrel": "=950",
-                    "RequiresFacet": "brewmaster_roll_out_the_barrel"
+                    "special_bonus_facet_brewmaster_roll_out_the_barrel": "=950"
                 },
                 "projectile_width": {
                     "value": "250",
@@ -20989,30 +20660,22 @@
                     "affected_by_aoe_increase": "1"
                 },
                 "barrel_width": {
-                    "value": "0",
                     "special_bonus_facet_brewmaster_roll_out_the_barrel": "=75",
                     "affected_by_aoe_increase": "1"
                 },
                 "barrel_impact_damage": {
-                    "value": "0",
                     "special_bonus_facet_brewmaster_roll_out_the_barrel": "40 70 100 130",
-                    "RequiresFacet": "brewmaster_roll_out_the_barrel",
                     "DamageTypeTooltip": "DAMAGE_TYPE_PHYSICAL"
                 },
                 "AbilityCastRange": {
                     "value": "700",
-                    "special_bonus_facet_brewmaster_roll_out_the_barrel": "=950",
-                    "RequiresFacet": "brewmaster_roll_out_the_barrel"
+                    "special_bonus_facet_brewmaster_roll_out_the_barrel": "=950"
                 },
                 "min_movement": {
-                    "value": "0",
-                    "special_bonus_facet_brewmaster_drunken_master": "-15",
-                    "RequiresFacet": "ardent_spirits"
+                    "special_bonus_facet_brewmaster_drunken_master": "-15"
                 },
                 "max_movement": {
-                    "value": "0",
-                    "special_bonus_facet_brewmaster_drunken_master": "50",
-                    "RequiresFacet": "ardent_spirits"
+                    "special_bonus_facet_brewmaster_drunken_master": "50"
                 }
             },
             "AbilityCastAnimation": "ACT_DOTA_CAST_ABILITY_2"
@@ -21181,7 +20844,7 @@
             "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_PASSIVE",
             "AbilityCastAnimation": "ACT_DOTA_CAST_ABILITY_2",
             "AbilityValues": {
-                "magic_resist": "50"
+                "magic_resist": "80"
             }
         },
         "brewmaster_earth_pulverize": {
@@ -21296,8 +20959,8 @@
             "AbilityManaCost": "50",
             "AbilityValues": {
                 "AbilityCastRange": "150",
-                "damage": "50 100 150",
-                "pull_distance": "300 500 700",
+                "damage": "75 150 225",
+                "pull_distance": "450 575 700",
                 "pull_duration": "0.5"
             }
         },
@@ -21495,16 +21158,13 @@
                     "special_bonus_unique_shadow_demon_1": "+150"
                 },
                 "max_charges": {
-                    "value": "2",
-                    "RequiresScepter": "1"
+                    "special_bonus_scepter": "2"
                 },
                 "charge_restore_time": {
-                    "value": "70 65 60",
-                    "RequiresScepter": "1"
+                    "special_bonus_scepter": "70 65 60"
                 },
                 "charge_restore_time_tooltip_scepter": {
-                    "value": "70 65 60",
-                    "RequiresScepter": "1"
+                    "special_bonus_scepter": "70 65 60"
                 },
                 "max_slow": {
                     "value": "100"
@@ -21748,21 +21408,17 @@
                 "duration": "0.8 1.2 1.6 2.0",
                 "only_affects_player_units": "1",
                 "shard_radius": {
-                    "value": "700",
-                    "RequiresShard": "1",
+                    "special_bonus_shard": "700",
                     "affected_by_aoe_increase": "1"
                 },
                 "shard_movement_speed_pct": {
-                    "value": "15",
-                    "RequiresShard": "1"
+                    "special_bonus_shard": "15"
                 },
                 "shard_attack_speed": {
-                    "value": "40",
-                    "RequiresShard": "1"
+                    "special_bonus_shard": "40"
                 },
                 "shard_duration": {
-                    "value": "5.0",
-                    "RequiresShard": "1"
+                    "special_bonus_shard": "5.0"
                 },
                 "AbilityCooldown": {
                     "value": "38 32 26 20",
@@ -21808,9 +21464,7 @@
                     "special_bonus_facet_lone_druid_unbearable": "-100%"
                 },
                 "attack_speed_pct": {
-                    "value": "0",
-                    "special_bonus_facet_lone_druid_unbearable": "+15",
-                    "RequiresFacet": "lone_druid_unbearable"
+                    "special_bonus_facet_lone_druid_unbearable": "+15"
                 },
                 "duration": {
                     "value": "40"
@@ -22298,8 +21952,7 @@
                     "special_bonus_facet_meepo_more_meepo": "=0"
                 },
                 "tooltip_clones_multiplicity": {
-                    "value": "1 2 3 4",
-                    "RequiresFacet": "meepo_more_meepo"
+                    "special_bonus_facet_meepo_more_meepo": "1 2 3 4"
                 },
                 "tooltip_share_percentage": "20",
                 "tooltip_share_percentage_scepter": "100",
@@ -22339,7 +21992,7 @@
                     "special_bonus_facet_meepo_codependent": "5"
                 },
                 "support_group_armor": {
-                    "special_bonus_facet_meepo_codependent": "2"
+                    "special_bonus_facet_meepo_codependent": "1"
                 }
             }
         },
@@ -22467,21 +22120,17 @@
                 "grace_time": "0.75",
                 "cooldown_time": "3",
                 "shard_root_time": {
-                    "value": "1.0",
-                    "RequiresShard": "1"
+                    "special_bonus_shard": "1.0"
                 },
                 "shard_by_tree_root_time": {
-                    "value": "2.0",
-                    "RequiresShard": "1"
+                    "special_bonus_shard": "2.0"
                 },
                 "shard_damage": {
-                    "value": "100",
-                    "RequiresShard": "1",
+                    "special_bonus_shard": "100",
                     "DamageTypeTooltip": "DAMAGE_TYPE_MAGICAL"
                 },
                 "attack_damage_pct": {
-                    "value": "75",
-                    "RequiresShard": "1",
+                    "special_bonus_shard": "75",
                     "DamageTypeTooltip": "DAMAGE_TYPE_MAGICAL"
                 },
                 "movement_bonus": {
@@ -22489,8 +22138,7 @@
                     "special_bonus_unique_treant_12": "+2.5"
                 },
                 "shard_cooldown": {
-                    "value": "10",
-                    "RequiresShard": "1"
+                    "special_bonus_shard": "10"
                 }
             },
             "AbilityCastAnimation": "ACT_DOTA_CAST_ABILITY_1"
@@ -22653,18 +22301,15 @@
             "AbilityManaCost": "100",
             "AbilityValues": {
                 "vision_aoe": {
-                    "value": "800",
-                    "RequiresScepter": "1",
+                    "special_bonus_scepter": "800",
                     "affected_by_aoe_increase": "1"
                 },
                 "overgrowth_aoe": {
-                    "value": "800",
-                    "RequiresScepter": "1",
+                    "special_bonus_scepter": "800",
                     "affected_by_aoe_increase": "1"
                 },
                 "tree_respawn_seconds": {
-                    "value": "10",
-                    "RequiresScepter": "1"
+                    "special_bonus_scepter": "10"
                 }
             }
         },
@@ -23369,16 +23014,13 @@
                 },
                 "fall_duration": "0.3 0.3 0.3 0.3",
                 "shard_max_land_distance_bonus_pct": {
-                    "value": "35",
-                    "RequiresShard": "1"
+                    "special_bonus_shard": "35"
                 },
                 "shard_cooldown_reduction_pct": {
-                    "value": "0",
-                    "RequiresShard": "1"
+                    "special_bonus_shard": "0"
                 },
                 "shard_teammate_throw_delay": {
-                    "value": "0.5",
-                    "RequiresShard": "1"
+                    "special_bonus_shard": "0.5"
                 },
                 "AbilityCooldown": {
                     "value": "24 21 18 15",
@@ -23520,14 +23162,12 @@
                 "projectile_speed": "1500",
                 "stolen_debuff_amp": "10 20 30",
                 "cast_range_scepter": {
-                    "value": "1400",
-                    "RequiresScepter": "1"
+                    "special_bonus_scepter": "1400"
                 },
                 "duration": {
                     "value": "180 240 300"
                 },
                 "stolen_mana_reduction": {
-                    "value": "0",
                     "special_bonus_facet_rubick_frugal_filch": "50 65 80"
                 }
             }
@@ -23917,16 +23557,14 @@
             "AbilityManaCost": "100 105 110 115",
             "AbilityValues": {
                 "AbilityCooldown": {
-                    "value": "13 11 9 7",
+                    "value": "11 9.5 8 6.5",
                     "special_bonus_unique_nyx_jolt_cooldown": "-3"
                 },
                 "max_mana_as_damage_pct": {
                     "value": "25 30 35 40"
                 },
                 "mana_burn_pct": {
-                    "value": "0",
-                    "special_bonus_facet_nyx_assassin_burn_mana": "=16 =19 =22 =25",
-                    "RequiresFacet": "nyx_assassin_burn_mana"
+                    "special_bonus_facet_nyx_assassin_burn_mana": "=16 =19 =22 =25"
                 },
                 "aoe": {
                     "value": "0",
@@ -24574,7 +24212,7 @@
                     "value": "18 16 14 12",
                     "special_bonus_unique_keeper_of_the_light_7": "-3"
                 },
-                "self_bonus": "25"
+                "self_bonus": "30"
             },
             "AbilityCastAnimation": "ACT_DOTA_CAST_ABILITY_3"
         },
@@ -25046,14 +24684,10 @@
                     "affected_by_aoe_increase": "1"
                 },
                 "target_radius": {
-                    "value": "0",
                     "affected_by_aoe_increase": "1",
-                    "RequiresFacet": "visage_sepulchre",
                     "special_bonus_facet_visage_sepulchre": "300"
                 },
                 "penalty": {
-                    "value": "0",
-                    "RequiresFacet": "visage_sepulchre",
                     "special_bonus_facet_visage_sepulchre": "50"
                 }
             },
@@ -25136,16 +24770,13 @@
                     "value": "80"
                 },
                 "shard_hp_restoration_pct": {
-                    "value": "25",
-                    "RequiresShard": "1"
+                    "special_bonus_shard": "25"
                 },
                 "shard_cooldown": {
-                    "value": "65",
-                    "RequiresShard": "1"
+                    "special_bonus_shard": "65"
                 },
                 "shard_manacost": {
-                    "value": "125",
-                    "RequiresShard": "1"
+                    "special_bonus_shard": "125"
                 }
             }
         },
@@ -25461,19 +25092,15 @@
                     "value": "400"
                 },
                 "max_charges": {
-                    "value": "2",
-                    "RequiresScepter": "1"
+                    "special_bonus_scepter": "2"
                 },
                 "charge_restore_time": {
-                    "value": "12",
-                    "RequiresScepter": "1"
+                    "special_bonus_scepter": "12"
                 },
                 "pounce_distance_scepter": {
-                    "value": "900",
-                    "RequiresScepter": "1"
+                    "special_bonus_scepter": "900"
                 },
                 "essence_stacks": {
-                    "value": "0",
                     "special_bonus_facet_slark_leeching_leash": "1 2 3 4"
                 },
                 "AbilityCooldown": {
@@ -25688,27 +25315,22 @@
                 "initial_speed": "800",
                 "return_speed": "800",
                 "stone_form_scepter_base": {
-                    "value": "1.0",
-                    "RequiresScepter": "1"
+                    "special_bonus_shard": "1.0"
                 },
                 "stone_form_scepter_increment": {
-                    "value": "0.2",
-                    "RequiresScepter": "1"
+                    "special_bonus_scepter": "0.2"
                 },
                 "movement_slow": {
                     "value": "30"
                 },
                 "slow_duration": "0",
                 "max_attacks": {
-                    "value": "0",
                     "special_bonus_facet_medusa_engorged": "+3"
                 },
                 "mana_per_damage": {
-                    "value": "0",
                     "special_bonus_facet_medusa_engorged": "+6"
                 },
                 "attack_buff_duration": {
-                    "value": "0",
                     "special_bonus_facet_medusa_engorged": "+5"
                 }
             },
@@ -25844,7 +25466,7 @@
                 "duration": "1.5",
                 "move_slow": "15 20 25 30 35",
                 "attack_slow": "20 35 50 65 80",
-                "cast_slow": "50",
+                "cast_slow": "0",
                 "attack_count": "6"
             }
         },
@@ -26026,16 +25648,13 @@
                 "axe_count": "5",
                 "AbilityCooldown": {
                     "value": "9",
-                    "special_bonus_scepter": "-5",
-                    "RequiresScepter": "1"
+                    "special_bonus_scepter": "-5"
                 },
                 "AbilityManacost": {
                     "value": "60",
-                    "special_bonus_scepter": "-30",
-                    "RequiresScepter": "1"
+                    "special_bonus_scepter": "-30"
                 },
                 "pierces_magic_immunity": {
-                    "value": "0",
                     "special_bonus_unique_troll_warlord_6": "+1"
                 }
             }
@@ -26129,15 +25748,12 @@
                     "special_bonus_facet_troll_warlord_bad_influence": "+15"
                 },
                 "extra_attack_chance_per_stack": {
-                    "value": "3",
-                    "RequiresShard": "1"
+                    "special_bonus_shard": "3"
                 },
                 "base_chance": {
-                    "value": "16",
-                    "RequiresShard": "1"
+                    "special_bonus_shard": "16"
                 },
                 "armor_per_stack": {
-                    "value": "0",
                     "special_bonus_facet_troll_warlord_insensitive": "+1.0"
                 },
                 "range_buffer": {
@@ -26550,7 +26166,7 @@
                     "affected_by_aoe_increase": "1"
                 },
                 "shock_damage": {
-                    "value": "90 160 230 300 300",
+                    "value": "75 150 225 300 300",
                     "special_bonus_unique_magnus": "+125"
                 },
                 "movement_slow": "75",
@@ -26650,7 +26266,7 @@
                 "secondary_cleave_distance": {
                     "value": "0"
                 },
-                "self_multiplier": "50",
+                "self_multiplier": "30",
                 "always_on": {
                     "value": "0",
                     "special_bonus_facet_magnataur_eternal_empowerment": "=1"
@@ -26708,8 +26324,7 @@
                     "special_bonus_unique_magnus_skewer_damage_distance": "+15"
                 },
                 "tree_radius": {
-                    "value": "0",
-                    "special_bonus_shard": "+200",
+                    "value": "200",
                     "affected_by_aoe_increase": "1"
                 },
                 "tree_hit_damage": {
@@ -26960,43 +26575,29 @@
                     "value": "2200 2400 2600 2800",
                     "special_bonus_unique_timbersaw_3": "+75%"
                 },
-                "damage": "50 95 140 185",
+                "damage": "45 100 155 210",
                 "tree_splinter_count": {
-                    "value": "0",
-                    "special_bonus_facet_shredder_shredder": "10",
-                    "RequiresFacet": "shredder_shredder"
+                    "special_bonus_facet_shredder_shredder": "10"
                 },
                 "tree_splinter_distance": {
-                    "value": "0",
                     "special_bonus_facet_shredder_shredder": "700",
-                    "RequiresFacet": "shredder_shredder",
                     "affected_by_aoe_increase": "1"
                 },
                 "tree_splinter_width": {
-                    "value": "0",
                     "special_bonus_facet_shredder_shredder": "100",
-                    "RequiresFacet": "shredder_shredder",
                     "affected_by_aoe_increase": "1"
                 },
                 "tree_splinter_speed": {
-                    "value": "0",
-                    "special_bonus_facet_shredder_shredder": "1600",
-                    "RequiresFacet": "shredder_shredder"
+                    "special_bonus_facet_shredder_shredder": "1600"
                 },
                 "tree_splinter_damage": {
-                    "value": "0",
-                    "special_bonus_facet_shredder_shredder": "20 40 60 80",
-                    "RequiresFacet": "shredder_shredder"
+                    "special_bonus_facet_shredder_shredder": "20 40 60 80"
                 },
                 "tree_splinter_slow_duration": {
-                    "value": "0",
-                    "special_bonus_facet_shredder_shredder": "1.0",
-                    "RequiresFacet": "shredder_shredder"
+                    "special_bonus_facet_shredder_shredder": "1.0"
                 },
                 "tree_splinter_slow_pct": {
-                    "value": "0",
-                    "special_bonus_facet_shredder_shredder": "30 40 50 60",
-                    "RequiresFacet": "shredder_shredder"
+                    "special_bonus_facet_shredder_shredder": "30 40 50 60"
                 }
             },
             "AbilityCastAnimation": "ACT_DOTA_CAST_ABILITY_2"
@@ -27011,7 +26612,7 @@
             "AbilityValues": {
                 "bonus_armor": "0.4 0.5 0.6 0.7",
                 "bonus_hp_regen": {
-                    "value": "0.3 0.4 0.5 0.6",
+                    "value": "0.4 0.5 0.6 0.7",
                     "special_bonus_unique_timbersaw_reactive_armor_regen_per_stack": "+0.2"
                 },
                 "stack_limit": {
@@ -27026,46 +26627,36 @@
                     "special_bonus_unique_timbersaw_2": "+1"
                 },
                 "AbilityManaCost": {
-                    "value": "0",
                     "special_bonus_scepter": "+200"
                 },
                 "AbilityCooldown": {
-                    "value": "45",
-                    "RequiresScepter": "1"
+                    "special_bonus_scepter": "45"
                 },
                 "initial_shield": {
-                    "value": "200",
-                    "RequiresScepter": "1"
+                    "special_bonus_scepter": "200"
                 },
                 "shield_per_sec": {
-                    "value": "100",
-                    "RequiresScepter": "1"
+                    "special_bonus_scepter": "100"
                 },
                 "shield_per_sec_per_enemy": {
-                    "value": "75",
-                    "RequiresScepter": "1"
+                    "special_bonus_scepter": "75"
                 },
                 "max_shield": {
-                    "value": "800",
-                    "RequiresScepter": "1"
+                    "special_bonus_scepter": "800"
                 },
                 "duration": {
-                    "value": "8",
-                    "RequiresScepter": "1"
+                    "special_bonus_scepter": "8"
                 },
                 "radius": {
-                    "value": "600",
-                    "RequiresScepter": "1",
+                    "special_bonus_scepter": "600",
                     "affected_by_aoe_increase": "1"
                 },
                 "explosion_radius": {
-                    "value": "600",
-                    "RequiresScepter": "1",
+                    "special_bonus_scepter": "600",
                     "affected_by_aoe_increase": "1"
                 },
                 "base_explosion": {
-                    "value": "200",
-                    "RequiresScepter": "1"
+                    "special_bonus_scepter": "200"
                 }
             },
             "AbilityCastAnimation": "ACT_DOTA_CAST_ABILITY_3"
@@ -27110,8 +26701,7 @@
                 "pass_slow_duration": "0.5",
                 "slow_health_percentage": "5",
                 "castpoint_scepter": {
-                    "value": "0.15",
-                    "RequiresScepter": "1"
+                    "special_bonus_scepter": "0.15"
                 },
                 "second_chakram": {
                     "value": "0"
@@ -27488,16 +27078,13 @@
                 "shard_distance": "200",
                 "turn_rate_slow": "0",
                 "aghs_shard_move_slow": {
-                    "value": "50",
-                    "RequiresShard": "1"
+                    "special_bonus_shard": "50"
                 },
                 "aghs_shard_damage": {
-                    "value": "85",
-                    "RequiresShard": "1"
+                    "special_bonus_shard": "85"
                 },
                 "aghs_shard_depth": {
-                    "value": "300",
-                    "RequiresShard": "1"
+                    "special_bonus_shard": "300"
                 }
             },
             "AbilityCastAnimation": "ACT_DOTA_CAST_ABILITY_1"
@@ -27777,7 +27364,7 @@
             "AbilityCastRange": "875",
             "AbilityCastPoint": "0.1 0.1 0.1 0.1",
             "AbilityCooldown": "5.0 4.0 3.0 2.0",
-            "AbilityManaCost": "85",
+            "AbilityManaCost": "70",
             "AbilityValues": {
                 "bolt_speed": "500",
                 "bolt_vision": "325",
@@ -27834,8 +27421,7 @@
                 },
                 "vision_duration": "3.34",
                 "scepter_radius": {
-                    "value": "500",
-                    "RequiresScepter": "1",
+                    "special_bonus_scepter": "500",
                     "affected_by_aoe_increase": "1"
                 }
             },
@@ -27861,9 +27447,8 @@
                 },
                 "seal_duration": "3.0 4.0 5.0 6.0",
                 "scepter_radius": {
-                    "value": "500",
-                    "affected_by_aoe_increase": "1",
-                    "RequiresScepter": "1"
+                    "special_bonus_scepter": "500",
+                    "affected_by_aoe_increase": "1"
                 }
             },
             "AbilityCastAnimation": "ACT_DOTA_CAST_ABILITY_3"
@@ -27895,8 +27480,7 @@
                 },
                 "damage_interval": "0.1",
                 "scepter_radius": {
-                    "value": "500",
-                    "RequiresScepter": "1",
+                    "special_bonus_scepter": "500",
                     "affected_by_aoe_increase": "1"
                 }
             }
@@ -28040,7 +27624,7 @@
             "AbilityValues": {
                 "AbilityCooldown": {
                     "value": "12 10 8 6",
-                    "special_bonus_facet_abaddon_mephitic_shroud": "+2"
+                    "special_bonus_facet_abaddon_mephitic_shroud": "+3"
                 },
                 "duration": {
                     "value": "12.0",
@@ -28121,13 +27705,13 @@
                 },
                 "curse_attack_speed": {
                     "value": "10 20 30 40",
-                    "special_bonus_unique_abaddon_3": "+80"
+                    "special_bonus_unique_abaddon_3": "+65"
                 },
                 "curse_dps": {
                     "value": "15 25 35 45",
-                    "special_bonus_unique_abaddon_5": "+50"
+                    "special_bonus_unique_abaddon_5": "+40"
                 },
-                "tower_dps_pct": "70",
+                "tower_dps_pct": "100",
                 "curse_interval": "0.5"
             }
         },
@@ -28153,15 +27737,16 @@
                     "special_bonus_scepter": "+3"
                 },
                 "ally_threshold_scepter": {
-                    "value": "550",
-                    "RequiresScepter": "1"
+                    "special_bonus_scepter": "550"
+                },
+                "redirect_range_scepter": {
+                    "special_bonus_scepter": "900",
+                    "affected_by_aoe_increase": "1"
                 },
                 "immolate_damage": {
-                    "value": "0",
                     "special_bonus_unique_abaddon_immolation": "+100"
                 },
                 "immolate_aoe": {
-                    "value": "0",
                     "special_bonus_unique_abaddon_immolation": "+400",
                     "affected_by_aoe_increase": "1"
                 },
@@ -28338,8 +27923,7 @@
                 "armor_heroes": "1.5 3 4.5 6",
                 "move_pct_cap": "40",
                 "scepter_magic_immune_per_hero": {
-                    "value": "2",
-                    "RequiresScepter": "1"
+                    "special_bonus_scepter": "2"
                 }
             }
         },
@@ -28539,32 +28123,25 @@
                     "affected_by_aoe_increase": "1"
                 },
                 "armor_per_creep": {
-                    "value": "1",
-                    "RequiresShard": "1"
+                    "special_bonus_shard": "1"
                 },
                 "armor_per_hero": {
-                    "value": "5",
-                    "RequiresShard": "1"
+                    "special_bonus_shard": "5"
                 },
                 "shard_duration": {
-                    "value": "8",
-                    "RequiresShard": "1"
+                    "special_bonus_shard": "8"
                 },
                 "AbilityCooldown": {
                     "value": "18",
                     "special_bonus_unique_legion_commander_9": "-2"
                 },
                 "duel_radius_bonus": {
-                    "value": "0",
-                    "special_bonus_shard": "+100",
-                    "RequiresShard": "1"
+                    "special_bonus_shard": "+100"
                 },
                 "shield_per_damage_pct": {
-                    "value": "0",
                     "special_bonus_facet_legion_commander_stonehall_plate": "+40"
                 },
                 "shield_duration": {
-                    "value": "0",
                     "special_bonus_facet_legion_commander_stonehall_plate": "+6"
                 }
             },
@@ -28650,11 +28227,12 @@
                     "special_bonus_shard": "+5"
                 },
                 "assist_reward_damage": {
-                    "value": "0",
                     "special_bonus_facet_legion_commander_spoils_of_war": "5 10 15"
                 },
+                "assist_pta_duration_pct": {
+                    "special_bonus_facet_legion_commander_spoils_of_war": "50"
+                },
                 "debuff_immunity": {
-                    "value": "0",
                     "special_bonus_scepter": "+1"
                 },
                 "damage_reduction_pct": {
@@ -28664,8 +28242,7 @@
                     "value": "60 55 50"
                 },
                 "shard_duel_damage_bonus": {
-                    "value": "5",
-                    "RequiresShard": "1"
+                    "special_bonus_shard": "5"
                 }
             }
         },
@@ -28777,7 +28354,7 @@
                     "affected_by_aoe_increase": "1"
                 },
                 "bonus_hero_damage": {
-                    "value": "40 80 120 160",
+                    "value": "25 70 115 160",
                     "special_bonus_unique_ember_spirit_6": "+50",
                     "CalculateSpellDamageTooltip": "0"
                 },
@@ -28899,20 +28476,16 @@
                 },
                 "duration": "45.0",
                 "scepter_range": {
-                    "value": "3000",
-                    "RequiresScepter": "1"
+                    "special_bonus_scepter": "3000"
                 },
                 "scepter_speed_multiplier": {
-                    "value": "2",
-                    "RequiresScepter": "1"
+                    "special_bonus_scepter": "2"
                 },
                 "scepter_max_charges": {
-                    "value": "5",
-                    "RequiresScepter": "1"
+                    "special_bonus_scepter": "5"
                 },
                 "shard_charge_radius": {
-                    "value": "400",
-                    "RequiresShard": "1",
+                    "special_bonus_shard": "400",
                     "affected_by_aoe_increase": "1"
                 }
             }
@@ -28940,8 +28513,7 @@
                 },
                 "speed": "1300",
                 "scepter_mana_cost": {
-                    "value": "75",
-                    "RequiresScepter": "1"
+                    "special_bonus_scepter": "75"
                 },
                 "shard_remnant_speed_pct": "300"
             }
@@ -29010,7 +28582,7 @@
                     "affected_by_aoe_increase": "1"
                 },
                 "rock_damage": {
-                    "value": "120 180 240 300",
+                    "value": "110 180 250 320",
                     "special_bonus_unique_earth_spirit_6": "+80"
                 },
                 "move_slow": "50",
@@ -29060,7 +28632,7 @@
                 "delay": "0.6",
                 "damage": {
                     "value": "60 70 80 90",
-                    "special_bonus_unique_earth_spirit": "+160"
+                    "special_bonus_unique_earth_spirit": "+180"
                 },
                 "stun_duration": {
                     "value": "0.3 0.5 0.7 0.9",
@@ -29123,7 +28695,7 @@
                 "total_pull_distance": "1400",
                 "AbilityCooldown": {
                     "value": "13",
-                    "special_bonus_unique_earth_spirit_5": "-2"
+                    "special_bonus_unique_earth_spirit_5": "-3"
                 }
             }
         },
@@ -29370,8 +28942,8 @@
                     "value": "16",
                     "special_bonus_unique_terrorblade_4": "-2"
                 },
-                "illusion_incoming_damage": "175.0",
-                "illusion_incoming_damage_total_tooltip": "275.0",
+                "illusion_incoming_damage": "150.0",
+                "illusion_incoming_damage_total_tooltip": "250.0",
                 "strong_illusion": {
                     "value": "0"
                 },
@@ -29382,12 +28954,9 @@
                     "value": "1"
                 },
                 "hp_cost_perc": {
-                    "value": "0",
-                    "special_bonus_facet_terrorblade_soul_fragment": "=15",
-                    "RequiresFacet": "terrorblade_soul_fragment"
+                    "special_bonus_facet_terrorblade_soul_fragment": "=15"
                 },
                 "illusions_spawn_with_full_hp": {
-                    "value": "0",
                     "special_bonus_facet_terrorblade_soul_fragment": "+1"
                 },
                 "AbilityManaCost": {
@@ -29661,8 +29230,7 @@
                 "turn_rate_initial": "250",
                 "turn_rate": "25",
                 "shard_move_slow_pct": {
-                    "value": "10",
-                    "RequiresShard": "1"
+                    "special_bonus_shard": "10"
                 },
                 "focal_point_max_multiplier": {
                     "value": "0",
@@ -29728,13 +29296,11 @@
                     "special_bonus_unique_phoenix_1": "+2"
                 },
                 "max_hero_attacks_scepter": {
-                    "value": "7 10 13",
-                    "RequiresScepter": "1",
+                    "special_bonus_scepter": "7 10 13",
                     "special_bonus_unique_phoenix_1": "+2"
                 },
                 "cast_range_tooltip_scepter": {
-                    "value": "500",
-                    "RequiresScepter": "1"
+                    "special_bonus_scepter": "500"
                 }
             }
         },
@@ -29950,23 +29516,19 @@
                     "affected_by_aoe_increase": "1"
                 },
                 "shard_fade_time": {
-                    "value": "0.15",
-                    "RequiresShard": "1"
+                    "special_bonus_scepter": "0.15"
                 },
                 "shard_spell_amp_bonus": {
-                    "value": "30",
-                    "RequiresShard": "1"
+                    "special_bonus_scepter": "30"
                 },
                 "shard_bat_bonus": {
-                    "value": "0.25",
-                    "RequiresShard": "1"
+                    "special_bonus_scepter": "0.25"
                 },
                 "AbilityCooldown": {
                     "value": "110 85 60",
                     "special_bonus_unique_oracle_6": "-20"
                 },
                 "bonus_armor": {
-                    "value": "0",
                     "special_bonus_unique_oracle_9": "+8"
                 },
                 "heal_amp_pct": {
@@ -29992,7 +29554,7 @@
                 },
                 "duration": "10",
                 "damage": {
-                    "value": "35",
+                    "value": "30",
                     "CalculateSpellDamageTooltip": "1"
                 },
                 "tick_rate": "1.0",
@@ -30068,7 +29630,7 @@
             "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_PASSIVE",
             "AbilityValues": {
                 "value": {
-                    "value": "30",
+                    "value": "25",
                     "ad_linked_abilities": "oracle_purifying_flames"
                 }
             }
@@ -30110,8 +29672,7 @@
                     "special_bonus_unique_techies_4": "-0.8"
                 },
                 "cast_range_scepter_bonus": {
-                    "value": "300",
-                    "RequiresScepter": "1"
+                    "special_bonus_scepter": "300"
                 },
                 "AbilityChargeRestoreTime": {
                     "value": "15",
@@ -30158,8 +29719,7 @@
                     "value": "600"
                 },
                 "cast_range_scepter_bonus": {
-                    "value": "300",
-                    "RequiresScepter": "1"
+                    "special_bonus_scepter": "300"
                 }
             }
         },
@@ -30262,8 +29822,7 @@
                     "affected_by_aoe_increase": "1"
                 },
                 "shard_damage": {
-                    "value": "300",
-                    "RequiresShard": "1",
+                    "special_bonus_shard": "300",
                     "DamageTypeTooltip": "DAMAGE_TYPE_MAGICAL"
                 }
             }
@@ -30304,16 +29863,13 @@
                     "value": "2"
                 },
                 "damage_scepter": {
-                    "value": "450 600 750",
-                    "RequiresScepter": "1"
+                    "special_bonus_scepter": "450 600 750"
                 },
                 "radius_scepter": {
-                    "value": "425",
-                    "RequiresScepter": "1"
+                    "special_bonus_scepter": "425"
                 },
                 "cast_range_scepter_bonus": {
-                    "value": "300",
-                    "RequiresScepter": "1"
+                    "special_bonus_scepter": "300"
                 },
                 "vision_radius": {
                     "value": "500"
@@ -30383,12 +29939,10 @@
                     "affected_by_aoe_increase": "1"
                 },
                 "scepter_move_damage": {
-                    "value": "300",
-                    "RequiresScepter": "1"
+                    "special_bonus_scepter": "300"
                 },
                 "scepter_move_amt": {
-                    "value": "200",
-                    "RequiresScepter": "1"
+                    "special_bonus_scepter": "200"
                 },
                 "bonus_mine_damage_pct": "15"
             }
@@ -30463,12 +30017,10 @@
                 "attack_point": "0.1",
                 "max_attacks": "5",
                 "mana_cost_scepter": {
-                    "value": "20",
-                    "RequiresScepter": "1"
+                    "special_bonus_scepter": "20"
                 },
                 "movement_scepter": {
-                    "value": "25",
-                    "RequiresScepter": "1"
+                    "special_bonus_scepter": "25"
                 }
             },
             "AbilityCastAnimation": "ACT_DOTA_CAST_ABILITY_1"
@@ -30529,25 +30081,20 @@
                 },
                 "heal_percentage": "2.25 3 3.75 4.5",
                 "shard_cooldown_reduction": {
-                    "value": "4.0",
-                    "RequiresShard": "1"
+                    "special_bonus_shard": "4.0"
                 },
                 "shard_splinter_range": {
-                    "value": "1150",
-                    "RequiresShard": "1",
+                    "special_bonus_shard": "1150",
                     "affected_by_aoe_increase": "1"
                 },
                 "tick_interval": "0.25",
                 "can_target_buildings": {
-                    "value": "0",
                     "special_bonus_facet_winter_wyvern_winterproof": "=1"
                 },
                 "damage_buff_pct": {
-                    "value": "0",
                     "special_bonus_facet_winter_wyvern_winterproof": "=60"
                 },
                 "damage_buff_duration": {
-                    "value": "0",
                     "special_bonus_facet_winter_wyvern_winterproof": "=6.0"
                 }
             },
@@ -30666,12 +30213,10 @@
             "AbilityManaCost": "100",
             "AbilityValues": {
                 "tooltip_scepter_cooldown": {
-                    "value": "60",
-                    "RequiresScepter": "1"
+                    "special_bonus_scepter": "60"
                 },
                 "tooltip_scepter_manacost": {
-                    "value": "100",
-                    "RequiresScepter": "1"
+                    "special_bonus_scepter": "100"
                 }
             }
         },
@@ -31471,21 +31016,17 @@
                     "special_bonus_unique_monkey_king_6": "+350"
                 },
                 "cast_range_scepter": {
-                    "value": "1550",
-                    "RequiresScepter": "1"
+                    "special_bonus_scepter": "1550"
                 },
                 "outer_attack_buffer": "0",
                 "cooldown_scepter": {
-                    "value": "90 70 50",
-                    "RequiresScepter": "1"
+                    "special_bonus_scepter": "90 70 50"
                 },
                 "scepter_spawn_interval": {
-                    "value": "4",
-                    "RequiresScepter": "1"
+                    "special_bonus_scepter": "4"
                 },
                 "scepter_spawn_duration": {
-                    "value": "12",
-                    "RequiresScepter": "1"
+                    "special_bonus_scepter": "12"
                 }
             }
         },
@@ -31663,24 +31204,16 @@
                 "slow": "20 25 30 35",
                 "slow_duration": "3",
                 "parry_swashbuckles": {
-                    "value": "0",
-                    "special_bonus_facet_pangolier_auto_swashbuckle": "+2",
-                    "RequiresFacet": "pangolier_auto_swashbuckle"
+                    "special_bonus_facet_pangolier_auto_swashbuckle": "+2"
                 },
                 "parry_chance": {
-                    "value": "0",
-                    "special_bonus_facet_pangolier_auto_swashbuckle": "+50",
-                    "RequiresFacet": "pangolier_auto_swashbuckle"
+                    "special_bonus_facet_pangolier_auto_swashbuckle": "+50"
                 },
                 "parry_cooldown": {
-                    "value": "0",
-                    "special_bonus_facet_pangolier_auto_swashbuckle": "+2",
-                    "RequiresFacet": "pangolier_auto_swashbuckle"
+                    "special_bonus_facet_pangolier_auto_swashbuckle": "+2"
                 },
                 "parry_damage_threshold": {
-                    "value": "0",
-                    "special_bonus_facet_pangolier_auto_swashbuckle": "+25",
-                    "RequiresFacet": "pangolier_auto_swashbuckle"
+                    "special_bonus_facet_pangolier_auto_swashbuckle": "+25"
                 }
             },
             "AbilityCastAnimation": "ACT_DOTA_CAST_ABILITY_2"
@@ -32058,25 +31591,18 @@
                     "special_bonus_unique_dark_willow_7": "+150"
                 },
                 "shard_delay_reduction": {
-                    "value": "0",
-                    "RequiresShard": "1"
+                    "special_bonus_shard": "0"
                 },
                 "shard_bramble_amount": {
-                    "value": "4",
-                    "RequiresShard": "1"
+                    "special_bonus_shard": "4"
                 },
                 "shard_spawn_radius": {
-                    "value": "175",
-                    "RequiresShard": "1"
+                    "special_bonus_shard": "175"
                 },
                 "accumulated_damage_pct": {
-                    "value": "0",
-                    "RequiresFacet": "dark_willow_shattering_crown",
                     "special_bonus_facet_dark_willow_shattering_crown": "=35"
                 },
                 "accumulated_damage_pct_ally": {
-                    "value": "0",
-                    "RequiresFacet": "dark_willow_shattering_crown",
                     "special_bonus_facet_dark_willow_shattering_crown": "=15"
                 },
                 "AbilityCooldown": {
@@ -32381,16 +31907,13 @@
                     "special_bonus_facet_grimstroke_inkstigate": "+1"
                 },
                 "shard_bonus_damage_pct": {
-                    "value": "40",
-                    "RequiresShard": "1"
+                    "special_bonus_shard": "40"
                 },
                 "shard_heal_pct": {
-                    "value": "40",
-                    "RequiresShard": "1"
+                    "special_bonus_shard": "40"
                 },
                 "shard_creep_penalty": {
-                    "value": "0.2",
-                    "RequiresShard": "1"
+                    "special_bonus_shard": "0.2"
                 }
             },
             "AbilityCastAnimation": "ACT_DOTA_CAST_ABILITY_1",
@@ -32532,30 +32055,24 @@
                 "knockback_duration": "0.25",
                 "knockback_distance": "75",
                 "shard_trail_duration": {
-                    "value": "10.0",
-                    "RequiresShard": "1"
+                    "special_bonus_shard": "10.0"
                 },
                 "shard_trail_radius": {
-                    "value": "200",
-                    "RequiresShard": "1",
+                    "special_bonus_shard": "200",
                     "affected_by_aoe_increase": "1"
                 },
                 "shard_dps": {
-                    "value": "40",
-                    "RequiresShard": "1",
+                    "special_bonus_shard": "40",
                     "CalculateSpellDamageTooltip": "1"
                 },
                 "shard_move_slow_pct": {
-                    "value": "20",
-                    "RequiresShard": "1"
+                    "special_bonus_shard": "20"
                 },
                 "shard_debuff_linger_duration": {
-                    "value": "2.0",
-                    "RequiresShard": "1"
+                    "special_bonus_shard": "2.0"
                 },
                 "shard_interval": {
-                    "value": "0.5",
-                    "RequiresShard": "1"
+                    "special_bonus_shard": "0.5"
                 }
             },
             "AbilityCastAnimation": "ACT_DOTA_CAST_ABILITY_5"
@@ -32643,36 +32160,28 @@
                 },
                 "attack_redirection_grace_distance": "0",
                 "soldier_count": {
-                    "value": "4",
-                    "RequiresScepter": "1"
+                    "special_bonus_scepter": "4"
                 },
                 "soldier_offset": {
-                    "value": "150",
-                    "RequiresScepter": "1"
+                    "special_bonus_scepter": "150"
                 },
                 "scepter_movement_slow_pct": {
-                    "value": "30",
-                    "RequiresScepter": "1"
+                    "special_bonus_scepter": "30"
                 },
                 "scepter_movement_slow_duration": {
-                    "value": "1.0",
-                    "RequiresScepter": "1"
+                    "special_bonus_scepter": "1.0"
                 },
                 "scepter_bonus_damage": {
-                    "value": "75",
-                    "RequiresScepter": "1"
+                    "special_bonus_scepter": "75"
                 },
                 "stationary_attack_delay": {
-                    "value": "0.0",
-                    "RequiresScepter": "1"
+                    "special_bonus_scepter": "0.0"
                 },
                 "knockback_distance": {
-                    "value": "325",
-                    "RequiresScepter": "1"
+                    "special_bonus_scepter": "325"
                 },
                 "soldier_attack_range": {
-                    "value": "275",
-                    "RequiresScepter": "1"
+                    "special_bonus_scepter": "275"
                 }
             }
         },
@@ -33000,16 +32509,13 @@
                 },
                 "return_projectile_speed": "900",
                 "max_charges": {
-                    "value": "2",
-                    "RequiresScepter": "1"
+                    "special_bonus_scepter": "2"
                 },
                 "charge_restore_time": {
-                    "value": "18",
-                    "RequiresScepter": "1"
+                    "special_bonus_scepter": "18"
                 },
                 "silence_duration_scepter": {
-                    "value": "2.0",
-                    "RequiresScepter": "1"
+                    "special_bonus_scepter": "2.0"
                 }
             }
         },
@@ -33135,21 +32641,17 @@
                     "special_bonus_facet_snapfire_full_bore": "=1"
                 },
                 "shard_knockback_distance": {
-                    "value": "250",
-                    "RequiresShard": "1",
+                    "special_bonus_shard": "250",
                     "affected_by_aoe_increase": "1"
                 },
                 "shard_knockback_duration": {
-                    "value": "0.3",
-                    "RequiresShard": "1"
+                    "special_bonus_shard": "0.3"
                 },
                 "shard_stun_duration": {
-                    "value": "1.4",
-                    "RequiresShard": "1"
+                    "special_bonus_shard": "1.4"
                 },
                 "shard_bonus_point_blank_dmg_pct": {
-                    "value": "85.0",
-                    "RequiresShard": "1"
+                    "special_bonus_shard": "85.0"
                 }
             }
         },
@@ -33234,8 +32736,7 @@
             "AbilityCastAnimation": "ACT_DOTA_CAST_ABILITY_1",
             "AbilityValues": {
                 "max_time_in_belly": {
-                    "value": "3",
-                    "RequiresScepter": "1"
+                    "special_bonus_scepter": "3"
                 }
             }
         },
@@ -33366,7 +32867,7 @@
             "AbilityDuration": "6",
             "AbilityManaCost": "70 80 90 100",
             "AbilityValues": {
-                "damage": "20 35 50 65",
+                "damage": "25 40 55 70",
                 "buffed_attacks": {
                     "value": "5",
                     "special_bonus_unique_snapfire_2": "+1"
@@ -33460,8 +32961,8 @@
                 },
                 "damage": "200",
                 "mark_duration": "7.0",
-                "slow_pct": "20",
-                "spell_amp": "20",
+                "slow_pct": "25",
+                "spell_amp": "25",
                 "status_resistance": "0",
                 "spread": {
                     "value": "400",
@@ -33508,7 +33009,7 @@
             "AbilityValues": {
                 "bonus_range": "100",
                 "acorn_shot_damage": {
-                    "value": "40 80 120 160",
+                    "value": "45 90 135 180",
                     "CalculateSpellDamageTooltip": "0"
                 },
                 "base_damage_pct": {
@@ -33646,7 +33147,7 @@
                     "special_bonus_facet_hoodwink_hipshot": "x0.75"
                 },
                 "max_damage": {
-                    "value": "550 900 1250",
+                    "value": "600 975 1350",
                     "special_bonus_unique_hoodwink_sharpshooter_damage": "+400",
                     "special_bonus_facet_hoodwink_hipshot": "x0.75"
                 },
@@ -33680,7 +33181,7 @@
                 },
                 "vision_radius_buffer": {
                     "value": "0",
-                    "special_bonus_unique_hoodwink_sharpshooter_vision": "+15"
+                    "special_bonus_unique_hoodwink_sharpshooter_vision": "+35"
                 },
                 "base_power": "0.2",
                 "quick_draw_tooltip_pct_cooldown_reduction": {
@@ -33967,12 +33468,10 @@
                     "special_bonus_unique_dawnbreaker_solar_guardian_cooldown": "-20"
                 },
                 "scepter_aura_duration": {
-                    "value": "3",
-                    "RequiresScepter": "1"
+                    "special_bonus_scepter": "3"
                 },
                 "miss_rate": {
-                    "value": "0",
-                    "RequiresScepter": "1"
+                    "special_bonus_scepter": "0"
                 },
                 "base_heal": {
                     "value": "45 70 95",
@@ -33995,12 +33494,10 @@
                 "land_stun_duration": "1.4 1.6 1.8",
                 "max_offset_distance": "350",
                 "scepter_channel_time": {
-                    "value": "1.0",
-                    "RequiresScepter": "1"
+                    "special_bonus_scepter": "1.0"
                 },
                 "airtime_scepter_bonus": {
-                    "value": "3.5",
-                    "RequiresScepter": "1"
+                    "special_bonus_scepter": "3.5"
                 },
                 "airtime_scepter_movement_speed": "200",
                 "airtime_duration": {
@@ -34119,15 +33616,12 @@
                     "affected_by_aoe_increase": "1"
                 },
                 "scepter_cooldown_reduction": {
-                    "value": "10.0",
-                    "RequiresScepter": "1"
+                    "special_bonus_scepter": "10.0"
                 },
                 "dispel": {
-                    "value": "0",
                     "special_bonus_scepter": "+1"
                 },
                 "pulse_silence_duration": {
-                    "value": "0",
                     "special_bonus_scepter": "+1"
                 },
                 "extend_duration": {
@@ -34197,22 +33691,16 @@
                 "impact_position_offset": "64",
                 "target_abort_distance": "700",
                 "scepter_heal": {
-                    "value": "300",
-                    "RequiresScepter": "1"
+                    "special_bonus_scepter": "300"
                 },
                 "scepter_armor": {
-                    "value": "15",
-                    "RequiresScepter": "1"
+                    "special_bonus_scepter": "15"
                 },
                 "ally_arc_offset": {
-                    "value": "0",
-                    "RequiresFacet": "marci_pickmeup",
                     "special_bonus_facet_marci_pickmeup": "=150"
                 },
                 "ally_impact_damage_pct": {
-                    "value": "0",
-                    "RequiresFacet": "marci_pickmeup",
-                    "special_bonus_facet_marci_pickmeup": "=25"
+                    "special_bonus_facet_marci_pickmeup": "=35"
                 },
                 "max_level": {
                     "value": "4"
@@ -34221,13 +33709,9 @@
                     "special_bonus_facet_marci_pickmeup": "=5"
                 },
                 "postjump_unleash_duration": {
-                    "value": "0",
-                    "RequiresFacet": "marci_fleeting_fury",
                     "special_bonus_facet_marci_fleeting_fury": "=3"
                 },
                 "postjump_flurry_charges": {
-                    "value": "0",
-                    "RequiresFacet": "marci_fleeting_fury",
                     "special_bonus_facet_marci_fleeting_fury": "=3"
                 }
             }
@@ -34282,7 +33766,8 @@
             "AbilityManaCost": "50",
             "AbilityValues": {
                 "bodyguard_duration": {
-                    "value": "6.0"
+                    "value": "6.0",
+                    "special_bonus_facet_marci_buddy_system": "+1.0"
                 },
                 "lifesteal_pct": {
                     "value": "12 18 24 30",
@@ -34299,8 +33784,6 @@
                 "max_partner_penalty": "75",
                 "counter_cooldown": "0.45",
                 "shared_healing_percent": {
-                    "value": "0",
-                    "RequiresFacet": "marci_buddy_system",
                     "special_bonus_facet_marci_buddy_system": "=100"
                 }
             }
@@ -34456,20 +33939,14 @@
                     "value": "0"
                 },
                 "bonus_movespeed_pct_self": {
-                    "value": "0",
-                    "special_bonus_facet_primal_beast_romp_n_stomp": "=10",
-                    "RequiresFacet": "light_footed"
+                    "special_bonus_facet_primal_beast_romp_n_stomp": "=10"
                 },
                 "bonus_movespeed_pct_allies": {
-                    "value": "0",
-                    "special_bonus_facet_primal_beast_romp_n_stomp": "=5",
-                    "RequiresFacet": "light_footed"
+                    "special_bonus_facet_primal_beast_romp_n_stomp": "=5"
                 },
                 "aura_radius": {
-                    "value": "0",
                     "affected_by_aoe_increase": "1",
-                    "special_bonus_facet_primal_beast_romp_n_stomp": "=1200",
-                    "RequiresFacet": "light_footed"
+                    "special_bonus_facet_primal_beast_romp_n_stomp": "=1200"
                 }
             }
         },
@@ -34484,7 +33961,7 @@
                     "value": "10 20 30 40"
                 },
                 "stack_limit": {
-                    "value": "5"
+                    "value": "6"
                 },
                 "stack_count_increase_on_disable": {
                     "value": "0",
@@ -34507,52 +33984,41 @@
                 },
                 "roar_duration": "7",
                 "should_dispell": {
-                    "value": "0",
                     "special_bonus_unique_primal_beast_roar_dispells": "+1"
                 },
                 "projectiles_per_stack": {
-                    "value": "2",
-                    "RequiresScepter": "1"
+                    "special_bonus_scepter": "2"
                 },
                 "projectile_distance": {
-                    "value": "1400",
-                    "RequiresScepter": "1",
+                    "special_bonus_scepter": "1400",
                     "affected_by_aoe_increase": "1"
                 },
                 "projectile_width": {
-                    "value": "75",
-                    "affected_by_aoe_increase": "1",
-                    "RequiresScepter": "1"
+                    "special_bonus_scepter": "75",
+                    "affected_by_aoe_increase": "1"
                 },
                 "projectile_damage": {
-                    "value": "85",
-                    "RequiresScepter": "1",
+                    "special_bonus_scepter": "85",
                     "DamageTypeTooltip": "DAMAGE_TYPE_MAGICAL",
                     "CalculateSpellDamageTooltip": "1"
                 },
                 "projectile_speed": {
-                    "value": "500",
-                    "RequiresScepter": "1"
+                    "special_bonus_scepter": "500"
                 },
                 "splinter_angle": {
-                    "value": "30",
-                    "RequiresScepter": "1"
+                    "special_bonus_scepter": "30"
                 },
                 "max_split_amount": {
-                    "value": "2",
-                    "RequiresScepter": "1"
+                    "special_bonus_scepter": "2"
                 },
                 "split_delay": {
-                    "value": "1.25",
-                    "RequiresScepter": "1"
+                    "special_bonus_scepter": "1.25"
                 },
                 "projectile_break_duration": {
-                    "value": "2.5",
-                    "RequiresScepter": "1"
+                    "special_bonus_scepter": "2.5"
                 },
                 "projectile_waves": {
-                    "value": "3",
-                    "RequiresScepter": "1"
+                    "special_bonus_scepter": "3"
                 }
             }
         },
@@ -34838,8 +34304,7 @@
                 "modelscale": "30",
                 "bonus_damage": "70 100 130",
                 "spell_lifesteal": {
-                    "value": "30",
-                    "RequiresShard": "1"
+                    "special_bonus_shard": "30"
                 },
                 "spell_amp_steal": {
                     "value": "2",
@@ -34863,7 +34328,7 @@
             "AbilityManaCost": "50",
             "AbilityValues": {
                 "pierce_the_veil_duration_pct": "50",
-                "attackspeed_bonus": "15 25 35 45",
+                "attackspeed_bonus": "20 30 40 50",
                 "effect_radius": "400 450 500 550"
             }
         },
@@ -34936,8 +34401,7 @@
             "AbilityManaCost": "100",
             "AbilityValues": {
                 "tooltip_channel_time": {
-                    "value": "2.0",
-                    "RequiresScepter": "1"
+                    "special_bonus_scepter": "2.0"
                 }
             }
         },
@@ -35102,16 +34566,13 @@
                     "value": "0"
                 },
                 "strong_dispel": {
-                    "value": "0",
                     "special_bonus_unique_ringmaster_the_box_strong_dispel_and_flying": "+1"
                 },
                 "grant_flying": {
-                    "value": "0",
                     "special_bonus_unique_ringmaster_the_box_strong_dispel_and_flying": "+1"
                 },
                 "max_charges": {
-                    "value": "2",
-                    "RequiresScepter": "1"
+                    "special_bonus_scepter": "2"
                 },
                 "AbilityCooldown": {
                     "value": "38 32 26 20",
@@ -35122,19 +34583,15 @@
                     "special_bonus_scepter": "=38 =32 =26 =20"
                 },
                 "launch_daggers_count": {
-                    "value": "0",
                     "special_bonus_scepter": "=8"
                 },
                 "launch_daggers_range": {
-                    "value": "0",
                     "special_bonus_scepter": "=1200"
                 },
                 "explosion_radius": {
-                    "value": "0",
                     "special_bonus_scepter": "=225"
                 },
                 "explosion_damage": {
-                    "value": "0",
                     "special_bonus_scepter": "=300"
                 }
             },
@@ -35334,7 +34791,9 @@
                 "turn_rate_min": "90",
                 "turn_rate_max": "130",
                 "impact_radius": "75",
-                "knockback_distance": "50"
+                "knockback_distance": "50",
+                "damage_grace_period": "1.5",
+                "damage_threshold": "20"
             }
         },
         "ringmaster_weighted_pie": {
@@ -35359,7 +34818,8 @@
                 "push_length": "400",
                 "push_duration": "0.3",
                 "blind_duration": "2.0",
-                "vision_radius": "50"
+                "vision_radius": "50",
+                "max_slow_pct": "45"
             }
         },
         "ringmaster_crystal_ball": {
@@ -35447,18 +34907,15 @@
                 "katana_base_attack_time": "2.0",
                 "katana_bonus_damage": "12",
                 "katana_swap_bonus_damage": {
-                    "RequiresFacet": "kez_flutter",
-                    "value": "12"
+                    "special_bonus_facet_kez_flutter": "12"
                 },
                 "sai_attack_range": "150",
                 "sai_base_attack_time": "1.5",
                 "sai_swap_bonus_movement_speed": {
-                    "RequiresFacet": "kez_flutter",
-                    "value": "12"
+                    "special_bonus_facet_kez_flutter": "12"
                 },
                 "sai_swap_duration": {
-                    "RequiresFacet": "kez_flutter",
-                    "value": "2"
+                    "special_bonus_facet_kez_flutter": "2"
                 },
                 "cooldown_reduction_per_level": "0.2",
                 "scepter_cooldown_timer": "3"
@@ -35561,27 +35018,20 @@
                 },
                 "heal_reduction_pct": "20 25 30 35",
                 "shard_cooldown": {
-                    "value": "20 15 10 5",
-                    "RequiresShard": "1"
+                    "special_bonus_shard": "20 15 10 5"
                 },
                 "AbilityManaCost": {
-                    "value": "0",
                     "special_bonus_shard": "50"
                 },
                 "stun_duration": {
-                    "value": "0",
-                    "special_bonus_shard": "0.6",
-                    "RequiresShard": "1"
+                    "special_bonus_shard": "0.6"
                 },
                 "bleed_as_rupture_pct": {
-                    "value": "0",
                     "special_bonus_shard": "100",
-                    "RequiresShard": "1",
                     "DamageTypeTooltip": "DAMAGE_TYPE_PHYSICAL"
                 },
                 "katana_swap_bonus_damage": {
-                    "RequiresFacet": "kez_flutter",
-                    "value": "12",
+                    "special_bonus_facet_kez_flutter": "12",
                     "DamageTypeTooltip": "DAMAGE_TYPE_PHYSICAL"
                 }
             }
@@ -35722,7 +35172,7 @@
                 "vuln_duration": "8.0",
                 "base_crit_pct": {
                     "value": "140 160 180 200",
-                    "special_bonus_unique_kez_mark_damage": "+75"
+                    "special_bonus_unique_kez_mark_damage": "+100"
                 },
                 "stun_duration": "0.5",
                 "forward_angle": "180",
@@ -35731,8 +35181,7 @@
                 "parry_bonus_crit": "25 50 75 100",
                 "parry_stun_duration": "0.5",
                 "sai_swap_bonus_movement_speed": {
-                    "RequiresFacet": "kez_flutter",
-                    "value": "12"
+                    "special_bonus_facet_kez_flutter": "12"
                 }
             }
         },

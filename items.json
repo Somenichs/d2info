@@ -624,7 +624,6 @@
             "ItemContributesToNetWorthWhenDropped": "0",
             "AllowedInBackpack": "0",
             "IsTempestDoubleClonable": "0",
-            "SuggestEarlygame": "1",
             "SpeciallyBannedFromNeutralSlot": "1",
             "UIPickupSound": "Item.PickUpGemShop",
             "UIDropSound": "Item.DropGemShop",
@@ -1054,7 +1053,6 @@
             "ItemInitialCharges": "3",
             "ItemDisplayCharges": "1",
             "IsTempestDoubleClonable": "0",
-            "SuggestPregame": "1",
             "SuggestEarlygame": "1",
             "SpeciallyBannedFromNeutralSlot": "1",
             "AbilityValues": {
@@ -3748,7 +3746,7 @@
                 "soul_heal_amount": "40",
                 "soul_damage_amount": "25",
                 "duration": "8.0",
-                "hp_regen_reduction_enemy": "60",
+                "hp_regen_reduction_enemy": "70",
                 "enemy_hp_drain": "4",
                 "enemy_slow_pct": "0"
             }
@@ -4712,7 +4710,7 @@
             "SuggestLategame": "1",
             "SpellImmunityType": "SPELL_IMMUNITY_ENEMIES_YES",
             "AbilityValues": {
-                "bonus_damage": "50",
+                "bonus_damage": "55",
                 "corruption_armor": "-6",
                 "corruption_duration": "7.0",
                 "bonus_damage_per_kill": "2",
@@ -5006,6 +5004,7 @@
             "ItemQuality": "component",
             "ItemAliases": "oov;orb of venom",
             "SuggestPregame": "1",
+            "SuggestEarlygame": "1",
             "AbilityCooldown": "9.0",
             "AbilityValues": {
                 "damage": "10",
@@ -5021,6 +5020,7 @@
             "ItemQuality": "component",
             "ItemAliases": "blight stone",
             "SuggestPregame": "1",
+            "SuggestEarlygame": "1",
             "SpellImmunityType": "SPELL_IMMUNITY_ENEMIES_YES",
             "AbilityValues": {
                 "corruption_armor": "-2",
@@ -5046,7 +5046,7 @@
             "ItemAliases": "ooc;orb of corrosion;corosion;corossion;healing;reduction",
             "SuggestEarlygame": "1",
             "AbilityValues": {
-                "corruption_armor": "-3",
+                "corruption_armor": "-2",
                 "slow_melee": "-8",
                 "slow_ranged": "-16",
                 "heal_reduction": "16",
@@ -5060,6 +5060,7 @@
             "ItemShopTags": "hard_to_tag",
             "ItemQuality": "rare",
             "ItemAliases": "oof;orb of frost;frost;healing;reduction",
+            "SuggestPregame": "1",
             "SuggestEarlygame": "1",
             "AbilityValues": {
                 "slow_melee": "-6",
@@ -5120,7 +5121,7 @@
                 "bonus_mana_regen": "2",
                 "bonus_damage": "8",
                 "duration": "3",
-                "dps": "25"
+                "dps": "20"
             }
         },
         "item_recipe_ancient_janggo": {
@@ -5428,7 +5429,7 @@
             "SuggestLategame": "1",
             "AbilityValues": {
                 "bonus_damage": "35",
-                "spell_lifesteal": "16",
+                "spell_lifesteal": "14",
                 "crit_chance": "30",
                 "crit_multiplier": "80"
             }
@@ -6381,7 +6382,7 @@
             "ItemCost": "0",
             "ItemIsNeutralActiveDrop": "1",
             "ItemPurchasable": "0",
-            "AbilityCooldown": "12.0",
+            "AbilityCooldown": "16.0",
             "ItemSellable": "0",
             "Model": "models/props_gameplay/neutral_box.vmdl",
             "AbilityValues": {
@@ -6901,7 +6902,7 @@
             "AbilityValues": {
                 "gold_steal_base": "150",
                 "gold_steal_kill": "400",
-                "gold_steal_range": "1200",
+                "gold_steal_range": "2400",
                 "gold_loss_reduction": "100"
             }
         },
@@ -6979,8 +6980,8 @@
             "Model": "models/props_gameplay/neutral_box.vmdl",
             "AbilityValues": {
                 "armor_reduction": "2",
-                "slow_melee": "10",
-                "slow_range": "5",
+                "slow_melee": "8",
+                "slow_range": "4",
                 "duration": "3"
             }
         },
@@ -8140,7 +8141,7 @@
             "ItemSellable": "0",
             "Model": "models/props_gameplay/neutral_box.vmdl",
             "AbilityValues": {
-                "debuff_self": "8",
+                "debuff_self": "6",
                 "debuff_enemy": "12",
                 "debuff_enemy_duration": "5",
                 "bonus_damage": "0"
@@ -8390,7 +8391,7 @@
             "Model": "models/props_gameplay/neutral_box.vmdl",
             "MaxLevel": "2",
             "AbilityValues": {
-                "attack_range": "60 90"
+                "attack_range": "75 110"
             }
         },
         "item_enhancement_quickened": {
@@ -8480,7 +8481,7 @@
             "Model": "models/props_gameplay/neutral_box.vmdl",
             "MaxLevel": "4",
             "AbilityValues": {
-                "mana_regen": "1 2 3 4",
+                "mana_regen": "1 1.75 2.5 3.25",
                 "magic_res": "0 10 14 18"
             }
         },
@@ -8493,7 +8494,7 @@
             "Model": "models/props_gameplay/neutral_box.vmdl",
             "MaxLevel": "4",
             "AbilityValues": {
-                "bonus_attack_speed": "10 15 20 25",
+                "bonus_attack_speed": "10 17 24 35",
                 "bonus_night_vision": "0 150 225 300"
             }
         },
@@ -8519,7 +8520,7 @@
             "Model": "models/props_gameplay/neutral_box.vmdl",
             "MaxLevel": "4",
             "AbilityValues": {
-                "bonus_damage": "5 8 11 14",
+                "bonus_damage": "7 10 13 17",
                 "armor": "0 4 7 10"
             }
         },
@@ -8533,7 +8534,7 @@
             "MaxLevel": "2",
             "AbilityValues": {
                 "cooldown_reduction": "15",
-                "cost_increase": "10"
+                "cost_increase": "7"
             }
         },
         "item_enhancement_fleetfooted": {
@@ -8559,7 +8560,7 @@
             "AbilityValues": {
                 "slow_resistance": "20 30",
                 "bat_reduce": "12 18",
-                "intelligence_pct": "-15"
+                "intelligence_pct": "-8"
             }
         },
         "item_enhancement_boundless": {
@@ -8584,7 +8585,7 @@
             "Model": "models/props_gameplay/neutral_box.vmdl",
             "MaxLevel": "1",
             "AbilityValues": {
-                "bonus_xpm": "600"
+                "bonus_xpm": "1000"
             }
         },
         "item_enhancement_timeless": {
@@ -8597,7 +8598,7 @@
             "Model": "models/props_gameplay/neutral_box.vmdl",
             "AbilityValues": {
                 "debuff_amp": "10 15",
-                "spell_amp": "10 20"
+                "spell_amp": "8 16"
             }
         },
         "item_enhancement_greedy": {
@@ -8643,7 +8644,7 @@
             "AbilityValues": {
                 "cast_range_bonus": "125 135",
                 "bonus_mana_regen": "1 1.5",
-                "mana_reduction_pct": "15"
+                "mana_reduction_pct": "10"
             }
         },
         "item_enhancement_evolved": {
@@ -8667,7 +8668,7 @@
             "MaxLevel": "2",
             "Model": "models/props_gameplay/neutral_box.vmdl",
             "AbilityValues": {
-                "base_attack_damage": "15 25",
+                "base_attack_damage": "10 20",
                 "status_resistance": "10 15"
             }
         },
@@ -8682,7 +8683,7 @@
                 "max_slow_res": "100",
                 "hero_reduction": "20",
                 "status_res_pct_increase_per_hero": "10",
-                "hero_check_radius": "300"
+                "hero_check_radius": "600"
             }
         },
         "item_mana_draught": {
@@ -8694,7 +8695,7 @@
             "ItemIsNeutralActiveDrop": "1",
             "ItemPurchasable": "0",
             "ItemSellable": "0",
-            "AbilityCooldown": "40",
+            "AbilityCooldown": "60",
             "AbilityCastRange": "650",
             "AbilityValues": {
                 "mana_restore": "30",
@@ -8716,7 +8717,7 @@
             "AbilityCastRange": "700",
             "AbilityValues": {
                 "thorn_area": "200",
-                "bonus_damage_hero": "12",
+                "bonus_damage_hero": "16",
                 "bonus_damage_creep": "4",
                 "duration": "10"
             }
@@ -8732,7 +8733,7 @@
             "ItemPurchasable": "0",
             "ItemSellable": "0",
             "AbilityCooldown": "12",
-            "AbilityManaCost": "75",
+            "AbilityManaCost": "50",
             "AbilityCastRange": "800",
             "AbilityValues": {
                 "slow_pct": "80",
@@ -8783,8 +8784,8 @@
             "Model": "models/props_gameplay/neutral_box.vmdl",
             "AbilityValues": {
                 "damage_threshold": "55",
-                "burn_damage": "75",
-                "burn_duration": "5",
+                "burn_damage": "72",
+                "burn_duration": "6",
                 "burn_tickrate": ".25"
             }
         },
@@ -8812,7 +8813,6 @@
             "ItemPurchasable": "0",
             "ItemSellable": "0",
             "AbilityCooldown": "45",
-            "AbilityManaCost": "40",
             "AbilityCastRange": "1000",
             "AbilityValues": {
                 "regen_boost": "8",
