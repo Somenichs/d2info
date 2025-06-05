@@ -6321,7 +6321,7 @@
             "ItemPurchasable": "0",
             "ItemSellable": "0",
             "Model": "models/props_gameplay/neutral_box.vmdl",
-            "AbilityCooldown": "50",
+            "AbilityCooldown": "100",
             "AbilityValues": {
                 "duration": {
                     "value": "5",
@@ -8408,9 +8408,9 @@
             "Model": "models/props_gameplay/neutral_box.vmdl",
             "MaxLevel": "2",
             "AbilityValues": {
-                "health_restoration": "20 30",
+                "health_restoration": "30 40",
                 "bat_reduce": "12 18",
-                "intelligence_pct": "-8"
+                "intelligence_pct": "-5"
             }
         },
         "item_enhancement_boundless": {
@@ -8710,7 +8710,7 @@
                     "apply_curio_bonus": "1"
                 },
                 "bonus_cast_range": {
-                    "value": "125",
+                    "value": "100",
                     "apply_curio_bonus": "1"
                 },
                 "damage_disable": "3",
@@ -8856,7 +8856,7 @@
             "ItemSellable": "0",
             "Model": "models/props_gameplay/neutral_box.vmdl",
             "AbilityValues": {
-                "health_regen_loss": "20",
+                "health_regen_loss": "30",
                 "hp_damage": {
                     "value": "12",
                     "apply_curio_bonus": "1"
@@ -8893,7 +8893,7 @@
             "AbilityValues": {
                 "health_pct": "35",
                 "aoe_pct": {
-                    "value": "15",
+                    "value": "12",
                     "apply_curio_bonus": "1"
                 }
             }
@@ -8914,7 +8914,7 @@
                 "movespeed_slow": "10",
                 "attack_slow": "15",
                 "cast_slow": "20",
-                "debuff_duration": "4"
+                "debuff_duration": "3"
             }
         },
         "item_divine_regalia": {
