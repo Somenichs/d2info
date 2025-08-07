@@ -5897,6 +5897,9 @@
             "MovementCapabilities": "DOTA_UNIT_CAP_MOVE_GROUND",
             "MovementSpeed": "290",
             "MovementTurnRate": "0.5",
+            "MovementSpeedActivityModifiers": {
+                "haste": "550"
+            },
             "BountyGoldMin": "35",
             "BountyGoldMax": "35",
             "StatusHealth": "6",
@@ -6056,7 +6059,7 @@
             "AttackDamageMin": "50",
             "AttackDamageMax": "50",
             "AttackDamageType": "DAMAGE_TYPE_ArmorPhysical",
-            "AttackRate": "1.5",
+            "AttackRate": "1.6",
             "AttackAnimationPoint": "0.3",
             "AttackAcquisitionRange": "650",
             "AttackRange": "650",
@@ -6654,7 +6657,7 @@
             "Ability6": "",
             "Ability7": "",
             "Ability8": "",
-            "ArmorPhysical": "3",
+            "ArmorPhysical": "2",
             "MagicalResistance": "50",
             "AttackCapabilities": "DOTA_UNIT_CAP_MELEE_ATTACK",
             "AttackDamageMin": "29",
@@ -7836,8 +7839,8 @@
             "StatusManaRegen": "0",
             "TeamName": "DOTA_TEAM_BADGUYS",
             "UnitRelationshipClass": "DOTA_NPC_UNIT_RELATIONSHIP_TYPE_DEFAULT",
-            "VisionDaytimeRange": "900",
-            "VisionNighttimeRange": "900"
+            "VisionDaytimeRange": "800",
+            "VisionNighttimeRange": "800"
         },
         "npc_dota_unit_undying_zombie_torso": {
             "BaseClass": "npc_dota_unit_undying_zombie",
@@ -7887,8 +7890,8 @@
             "StatusManaRegen": "0",
             "TeamName": "DOTA_TEAM_BADGUYS",
             "UnitRelationshipClass": "DOTA_NPC_UNIT_RELATIONSHIP_TYPE_DEFAULT",
-            "VisionDaytimeRange": "900",
-            "VisionNighttimeRange": "900"
+            "VisionDaytimeRange": "800",
+            "VisionNighttimeRange": "800"
         },
         "npc_dota_pugna_nether_ward": {
             "Model": "models/heroes/pugna/pugna_ward.vmdl",
@@ -7988,8 +7991,8 @@
             "MovementSpeed": "0",
             "StatusHealth": "8",
             "StatusHealthRegen": "0.0",
-            "VisionDaytimeRange": "400",
-            "VisionNighttimeRange": "400",
+            "VisionDaytimeRange": "250",
+            "VisionNighttimeRange": "250",
             "TeamName": "DOTA_TEAM_NEUTRALS",
             "UnitRelationshipClass": "DOTA_NPC_UNIT_RELATIONSHIP_TYPE_WARD"
         },
@@ -8578,7 +8581,7 @@
             "Ability6": "",
             "Ability7": "",
             "Ability8": "",
-            "ArmorPhysical": "0",
+            "ArmorPhysical": "2",
             "MagicalResistance": "35",
             "AttackCapabilities": "DOTA_UNIT_CAP_RANGED_ATTACK",
             "AttackDamageMin": "25",
@@ -8609,7 +8612,7 @@
         },
         "npc_dota_visage_familiar2": {
             "include_keys_from": "npc_dota_visage_familiar1",
-            "ArmorPhysical": "2",
+            "ArmorPhysical": "3",
             "AttackCapabilities": "DOTA_UNIT_CAP_RANGED_ATTACK",
             "AttackDamageMin": "50",
             "AttackDamageMax": "50",

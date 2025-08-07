@@ -582,6 +582,7 @@
             "AllowedInBackpack": "0",
             "IsTempestDoubleClonable": "0",
             "SpeciallyBannedFromNeutralSlot": "1",
+            "ShouldNotSuggestMainGame": "1",
             "UIPickupSound": "Item.PickUpGemShop",
             "UIDropSound": "Item.DropGemShop",
             "WorldDropSound": "Item.DropGemWorld",
@@ -1646,7 +1647,7 @@
         },
         "item_recipe_phylactery": {
             "Model": "models/props_gameplay/recipe.vmdl",
-            "ItemCost": "400",
+            "ItemCost": "300",
             "ItemShopTags": "",
             "ItemRecipe": "1",
             "ItemResult": "item_phylactery",
@@ -1656,9 +1657,9 @@
         },
         "item_phylactery": {
             "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_PASSIVE",
-            "AbilityCooldown": "10.0",
+            "AbilityCooldown": "9.0",
             "AbilitySharedCooldown": "phylactery",
-            "ItemCost": "2600",
+            "ItemCost": "2500",
             "ItemShopTags": "hard_to_tag",
             "ItemQuality": "common",
             "SuggestLategame": "1",
@@ -1689,9 +1690,9 @@
         },
         "item_angels_demise": {
             "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_PASSIVE",
-            "AbilityCooldown": "10.0",
+            "AbilityCooldown": "9.0",
             "AbilitySharedCooldown": "phylactery",
-            "ItemCost": "5700",
+            "ItemCost": "5600",
             "ItemShopTags": "hard_to_tag;magic_dmg",
             "ItemQuality": "common",
             "SuggestLategame": "1",
@@ -1862,7 +1863,7 @@
                 "bonus_attack_speed": "40",
                 "bonus_intellect": "12",
                 "bonus_mana_regen": "1.5",
-                "bonus_armor": "6",
+                "bonus_armor": "5",
                 "int_damage_multiplier": "0.75",
                 "slow": "25",
                 "slow_duration": "4",
@@ -2687,7 +2688,7 @@
                 "bonus_health": "200",
                 "bonus_agility": "20",
                 "bonus_strength": "15",
-                "base_attack_range": "150",
+                "base_attack_range": "140",
                 "push_length": "600",
                 "enemy_length": "450",
                 "range_duration": "6",
@@ -3709,12 +3710,12 @@
             "ItemDeclarations": "DECLARE_PURCHASES_TO_TEAMMATES | DECLARE_PURCHASES_TO_SPECTATORS",
             "SuggestLategame": "1",
             "AbilityValues": {
-                "bonus_damage": "18",
-                "bonus_armor": "7",
+                "bonus_damage": "15",
+                "bonus_armor": "6",
                 "bonus_intellect": "0",
                 "duration": "5.5",
-                "passive_reflection_constant": "20",
-                "passive_reflection_pct": "20",
+                "passive_reflection_constant": "10",
+                "passive_reflection_pct": "15",
                 "active_reflection_pct": "85"
             }
         },
@@ -4077,7 +4078,7 @@
             "AbilityValues": {
                 "bonus_agility": "15",
                 "bonus_strength": "10",
-                "base_attack_range": "150"
+                "base_attack_range": "140"
             }
         },
         "item_recipe_armlet": {
@@ -4326,7 +4327,7 @@
                 "chain_delay": "0.25",
                 "chain_cooldown": "0.2",
                 "max_charges": "0",
-                "illusion_multiplier_pct": "150"
+                "illusion_multiplier_pct": "100"
             }
         },
         "item_recipe_skadi": {
@@ -4485,7 +4486,7 @@
                 "chain_radius": "650",
                 "chain_delay": "0.25",
                 "chain_cooldown": "0.2",
-                "illusion_multiplier_pct": "150"
+                "illusion_multiplier_pct": "100"
             }
         },
         "item_recipe_gungir": {
@@ -4604,7 +4605,7 @@
             "AbilityValues": {
                 "bonus_damage": "20",
                 "lifesteal_percent": "24",
-                "berserk_bonus_attack_speed": "110",
+                "berserk_bonus_attack_speed": "100",
                 "berserk_bonus_movement_speed": "25",
                 "berserk_armor_reduction": "8",
                 "berserk_duration": "6.0"
@@ -4822,8 +4823,8 @@
             "SuggestLategame": "1",
             "AbilityValues": {
                 "bonus_cooldown": "25",
-                "bonus_health": "500",
-                "bonus_mana": "500",
+                "bonus_health": "450",
+                "bonus_mana": "450",
                 "bonus_health_regen": "0",
                 "bonus_mana_regen": "6"
             }
@@ -5114,7 +5115,7 @@
             "SpellDispellableType": "SPELL_DISPELLABLE_YES",
             "AbilityCastRange": "1000",
             "AbilityCooldown": "16.0",
-            "AbilityManaCost": "100",
+            "AbilityManaCost": "60",
             "AbilitySharedCooldown": "pavise",
             "ItemCost": "1400",
             "ItemShopTags": "armor;regen_mana;hard_to_tag;teamfight;save;tank",
@@ -5274,7 +5275,7 @@
             "AbilityValues": {
                 "bonus_intellect": "40",
                 "bonus_attack_speed": "40",
-                "bonus_armor": "8",
+                "bonus_armor": "7",
                 "bonus_mana_regen": "1.5",
                 "projectile_speed": "300",
                 "int_damage_multiplier": "0.75",
@@ -5468,8 +5469,8 @@
                 "block_damage_ranged": "30",
                 "block_chance": "60",
                 "bonus_all_stats": "5",
-                "disarm_range": "4.0",
-                "disarm_melee": "3.0"
+                "disarm_range": "4.5",
+                "disarm_melee": "3.5"
             }
         },
         "item_recipe_ring_of_aquila": {
@@ -5574,7 +5575,7 @@
             "FightRecapLevel": "1",
             "SpellDispellableType": "SPELL_DISPELLABLE_YES",
             "AbilityCastRange": "600",
-            "AbilityCooldown": "14.0",
+            "AbilityCooldown": "15.0",
             "AbilityManaCost": "125",
             "ItemCost": "2150",
             "ItemShopTags": "teamfight;escape;save;magic_resist",
@@ -6324,7 +6325,7 @@
             "AbilityCooldown": "100",
             "AbilityValues": {
                 "duration": {
-                    "value": "5",
+                    "value": "6",
                     "apply_curio_bonus": "1"
                 },
                 "bonus_kill_duration": "5",
@@ -7100,7 +7101,7 @@
             "ItemIsNeutralActiveDrop": "1",
             "ItemPurchasable": "0",
             "ItemSellable": "0",
-            "AbilityCooldown": "20",
+            "AbilityCooldown": "15",
             "Model": "models/props_gameplay/neutral_box.vmdl",
             "AbilityValues": {
                 "intelligence_pct": "0",
@@ -8327,7 +8328,7 @@
             "Model": "models/props_gameplay/neutral_box.vmdl",
             "MaxLevel": "4",
             "AbilityValues": {
-                "mana_regen": "1 1.75 2.5 3.25",
+                "mana_regen": "0.8 1.6 2.4 3.2",
                 "magic_res": "0 10 13 16",
                 "bonus_cast_range": "0 0 0 100"
             }
@@ -8356,7 +8357,7 @@
             "MaxLevel": "4",
             "AbilityValues": {
                 "health_bonus": "110 150 190 230",
-                "health_regen": "0 4 8 12",
+                "health_regen": "0 3 6 9",
                 "slow_resist": "0 0 0 25"
             }
         },
@@ -8479,7 +8480,7 @@
             "Model": "models/props_gameplay/neutral_box.vmdl",
             "AbilityValues": {
                 "attack_lifesteal": "12 14 16",
-                "spell_lifesteal": "8 10 12",
+                "spell_lifesteal": "6 8 10",
                 "bonus_night_vision": "0 0 200"
             }
         },
@@ -8551,9 +8552,9 @@
             "AbilityCooldown": "60",
             "AbilityCastRange": "650",
             "AbilityValues": {
-                "mana_restore": "60",
+                "mana_restore": "70",
                 "mana_restore_pct": {
-                    "value": "4",
+                    "value": "3",
                     "apply_curio_bonus": "1"
                 },
                 "heal_duration": "6",
@@ -8570,7 +8571,7 @@
             "ItemSellable": "0",
             "AbilityCooldown": "25",
             "AbilityManaCost": "0",
-            "AbilityCastRange": "700",
+            "AbilityCastRange": "850",
             "AbilityValues": {
                 "thorn_area": "200",
                 "bonus_damage_hero": "16",
@@ -8613,7 +8614,7 @@
             "AbilityValues": {
                 "barrier_duration": "10",
                 "barrier_amount": {
-                    "value": "250",
+                    "value": "225",
                     "apply_curio_bonus": "1"
                 },
                 "barrier_pct": "75",
@@ -8654,7 +8655,11 @@
                     "apply_curio_bonus": "1"
                 },
                 "burn_duration": "6",
-                "burn_tickrate": ".25"
+                "burn_tickrate": ".25",
+                "max_range": {
+                    "value": "2000",
+                    "affected_by_aoe_increase": "1"
+                }
             }
         },
         "item_serrated_shiv": {
@@ -8713,7 +8718,7 @@
                     "value": "100",
                     "apply_curio_bonus": "1"
                 },
-                "damage_disable": "3",
+                "damage_disable": "6",
                 "damage_threshold": "25"
             }
         },
@@ -8842,9 +8847,9 @@
             "Model": "models/props_gameplay/neutral_box.vmdl",
             "AbilityValues": {
                 "hp_threshold": "50",
-                "evasion_max": "200",
+                "evasion_max": "150",
                 "evasion_loss": "75",
-                "max_duration": "8"
+                "max_duration": "5"
             }
         },
         "item_jidi_pollen_bag": {
@@ -8869,7 +8874,7 @@
         "item_outworld_staff": {
             "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_IMMEDIATE | DOTA_ABILITY_BEHAVIOR_NO_TARGET",
             "AbilityCooldown": "30",
-            "AbilityManaCost": "40",
+            "AbilityManaCost": "65",
             "ItemCost": "0",
             "ItemIsNeutralActiveDrop": "1",
             "ItemPurchasable": "0",
