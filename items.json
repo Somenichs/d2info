@@ -646,7 +646,6 @@
             "Model": "models/props_gameplay/magic_wand.vmdl",
             "AbilityCooldown": "17.0",
             "AbilitySharedCooldown": "magicwand",
-            "AbilityCastRange": "1200",
             "ItemCost": "200",
             "ItemShopTags": "regen_health;regen_mana;boost_health;boost_mana;laning;regen_mana",
             "ItemQuality": "component",
@@ -677,7 +676,6 @@
             "Model": "models/props_gameplay/magic_wand.vmdl",
             "AbilityCooldown": "15.0",
             "AbilitySharedCooldown": "magicwand",
-            "AbilityCastRange": "1200",
             "ItemCost": "450",
             "ItemShopTags": "regen_health;regen_mana;boost_health;boost_mana;int;agi;str;laning;regen_mana",
             "ItemQuality": "common",
@@ -1876,7 +1874,6 @@
             "ItemShopTags": "",
             "ItemRecipe": "1",
             "ItemResult": "item_pers",
-            "ItemPurchasable": "0",
             "ItemRequirements": {
                 "01": "item_ring_of_health;item_void_stone"
             }
