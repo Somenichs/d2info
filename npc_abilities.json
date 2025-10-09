@@ -628,7 +628,7 @@
                     "affected_by_aoe_increase": "1"
                 },
                 "damage_bonus": {
-                    "value": "3"
+                    "value": "2"
                 }
             }
         },
@@ -826,7 +826,7 @@
             "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_PASSIVE",
             "IsBreakable": "1",
             "AbilityValues": {
-                "bonus_damage_pct": "30",
+                "bonus_damage_pct": "20",
                 "radius": {
                     "value": "1200",
                     "affected_by_aoe_increase": "1"

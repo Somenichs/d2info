@@ -436,7 +436,7 @@
             "AbilityUnitDamageType": "DAMAGE_TYPE_PURE",
             "AbilitySound": "Hero_Bane.Enfeeble",
             "AbilityCastPoint": "0.2",
-            "AbilityCastRange": "800 900 1000 1100",
+            "AbilityCastRange": "700 800 900 1000",
             "AbilityCastAnimation": "ACT_DOTA_CAST_ABILITY_1",
             "AbilityCooldown": "22 17 12 7",
             "AbilityManaCost": "100 110 120 130",
@@ -977,7 +977,7 @@
                 },
                 "mana_battery_mana_pct": {
                     "value": "0",
-                    "special_bonus_facet_crystal_maiden_arcane_overflow": "15"
+                    "special_bonus_facet_crystal_maiden_arcane_overflow": "20"
                 },
                 "activation_duration": {
                     "value": "0",
@@ -1382,7 +1382,7 @@
                 "stun_duration": "0.8 1.0 1.2 1.4",
                 "fissure_damage": {
                     "value": "110 170 230 290",
-                    "special_bonus_unique_earthshaker_4": "+90"
+                    "special_bonus_unique_earthshaker_4": "+75"
                 },
                 "AbilityCooldown": {
                     "value": "18 17 16 15",
@@ -1472,12 +1472,12 @@
                     "affected_by_aoe_increase": "1"
                 },
                 "aftershock_damage": {
-                    "value": "70 100 130 160",
+                    "value": "65 90 115 140",
                     "special_bonus_unique_earthshaker_6": "+50"
                 },
                 "aftershock_range_increase_per_level_interval": {
                     "value": "0",
-                    "special_bonus_facet_earthshaker_tectonic_buildup": "+40"
+                    "special_bonus_facet_earthshaker_tectonic_buildup": "+30"
                 },
                 "aftershock_range_tooltip": {
                     "value": "300",
@@ -2892,7 +2892,7 @@
                     "special_bonus_facet_puck_curveball": "0"
                 },
                 "damage_over_time_pct": {
-                    "special_bonus_facet_puck_curveball": "=5"
+                    "special_bonus_facet_puck_curveball": "=3"
                 },
                 "damage_interval": {
                     "special_bonus_facet_puck_curveball": "=0.5"
@@ -3301,7 +3301,7 @@
             "AbilitySound": "Ability.static.start",
             "HasShardUpgrade": "1",
             "AbilityCastPoint": "0.3 0.3 0.3 0.3",
-            "AbilityCooldown": "50 40 30 20",
+            "AbilityCooldown": "44 36 28 20",
             "AbilityManaCost": "65",
             "AbilityValues": {
                 "drain_length": {
@@ -3663,7 +3663,7 @@
             "AbilityCastAnimation": "ACT_DOTA_CAST_ABILITY_5",
             "AbilityCastGestureSlot": "DEFAULT",
             "AbilityCooldown": "30",
-            "AbilityManaCost": "150",
+            "AbilityManaCost": "100",
             "AbilityValues": {
                 "radius": {
                     "value": "750",
@@ -3795,7 +3795,7 @@
                     "special_bonus_shard": "12"
                 },
                 "shard_manacost": {
-                    "special_bonus_shard": "150"
+                    "special_bonus_shard": "100"
                 },
                 "shard_cooldown": {
                     "special_bonus_shard": "30"
@@ -4018,7 +4018,7 @@
             "MaxLevel": "4",
             "DependentOnAbility": "sven_gods_strength",
             "AbilityValues": {
-                "bonus_damage_per_str": "0.0 0.3 0.4 0.5",
+                "bonus_damage_per_str": "0.0 0.2 0.3 0.4",
                 "base_damage_reduction": "0"
             }
         },
@@ -5251,7 +5251,7 @@
                     "affected_by_aoe_increase": "1"
                 },
                 "light_strike_array_delay_time": "0.5",
-                "light_strike_array_stun_duration": "1.0 1.4 1.8 2.2",
+                "light_strike_array_stun_duration": "1.2 1.6 2.0 2.4",
                 "light_strike_array_damage": {
                     "value": "110 160 210 260",
                     "special_bonus_unique_lina_3": "+150"
@@ -6898,7 +6898,7 @@
                     "value": "25 21 17 13",
                     "special_bonus_unique_riki_9": "-4"
                 },
-                "slow": "0.4"
+                "slow": "0.5"
             },
             "AbilityCastAnimation": "ACT_DOTA_CAST_ABILITY_2"
         },
@@ -8531,7 +8531,7 @@
                 "movement_speed_duration": "2",
                 "AbilityCooldown": {
                     "value": "90 75 60",
-                    "special_bonus_unique_beastmaster_7": "-30"
+                    "special_bonus_unique_beastmaster_7": "-25"
                 }
             }
         },
@@ -8583,7 +8583,7 @@
             "AbilityType": "ABILITY_TYPE_ATTRIBUTES",
             "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_PASSIVE",
             "AbilityValues": {
-                "bonus_ms": "20"
+                "bonus_ms": "15"
             }
         },
         "special_bonus_unique_beastmaster_6": {
@@ -8710,7 +8710,7 @@
                 },
                 "speed": "900",
                 "damage": {
-                    "value": "350 500 650",
+                    "value": "325 475 625",
                     "special_bonus_unique_queen_of_pain_7": "+250"
                 },
                 "tick_rate": "0.1",
@@ -8906,7 +8906,7 @@
                     "special_bonus_unique_venomancer": "x2.5"
                 },
                 "ward_damage_tooltip": {
-                    "value": "14 22 30 38",
+                    "value": "16 24 32 40",
                     "special_bonus_unique_venomancer": "x2.5"
                 }
             },
@@ -9734,7 +9734,7 @@
             "IsBreakable": "1",
             "AbilityValues": {
                 "evasion": {
-                    "value": "20 30 40 50",
+                    "value": "25 35 45 55",
                     "special_bonus_unique_phantom_assassin_3": "+20"
                 }
             },
@@ -9909,11 +9909,11 @@
                 "mana_regen": "0",
                 "health_restore_pct": {
                     "value": "0",
-                    "special_bonus_facet_pugna_siphoning_ward": "+30"
+                    "special_bonus_facet_pugna_siphoning_ward": "+25"
                 },
                 "mana_restore_pct": {
                     "value": "0",
-                    "special_bonus_facet_pugna_siphoning_ward": "+40"
+                    "special_bonus_facet_pugna_siphoning_ward": "+30"
                 },
                 "attacks_to_destroy": {
                     "value": "4 4 4 4",
@@ -10317,7 +10317,7 @@
             "AbilityValues": {
                 "duration": "4.0",
                 "bonus_attack_speed": {
-                    "value": "8 16 24 32",
+                    "value": "9 18 27 36",
                     "display_type": "kDebuffValue"
                 },
                 "bonus_magic_resistance": {
@@ -12937,7 +12937,7 @@
             "FightRecapLevel": "1",
             "AbilitySound": "Hero_Omniknight.Purification",
             "HasShardUpgrade": "1",
-            "AbilityCastRange": "600",
+            "AbilityCastRange": "700",
             "AbilityCastPoint": "0.2",
             "AbilityManaCost": "90 105 120 135",
             "AbilityValues": {
@@ -14616,7 +14616,7 @@
                     "value": "15 20 25 30"
                 },
                 "damage": {
-                    "value": "10 15 20 25"
+                    "value": "15 20 25 30"
                 },
                 "bonus_instance_damage_from_other_abilities": {
                     "value": "8 16 24 32"
@@ -14625,7 +14625,7 @@
                     "value": "0",
                     "special_bonus_unique_jakiro_3": "+2.5"
                 },
-                "duration": "4.0",
+                "duration": "5.0",
                 "radius": {
                     "value": "0",
                     "affected_by_aoe_increase": "1"
@@ -15910,7 +15910,7 @@
                 "hop_duration": "0.25",
                 "hop_height": "83",
                 "shard_enrage_duration": {
-                    "special_bonus_shard": "1.3"
+                    "special_bonus_shard": "1.2"
                 },
                 "fury_swipe_stacks_on_hit": {
                     "special_bonus_unique_ursa_earthshock_furyswipes": "+2"
@@ -15959,7 +15959,7 @@
             "AbilityValues": {
                 "bonus_reset_time": {
                     "value": "8 12 16 20",
-                    "special_bonus_unique_ursa_4": "+12"
+                    "special_bonus_unique_ursa_4": "+9"
                 },
                 "bonus_reset_time_roshan": "8",
                 "damage_per_stack": {
@@ -17722,7 +17722,7 @@
             "SpellDispellableType": "SPELL_DISPELLABLE_YES",
             "FightRecapLevel": "1",
             "AbilitySound": "Hero_Silencer.Curse.Cast",
-            "AbilityCastRange": "1000",
+            "AbilityCastRange": "850",
             "AbilityCastPoint": "0.3 0.3 0.3 0.3",
             "AbilityManaCost": "120 130 140 150",
             "AbilityModifierSupportValue": "0.5",
@@ -17927,7 +17927,7 @@
             "AbilitySound": "Hero_ObsidianDestroyer.ArcaneOrb",
             "AbilityCastRange": "450",
             "AbilityManaCost": "0",
-            "AbilityCooldown": "6 4 2 0",
+            "AbilityCooldown": "4.5 3 1.5 0",
             "AbilityValues": {
                 "mana_pool_damage_pct": {
                     "value": "10 11 12 13",
@@ -19945,7 +19945,7 @@
                     "special_bonus_unique_treant_8": "+2"
                 },
                 "bonus_armor": {
-                    "value": "4 6 8 10",
+                    "value": "4 7 10 13",
                     "special_bonus_unique_treant_13": "+8"
                 },
                 "duration": "18 22 26 30",
@@ -20553,7 +20553,7 @@
                     "special_bonus_unique_rubick_4": "-5"
                 },
                 "landing_damage": {
-                    "special_bonus_unique_rubick_8": "150"
+                    "special_bonus_unique_rubick_8": "165"
                 }
             },
             "AbilityCastAnimation": "ACT_DOTA_CAST_ABILITY_1"
@@ -20776,7 +20776,7 @@
                 },
                 "slow_duration": {
                     "value": "0.3",
-                    "special_bonus_facet_disruptor_thunderstorm": "x2"
+                    "special_bonus_facet_disruptor_thunderstorm": "x1.75"
                 },
                 "slow_amount": "100",
                 "shard_ground_delay": "4",
@@ -20892,7 +20892,7 @@
             "AbilityCastAnimation": "ACT_DOTA_STATIC_STORM",
             "AbilityCastGestureSlot": "DEFAULT",
             "AbilityCastPoint": "0.05 0.05 0.05 0.05",
-            "AbilityCooldown": "90 80 70",
+            "AbilityCooldown": "100 85 70",
             "AbilityManaCost": "125 175 225",
             "AbilityCastRange": "800 800 800 800",
             "AbilityValues": {
@@ -21331,7 +21331,7 @@
             "AbilityCooldown": "10 9 8 7",
             "AbilityValues": {
                 "damage": {
-                    "value": "80 150 220 290",
+                    "value": "80 140 200 260",
                     "special_bonus_unique_naga_siren_2": "+30%"
                 },
                 "radius": {
@@ -21408,7 +21408,7 @@
                 "animation_rate": "0.55 0.55 0.55",
                 "heal_pct": {
                     "value": "2 3 4",
-                    "special_bonus_shard": "+3"
+                    "special_bonus_shard": "+2"
                 },
                 "mana_pct": {
                     "special_bonus_shard": "+4"
@@ -21975,7 +21975,7 @@
             "FightRecapLevel": "1",
             "AbilitySound": "Hero_Visage.GraveChill.Cast",
             "AbilityCastPoint": "0.2 0.2 0.2 0.2",
-            "AbilityManaCost": "90",
+            "AbilityManaCost": "75",
             "AbilityCastRange": "625",
             "AbilityValues": {
                 "AbilityCooldown": {
@@ -22569,7 +22569,7 @@
             "MaxLevel": "1",
             "Innate": "1",
             "AbilityValues": {
-                "damage_per_mana": "2.2",
+                "damage_per_mana": "2.0",
                 "damage_per_mana_per_level": "0.1",
                 "illusion_percentage": "60",
                 "absorption_pct": "98",
@@ -22737,7 +22737,7 @@
             "AbilityValues": {
                 "bonus_move_speed": {
                     "value": "15 25 35 45",
-                    "special_bonus_unique_troll_warlord_2": "+25"
+                    "special_bonus_unique_troll_warlord_2": "+20"
                 },
                 "bonus_armor": {
                     "var_type": "FIELD_INTEGER",
@@ -22909,7 +22909,7 @@
             "AbilityValues": {
                 "attack_speed": {
                     "value": "15 20 25 30",
-                    "special_bonus_unique_troll_warlord_5": "+5"
+                    "special_bonus_unique_troll_warlord_5": "+4"
                 },
                 "max_stacks": {
                     "value": "10"
@@ -23205,7 +23205,7 @@
             "AbilityCastAnimation": "ACT_DOTA_OVERRIDE_ABILITY_4",
             "AbilityCastGestureSlot": "DEFAULT",
             "AbilityCooldown": "30",
-            "AbilityCastRange": "300",
+            "AbilityCastRange": "250",
             "AbilityManaCost": "75",
             "AbilityValues": {
                 "duration": "8",
@@ -23705,7 +23705,7 @@
                     "value": "10 12 14 16"
                 },
                 "stacks_per_hero_attack": {
-                    "value": "3",
+                    "value": "4",
                     "special_bonus_unique_timbersaw_2": "+1"
                 },
                 "AbilityManaCost": {
@@ -24299,7 +24299,7 @@
                     "value": "350",
                     "affected_by_aoe_increase": "1"
                 },
-                "attack_speed_slow": "15 35 55 75"
+                "attack_speed_slow": "20 40 60 80"
             }
         },
         "tusk_walrus_punch": {
@@ -24716,7 +24716,7 @@
             "AbilityManaCost": "0 0 0",
             "AbilityValues": {
                 "AbilityCooldown": {
-                    "value": "90 80 70"
+                    "value": "90 85 80"
                 },
                 "hp_threshold": "400",
                 "duration": {
@@ -25598,7 +25598,7 @@
                     "value": "180",
                     "affected_by_aoe_increase": "1"
                 },
-                "rock_damage": "70 140 210 280",
+                "rock_damage": "75 150 225 300",
                 "duration": "2 2.5 3 3.5",
                 "pull_units_per_second_heroes": "600",
                 "pull_units_per_second": "900",
@@ -26152,7 +26152,7 @@
             "FightRecapLevel": "2",
             "HasScepterUpgrade": "1",
             "AbilitySound": "Hero_Phoenix.SuperNova.Begin",
-            "AbilityCastRange": "500",
+            "AbilityCastRange": "450",
             "AbilityCastPoint": "0.01",
             "AbilityCastAnimation": "ACT_DOTA_CAST_ABILITY_5",
             "AbilityCooldown": "120",
@@ -26507,7 +26507,7 @@
                     "value": "15",
                     "special_bonus_unique_techies_3": "-3"
                 },
-                "outer_damage": "50",
+                "outer_damage": "60",
                 "min_distance": "150",
                 "placement_radius": "350",
                 "mres_reduction": "15 20 25",
@@ -26639,7 +26639,7 @@
             "HasShardUpgrade": "1",
             "AbilityCastPoint": "0.1",
             "AbilityCastRange": "500",
-            "AbilityCooldown": "30 25 20 15",
+            "AbilityCooldown": "26 22 18 14",
             "AbilityManaCost": "60",
             "AbilityModifierSupportValue": "0.25",
             "AbilityValues": {
@@ -27628,7 +27628,7 @@
                 "min_height_above_highest": "150",
                 "max_horizontal_acceleration": "30000",
                 "duration": "0.2",
-                "spring_channel_pct": "40"
+                "spring_channel_pct": "35"
             }
         },
         "monkey_king_mischief": {
@@ -27727,7 +27727,7 @@
                 },
                 "impact_damage": {
                     "value": "110 200 290 380",
-                    "special_bonus_unique_monkey_king_3": "+100"
+                    "special_bonus_unique_monkey_king_3": "+85"
                 },
                 "impact_movement_slow": "35 50 65 80",
                 "impact_slow_duration": "4.0",
@@ -28852,7 +28852,7 @@
                     "value": "100 95 90",
                     "special_bonus_unique_mars_arena_cooldown": "-20"
                 },
-                "duration": "5 6 7",
+                "duration": "5.5",
                 "radius": {
                     "value": "550",
                     "affected_by_aoe_increase": "1"
@@ -29175,7 +29175,7 @@
             "AbilityValues": {
                 "AbilityCastRange": {
                     "value": "800",
-                    "special_bonus_facet_snapfire_full_bore": "=1300"
+                    "special_bonus_facet_snapfire_full_bore": "=1200"
                 },
                 "damage": {
                     "value": "100 160 220 280",
@@ -29357,7 +29357,7 @@
             "FightRecapLevel": "1",
             "AbilitySound": "Hero_Snapfire.FeedCookie.Cast",
             "HasShardUpgrade": "1",
-            "AbilityCastRange": "700",
+            "AbilityCastRange": "650",
             "AbilityCastPoint": "0.2",
             "AbilityCastAnimation": "ACT_DOTA_CAST_ABILITY_2",
             "AbilityManaCost": "85 90 95 100",
@@ -29481,7 +29481,7 @@
                 "damage": "200",
                 "mark_duration": "7.0",
                 "slow_pct": "25",
-                "spell_amp": "25",
+                "spell_amp": "20",
                 "status_resistance": "0",
                 "spread": {
                     "value": "400",
@@ -29940,7 +29940,7 @@
                     "special_bonus_unique_dawnbreaker_solar_guardian_cooldown": "-15"
                 },
                 "scepter_aura_duration": {
-                    "special_bonus_scepter": "3"
+                    "special_bonus_scepter": "2"
                 },
                 "miss_rate": {
                     "special_bonus_scepter": "0"
@@ -30067,7 +30067,7 @@
                     "value": "16"
                 },
                 "charges_per_flurry": "5",
-                "flurry_bonus_attack_speed": "700 975 1325",
+                "flurry_bonus_attack_speed": "700 925 1150",
                 "time_between_flurries": "1.5",
                 "pulse_radius": {
                     "value": "800",
@@ -30951,7 +30951,7 @@
                     "special_bonus_unique_ringmaster_whip_radius": "+75"
                 },
                 "damage_min": {
-                    "value": "45 70 95 120",
+                    "value": "50 75 100 125",
                     "special_bonus_unique_ringmaster_whip_damage": "+75"
                 },
                 "damage_max": {
@@ -31465,9 +31465,6 @@
             "AbilityManaCost": "40",
             "AbilityCooldown": "20 15 10 5",
             "AbilityValues": {
-                "katana_attack_range": "225",
-                "katana_base_attack_time": "2.0",
-                "katana_agility_bonus_base_damage": "20",
                 "katana_bleed_duration": "7",
                 "katana_bleed_attack_damage_pct": {
                     "value": "5 7 9 11",
@@ -31486,10 +31483,6 @@
                 "creep_lifesteal_reduction_pct": {
                     "value": "0",
                     "special_bonus_shard": "+40"
-                },
-                "katana_swap_bonus_damage": {
-                    "special_bonus_facet_kez_flutter": "12",
-                    "DamageTypeTooltip": "DAMAGE_TYPE_PHYSICAL"
                 },
                 "backstab_angle": {
                     "value": "0",
@@ -31529,7 +31522,7 @@
                     "DamageTypeTooltip": "DAMAGE_TYPE_PURE"
                 },
                 "max_health_damage_pct": {
-                    "value": "3",
+                    "value": "2.5",
                     "DamageTypeTooltip": "DAMAGE_TYPE_PURE"
                 },
                 "lifesteal_pct": "100",
@@ -31567,10 +31560,11 @@
                 "base_attack_rate": "1.3 1.2 1.1 1.0",
                 "katana_attack_rate_penalty": "0.2",
                 "base_attack_rate_katana_tooltip": "1.5 1.4 1.3 1.2",
-                "attack_speed_factor": "6 8 10 12",
+                "attack_speed_factor": "9",
                 "current_attack_rate_tooltip": {
                     "dynamic_value": "true"
-                }
+                },
+                "break_range": "825"
             }
         },
         "kez_falcon_rush_ad": {
@@ -31627,13 +31621,11 @@
             "AbilityManaCost": "30 20 10 0",
             "AbilityCooldown": "20 15 10 5",
             "AbilityValues": {
-                "sai_attack_range": "150",
-                "sai_base_attack_time": "1.5",
                 "sai_proc_vuln_chance": "18",
                 "vuln_slow": "0",
                 "vuln_duration": "8.0",
                 "base_crit_pct": {
-                    "value": "140 160 180 200",
+                    "value": "125 150 175 200",
                     "special_bonus_unique_kez_mark_damage": "+100"
                 },
                 "stun_duration": "0.5",
@@ -31644,10 +31636,7 @@
                     "value": "4",
                     "special_bonus_unique_kez_mark_damage": "+0"
                 },
-                "parry_stun_duration": "0.5",
-                "sai_swap_bonus_movement_speed": {
-                    "special_bonus_facet_kez_flutter": "12"
-                }
+                "parry_stun_duration": "0.5"
             }
         },
         "kez_shodo_sai_ad": {

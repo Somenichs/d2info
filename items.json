@@ -3124,8 +3124,8 @@
         "item_refresher": {
             "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_IGNORE_CHANNEL",
             "AbilityCastPoint": "0.0",
-            "AbilityCooldown": "180.0",
-            "AbilityManaCost": "350",
+            "AbilityCooldown": "180.0 190.0 200.0 210.0",
+            "AbilityManaCost": "400",
             "ItemCost": "5000",
             "ItemShopTags": "regen_health;regen_mana;hard_to_tag;teamfight",
             "ItemQuality": "rare",
@@ -3135,7 +3135,9 @@
             "AbilityValues": {
                 "bonus_health_regen": "18",
                 "bonus_mana_regen": "8.0",
-                "bonus_damage": "10"
+                "bonus_damage": "10",
+                "max_level": "4",
+                "cooldown_duration": "180.0 190.0 200.0 210.0"
             }
         },
         "item_recipe_assault": {
@@ -3498,7 +3500,8 @@
                 "status_resistance": "75",
                 "buff_duration": "2.5",
                 "max_level": "4",
-                "cooldown_duration": "105.0 125.0 145.0 165.0"
+                "cooldown_duration": "105.0 125.0 145.0 165.0",
+                "initial_cooldown": "6"
             }
         },
         "item_recipe_kaya": {
@@ -4397,7 +4400,7 @@
             "AbilityCooldown": "45.0",
             "MaxUpgradeLevel": "2",
             "ItemBaseLevel": "1",
-            "AbilityManaCost": "0",
+            "AbilityManaCost": "50",
             "ItemCost": "2550",
             "ItemShopTags": "damage;armor;unique;hard_to_tag",
             "ItemQuality": "artifact",
@@ -4407,7 +4410,7 @@
                 "bonus_armor": "6",
                 "bonus_regen": "6",
                 "health_min": "1000",
-                "speed_base": "380",
+                "speed_base": "370",
                 "bounty_gold": "100",
                 "creep_bonus_damage": "25",
                 "creep_bonus_hp_regen": "12",
@@ -4415,7 +4418,8 @@
                 "creep_bonus_armor": "4",
                 "model_scale": "0",
                 "count_limit": "1",
-                "creep_ability_level_increase": "0"
+                "creep_ability_level_increase": "0",
+                "creep_damage_taken_cooldown": "3"
             }
         },
         "item_recipe_helm_of_the_overlord": {
@@ -4435,7 +4439,7 @@
             "AbilityCastRange": "700",
             "AbilityCastPoint": "0.0",
             "AbilityCooldown": "45",
-            "AbilityManaCost": "0",
+            "AbilityManaCost": "50",
             "ItemCost": "5650",
             "ItemShopTags": "damage;armor;unique;hard_to_tag",
             "ItemQuality": "artifact",
@@ -4454,7 +4458,8 @@
                 "model_scale": "20",
                 "count_limit": "1",
                 "creep_ability_level_increase": "1",
-                "is_overlord": "1"
+                "is_overlord": "1",
+                "creep_damage_taken_cooldown": "3"
             }
         },
         "item_recipe_maelstrom": {
@@ -8421,7 +8426,7 @@
             "MaxLevel": "1",
             "AbilityValues": {
                 "bonus_attack_range": "150",
-                "bonus_cast_range": "350"
+                "bonus_cast_range": "275"
             }
         },
         "item_enhancement_wise": {
@@ -8446,8 +8451,8 @@
             "MaxLevel": "2",
             "Model": "models/props_gameplay/neutral_box.vmdl",
             "AbilityValues": {
-                "debuff_amp": "10 15",
-                "spell_amp": "8 16"
+                "debuff_amp": "8 15",
+                "spell_amp": "6 16"
             }
         },
         "item_enhancement_greedy": {
