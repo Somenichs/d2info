@@ -414,7 +414,10 @@
         "roshan_spell_block": {
             "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_PASSIVE",
             "AbilityCooldown": "15.0",
-            "AbilityCastAnimation": "ACT_DOTA_CAST_ABILITY_1"
+            "AbilityCastAnimation": "ACT_DOTA_CAST_ABILITY_1",
+            "AbilityValues": {
+                "status_resistance": "25"
+            }
         },
         "roshan_teleport": {
             "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_HIDDEN | DOTA_ABILITY_BEHAVIOR_NO_TARGET",
@@ -763,7 +766,7 @@
             "AbilityCastPoint": "0.2",
             "AbilityManaCost": "100",
             "AbilityValues": {
-                "damage": "100",
+                "damage": "80 95 110 125",
                 "bounces": "4 6 8 12",
                 "bounce_range": "500",
                 "duration": "1",
@@ -988,10 +991,11 @@
             "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_PASSIVE",
             "AbilityType": "ABILITY_TYPE_BASIC",
             "AbilityValues": {
-                "damage_absorb": "2000",
-                "absorb_bonus_per_interval": "20",
-                "regen_per_second": "40",
-                "regen_bonus_per_interval": "3.5"
+                "damage_absorb": "3000",
+                "absorb_bonus_per_interval": "50",
+                "regen_per_second": "20",
+                "regen_bonus_per_interval": "5",
+                "status_resistance": "25"
             }
         },
         "miniboss_reflect": {
@@ -999,8 +1003,14 @@
             "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_PASSIVE",
             "AbilityType": "ABILITY_TYPE_BASIC",
             "AbilityValues": {
-                "passive_reflection_pct": "50",
-                "passive_reflection_bonus_per_interval": "2"
+                "passive_reflection_pct": "30",
+                "passive_reflection_bonus_per_interval": "2",
+                "passive_reflection_base": "0",
+                "passive_reflection_base_per_interval": "0",
+                "radius": "1200",
+                "speed": "700",
+                "wave_interval": "1.0",
+                "preview_duration": "0.8"
             }
         },
         "miniboss_radiance": {
@@ -1009,7 +1019,8 @@
             "AbilityType": "ABILITY_TYPE_BASIC",
             "AbilityValues": {
                 "aura_radius": "1000",
-                "aura_damage": "60",
+                "aura_damage": "20",
+                "aura_damage_per_upgrade": "2",
                 "aura_interval": "0.2",
                 "attack_timer_duration": "10"
             }
@@ -1022,6 +1033,14 @@
                 "aura_duration": "10",
                 "hp_restoration_pct": "2",
                 "radius": "900"
+            }
+        },
+        "miniboss_fortification": {
+            "MaxLevel": "1",
+            "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_PASSIVE",
+            "AbilityType": "ABILITY_TYPE_BASIC",
+            "AbilityValues": {
+                "damage_reduction_per_tower": "0"
             }
         },
         "miniboss_inherent_buffs": {
@@ -1163,6 +1182,7 @@
                 "bonus_health_regen": "3",
                 "radius": "700",
                 "bonus_gold": "10",
+                "bonus_xp": "3",
                 "bonus_magic_resistance_per_interval": "4",
                 "maximum_intervals": "15",
                 "total_magic_resistance": {
@@ -1251,7 +1271,7 @@
             "AbilityCastRange": "700",
             "AbilityCastPoint": "0.5",
             "AbilityCooldown": "8.0",
-            "AbilityDamage": "160",
+            "AbilityDamage": "140 160 180 200",
             "AbilityManaCost": "100",
             "AbilityValues": {
                 "speed": "900",
@@ -1424,7 +1444,7 @@
             "AbilityCastAnimation": "ACT_DOTA_CAST_ABILITY_1",
             "AbilityValues": {
                 "initial_damage": {
-                    "value": "140 180 220 260"
+                    "value": "120 170 220 270"
                 },
                 "jump_range": {
                     "value": "500"
@@ -1752,7 +1772,10 @@
                 "projectile_width": "100",
                 "damage": "250 275 300 325",
                 "duration": "1.4",
-                "range": "300",
+                "range": {
+                    "value": "300",
+                    "affected_by_aoe_increase": "1"
+                },
                 "speed": "725",
                 "projectile_count": "6",
                 "neutral_shared_cooldown": "5.0"
@@ -1814,7 +1837,10 @@
             "AbilityManaCost": "110",
             "AbilityValues": {
                 "duration": "10",
-                "radius": "675",
+                "radius": {
+                    "value": "675",
+                    "affected_by_aoe_increase": "1"
+                },
                 "heal_pct": "50",
                 "damage_absorb": {
                     "value": "210 240 270 300",
@@ -5500,6 +5526,17 @@
                 }
             }
         },
+        "special_bonus_agility_81": {
+            "AbilityType": "ABILITY_TYPE_ATTRIBUTES",
+            "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_PASSIVE",
+            "BaseClass": "special_bonus_base",
+            "SpecialBonusIntrinsicModifier": "modifier_special_bonus_agility",
+            "AbilityValues": {
+                "value": {
+                    "value": "81"
+                }
+            }
+        },
         "special_bonus_agility_100": {
             "AbilityType": "ABILITY_TYPE_ATTRIBUTES",
             "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_PASSIVE",
@@ -6109,6 +6146,15 @@
             "AbilityValues": {
                 "value": {
                     "value": "252"
+                }
+            }
+        },
+        "special_bonus_attack_damage_253": {
+            "AbilityType": "ABILITY_TYPE_ATTRIBUTES",
+            "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_PASSIVE",
+            "AbilityValues": {
+                "value": {
+                    "value": "253"
                 }
             }
         },
@@ -8126,6 +8172,93 @@
                 "slow_duration": "1.0",
                 "slow_amount": "20",
                 "max_duration": "60"
+            }
+        },
+        "deity_blessing_goddess_of_luck": {
+            "AbilityType": "ABILITY_TYPE_HIDDEN",
+            "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_HIDDEN | DOTA_ABILITY_BEHAVIOR_NOT_LEARNABLE",
+            "MaxLevel": "1",
+            "AbilityValues": {
+                "ability_points": "1",
+                "level_decrease": "1"
+            }
+        },
+        "deity_blessing_spirit_of_nature": {
+            "AbilityType": "ABILITY_TYPE_HIDDEN",
+            "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_HIDDEN | DOTA_ABILITY_BEHAVIOR_NOT_LEARNABLE",
+            "MaxLevel": "1",
+            "AbilityValues": {
+                "initial_stat_main": "3",
+                "main_stat": "1",
+                "initial_universal": "1",
+                "stat_universal": ".5"
+            }
+        },
+        "deity_blessing_omniscience": {
+            "AbilityType": "ABILITY_TYPE_HIDDEN",
+            "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_HIDDEN | DOTA_ABILITY_BEHAVIOR_NOT_LEARNABLE",
+            "MaxLevel": "1",
+            "AbilityValues": {
+                "xp_gain": "75",
+                "lowest_overall_bonus": "100",
+                "tick_interval": "4"
+            }
+        },
+        "deity_blessing_imperator": {
+            "AbilityType": "ABILITY_TYPE_HIDDEN",
+            "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_HIDDEN | DOTA_ABILITY_BEHAVIOR_NOT_LEARNABLE",
+            "MaxLevel": "1",
+            "AbilityValues": {
+                "slow_resist": "35",
+                "enemy_decrease": "7"
+            }
+        },
+        "deity_blessing_seven_hells": {
+            "AbilityType": "ABILITY_TYPE_HIDDEN",
+            "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_HIDDEN | DOTA_ABILITY_BEHAVIOR_NOT_LEARNABLE",
+            "MaxLevel": "1",
+            "AbilityValues": {
+                "debuff_amp_per_kill": "0.33",
+                "death_loss": "50"
+            }
+        },
+        "deity_blessing_aghanim": {
+            "AbilityType": "ABILITY_TYPE_HIDDEN",
+            "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_HIDDEN | DOTA_ABILITY_BEHAVIOR_NOT_LEARNABLE",
+            "MaxLevel": "1",
+            "AbilityValues": {
+                "innate_scale": "4",
+                "ability_points": "1",
+                "level_decrease": "1"
+            }
+        },
+        "deity_blessing_fundamentals": {
+            "AbilityType": "ABILITY_TYPE_HIDDEN",
+            "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_HIDDEN | DOTA_ABILITY_BEHAVIOR_NOT_LEARNABLE",
+            "MaxLevel": "1",
+            "AbilityValues": {
+                "next_tier_choices": "2",
+                "current_tier_choices": "3"
+            }
+        },
+        "deity_blessing_flayed_twins": {
+            "AbilityType": "ABILITY_TYPE_HIDDEN",
+            "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_HIDDEN | DOTA_ABILITY_BEHAVIOR_NOT_LEARNABLE",
+            "MaxLevel": "1",
+            "AbilityValues": {
+                "debuff_self": "8",
+                "debuff_enemy": "12",
+                "debuff_enemy_duration": "5"
+            }
+        },
+        "deity_blessing_deep_ones": {
+            "AbilityType": "ABILITY_TYPE_HIDDEN",
+            "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_HIDDEN | DOTA_ABILITY_BEHAVIOR_NOT_LEARNABLE",
+            "MaxLevel": "1",
+            "AbilityValues": {
+                "hp_regen_amp": "20",
+                "mana_regen_amp": "25",
+                "movement_speed": "10"
             }
         }
     }
